@@ -443,7 +443,7 @@ A **User Experience Manager** is a seasoned professional responsible for oversee
 This list outlines the multifaceted responsibilities of a **User Experience Manager**, emphasizing leadership, strategic planning, and the ability to oversee the entire user experience process within an organization.
 
 <details>
-<summary><h3>Responsibilities</h3></summary>
+<summary><h3>View Responsibilities</h3></summary>
 
 **Team Leadership**
 - [ ] Lead and manage the UX team, providing guidance, mentorship, and support to team members.
