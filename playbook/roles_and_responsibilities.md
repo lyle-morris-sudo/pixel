@@ -8,7 +8,7 @@ These are general guidelines, and the specific responsibilities may vary based o
 
 <details>
 
-<summary><h3>Responsibilities</h3></summary>
+<summary><h3>View Responsibilities</h3></summary>
 
 **User Research**
 - [ ] Conduct user interviews, surveys, and usability testing to gather insights.
@@ -68,7 +68,7 @@ These responsibilities are indicative and may vary based on the specific needs o
 
 <details>
 
-<summary><h3>Responsibilities</h3></summary>
+<summary><h3>View Responsibilities</h3></summary>
 
 **User Research and Analysis**
 - [ ] Lead and conduct user research activities, including interviews, surveys, and usability testing.
@@ -120,13 +120,16 @@ These responsibilities are indicative and may vary based on the specific needs o
 
 </details>
 
-<details>
-<summary><h2>User Experience Designer III</h2></summary>
+
+## User Experience Designer III
 
 A **User Experience Designer III** is an experienced professional in the field of UX design, possessing a higher level of expertise and responsibility compared to a junior or entry-level designer. This role typically involves a combination of strategic thinking, leadership, and hands-on design work. A UX Designer II is responsible for creating and enhancing digital products that provide an optimal user experience, aligning with both user needs and business objectives.
 
 These responsibilities are indicative and may vary based on the specific needs of the organization. Always refer to the job description provided by the employer for the most accurate and detailed expectations for a UX Designer II position.
 
+<details>
+
+<summary><h3>View Responsibilities</h3></summary>
 
 **User Research and Analysis**
 - [ ] Lead and conduct user research activities, including interviews, surveys, and usability testing.
@@ -178,13 +181,15 @@ These responsibilities are indicative and may vary based on the specific needs o
 
 </details>
 
-<details>
-<summary><h2>User Experience Researcher I</h2></summary>
+
+## User Experience Researcher I
 
 A **User Experience Researcher I** is an entry-level professional in the field of user research, focused on understanding and improving the interaction between users and digital products or services. Working under the guidance of more experienced researchers or team leads, a UX Researcher I assists in various aspects of the research process. This role involves hands-on involvement in planning, conducting, and analyzing user research studies to gather valuable insights that inform design decisions. UX Researcher I collaborate with cross-functional teams, including designers and developers, to contribute to the creation of user-centered and effective digital experiences.
 
 
 This role is to support the research process, learn from more experienced team members, and gradually take on more responsibilities as they gain experience in the field. This list provides a starting point for the types of tasks and activities a UX Researcher I might be involved in within a team or organization.
+
+<summary><h3>View Responsibilities</h3></summary>
 
 **User Research Planning**
 - [ ] Assist in planning and conducting user research activities to gather insights.
@@ -236,13 +241,16 @@ This role is to support the research process, learn from more experienced team m
 
 </details>
 
-<details>
-<summary><h2>User Experience Research II</h2></summary>
+## User Experience Researcher II
 
 As a **User Experience Researcher II**, you play a critical role in shaping the user experience of digital products by conducting sophisticated research activities. Building on a foundation of extensive experience, you lead strategic research initiatives, collaborate with diverse stakeholders, and contribute to the development of a robust UX research strategy. Your insights and recommendations guide product design and development, ensuring a user-centered approach aligned with overarching business goals.
 
 This description is a general overview, and specific responsibilities may vary depending on the organization and its unique requirements. Always refer to the job description provided by the employer for the most accurate details.
 
+<details>
+
+<summary><h3>View Responsibilities</h3></summary>
+
 **Strategic Research Planning**
 - [ ] Lead the planning and execution of strategic user research initiatives.
 - [ ] Collaborate with stakeholders to define research goals and objectives.
@@ -291,13 +299,17 @@ This description is a general overview, and specific responsibilities may vary d
 - [ ] Contribute to thought leadership in the UX research field through articles, presentations, or participation in conferences.
 </details>
 
-<details>
-<summary><h2>User Experience Research III</h2></summary>
+
+## User Experience Researcher III
 
 As a **User Experience Researcher III**, you play a critical role in shaping the user experience of digital products by conducting sophisticated research activities. Building on a foundation of extensive experience, you lead strategic research initiatives, collaborate with diverse stakeholders, and contribute to the development of a robust UX research strategy. Your insights and recommendations guide product design and development, ensuring a user-centered approach aligned with overarching business goals.
 
 This description is a general overview, and specific responsibilities may vary depending on the organization and its unique requirements. Always refer to the job description provided by the employer for the most accurate details.
 
+<details>
+
+<summary><h3>View Responsibilities</h3></summary>
+
 **Strategic Research Planning**
 - [ ] Lead the planning and execution of strategic user research initiatives.
 - [ ] Collaborate with stakeholders to define research goals and objectives.
@@ -346,12 +358,15 @@ This description is a general overview, and specific responsibilities may vary d
 - [ ] Contribute to thought leadership in the UX research field through articles, presentations, or participation in conferences.
 </details>
 
-<details>
-<summary><h2>Staff User Experience Designer (Lead)</h2></summary>
+
+## Staff User Experience Designer (Lead)
 
 A **Staff User Experience Designer (Lead)** is a senior-level professional in the field of user-centered design, responsible for providing leadership, strategic direction, and mentorship to the UX team. This role involves not only advanced design and research skills but also a strong focus on aligning user experience initiatives with overarching business goals. A **Staff User Experience Designer (Lead)** plays a pivotal role in shaping the overall user experience strategy, fostering collaboration across cross-functional teams, and ensuring the delivery of high-quality, user-centric design solutions.
 
 This list reflects the elevated responsibilities and leadership aspects associated with a UX Lead role, which often involves strategic thinking, team management, and the ability to shape the overall user experience within an organization.
+
+<details>
+<summary><h3>View Responsibilities</h3></summary>
 </details>
 
 
