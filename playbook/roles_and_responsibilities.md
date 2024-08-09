@@ -7,6 +7,7 @@ A **User Experience Designer I** is an entry-level professional in the field of 
 These are general guidelines, and the specific responsibilities may vary based on the organization and the unique requirements of the role. Additionally, a UX Designer I may gradually take on more responsibilities as they gain experience and expertise.
 
 <details>
+
 <summary><h3>Responsibilities</h3></summary>
 
 **User Research**
@@ -58,13 +59,16 @@ These are general guidelines, and the specific responsibilities may vary based o
 - [ ] Work collaboratively to find optimal solutions to design problems.
 </details>
 
-<details>
-<summary><h2>User Experience Designer II</h2></summary>
+
+### User Experience Designer II
 
 A **User Experience Designer II** is an experienced professional in the field of UX design, possessing a higher level of expertise and responsibility compared to a junior or entry-level designer. This role typically involves a combination of strategic thinking, leadership, and hands-on design work. A UX Designer II is responsible for creating and enhancing digital products that provide an optimal user experience, aligning with both user needs and business objectives.
 
 These responsibilities are indicative and may vary based on the specific needs of the organization. Always refer to the job description provided by the employer for the most accurate and detailed expectations for a UX Designer II position.
 
+<details>
+
+<summary><h3>Responsibilities</h3></summary>
 
 **User Research and Analysis**
 - [ ] Lead and conduct user research activities, including interviews, surveys, and usability testing.
