@@ -189,6 +189,7 @@ A **User Experience Researcher I** is an entry-level professional in the field o
 
 This role is to support the research process, learn from more experienced team members, and gradually take on more responsibilities as they gain experience in the field. This list provides a starting point for the types of tasks and activities a UX Researcher I might be involved in within a team or organization.
 
+<details>
 <summary><h3>View Responsibilities</h3></summary>
 
 **User Research Planning**
