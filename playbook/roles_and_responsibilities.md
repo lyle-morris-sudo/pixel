@@ -7,7 +7,7 @@ A **User Experience Designer I** is an entry-level professional in the field of 
 These are general guidelines, and the specific responsibilities may vary based on the organization and the unique requirements of the role. Additionally, a UX Designer I may gradually take on more responsibilities as they gain experience and expertise.
 
 <details>
-<summary>Responsibilities</summary>
+<summary><h3>Responsibilities</h3></summary>
 
 **User Research**
 - [ ] Conduct user interviews, surveys, and usability testing to gather insights.
