@@ -1,7 +1,7 @@
 # Roles and Responsibilities
 
-
-## User Experience Designer 1
+<details>
+<summary>User Experience Designer 1</summary>
 A UX Designer I is an entry-level professional in the field of user-centered design, focused on creating digital experiences that are intuitive, visually appealing, and aligned with user needs. Working under the guidance of more experienced designers or team leads, a UX Designer I contributes to the design process, from initial concepts to the final product. This role involves collaborating with cross-functional teams, including researchers, developers, and other stakeholders, to translate user insights into effective and engaging user interfaces.
 
 These are general guidelines, and the specific responsibilities may vary based on the organization and the unique requirements of the role. Additionally, a UX Designer I may gradually take on more responsibilities as they gain experience and expertise.
@@ -111,3 +111,5 @@ These responsibilities are indicative and may vary based on the specific needs o
 #### Continuous Learning and Professional Development:
 - [ ] Stay updated on the latest trends, tools, and methodologies in UX design.
 - [ ] Proactively seek opportunities for professional development and skill enhancement.
+
+</details>
