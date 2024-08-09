@@ -8,12 +8,12 @@ These are general guidelines, and the specific responsibilities may vary based o
 ### Responsibilities
 
 #### User Research:
-[] Conduct user interviews, surveys, and usability testing to gather insights.
-[] Analyze and interpret user feedback to inform design decisions.
+- [] Conduct user interviews, surveys, and usability testing to gather insights.
+- [] Analyze and interpret user feedback to inform design decisions.
 
 #### Information Architecture:
-[] Develop site maps, user flows, and wireframes to define the structure and organization of digital products.
-[] Ensure information is presented in a clear and intuitive manner.
+- [] Develop site maps, user flows, and wireframes to define the structure and organization of digital products.
+- [] Ensure information is presented in a clear and intuitive manner.
 
 #### Interaction Design:
 [] Create interactive prototypes to demonstrate and test design concepts.
