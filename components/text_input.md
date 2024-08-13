@@ -342,6 +342,8 @@ Text input labels and placeholder text should be set in sentence case, with only
 | Large   | Input                 | Height         | 48px      | `$text_input_large`       |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
 
+<img src="../images/components/text_input/text_input_style_text_input_sizing.png" alt="Text Input Style Text Input Sizing"/>
+
 ## Accessibility
 
 The component bakes keyboard operation into its components, improving the experience of blind users and others who operate via the keyboard. The component incorporates many other accessibility considerations, some of which are described below.
