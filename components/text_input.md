@@ -352,6 +352,10 @@ The component bakes keyboard operation into its components, improving the experi
 
 Text inputs and text areas replicate the default HTML component operation. Each input field is a tab stop, as are any preceding information icons (which open with Enter/Space and close with Esc). For password inputs, the component provides a keyboard-operable ability to toggle the password value’s visibility using `Enter` or `Space`.
 
+<img src="../images/components/text_input/text_input_accessibility_text_input_keyboard.png" alt="Text Input Accessibility Text Input Keyboard"/>
+
+<img src="../images/components/text_input/text_input_accessibility_textareakeyboard.png" alt="Text Input Accessibility Textarea Keyboard"/>
+
 ### Labeling and helper text
 
 The component’s programmatically surfaces both the input’s label and any helper text to assistive technologies such as screen readers. Any error messages for text inputs are also accessibly revealed.
