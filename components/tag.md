@@ -316,6 +316,22 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 |                      | Icon (Decorative)     | Height                  | 24px      | `$icon_medium`              |
 |                      |                       | Margin Right            | 8px       | `$tag_margin`               |
 
+#### Read-Only
+
+<img src="../images/components/tag/tag_style_read_only_padding.png" alt="Tag Style Read-Only padding"/>
+
+#### Dismissible
+
+<img src="../images/components/tag/tag_style_dismissible_padding.png" alt="Tag Style Dismissible padding"/>
+
+#### Operational
+
+<img src="../images/components/tag/tag_style_operational_padding.png" alt="Tag Style Operational States"/>
+
+#### Selectable
+
+<img src="../images/components/tag/tag_style_selectable_padding.png" alt="Tag Style Selectable States"/>
+
 ## Accessibility
 
 The component bakes keyboard operation into its components, improving the experience of blind users and others who operate via the keyboard. The component incorporates many other accessibility considerations, some of which are described below.
