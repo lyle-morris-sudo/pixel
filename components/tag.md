@@ -229,5 +229,16 @@ The selectable tag variant only uses core tokens and does not use component toke
 |                     |                      |                      | Background           | Background Color     | `$layer_disabled_1`  |
 |                     |                      |                      | Icon                 | SVG Color            | `$icon_disabled`     |
 
+
+#### Dismissible tag colors
+
 <img src="../images/components/tag/tag_style_dismissible_states.png" alt="Tag Style Dismissible States"/>
+
+#### Operational tag colors
+
+<img src="../images/components/tag/tag_style_operational_states.png" alt="Tag Style Operational States"/>
+
+#### Selectable tag colors
+
+<img src="../images/components/tag/tag_style_selectable_states.png" alt="Tag Style Selectable States"/>
 
