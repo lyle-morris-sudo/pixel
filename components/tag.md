@@ -332,6 +332,8 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 
 <img src="../images/components/tag/tag_style_selectable_padding.png" alt="Tag Style Selectable States"/>
 
+<img src="../images/components/tag/tag_style_selectable_toogletip_padding.png" alt="Tag Style Selectable Toogletip Padding"/>
+
 ## Accessibility
 
 The component bakes keyboard operation into its components, improving the experience of blind users and others who operate via the keyboard. The component incorporates many other accessibility considerations, some of which are described below.
