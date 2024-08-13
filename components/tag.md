@@ -53,7 +53,7 @@ Multiple or single tags can be used to categorize items. Use short labels for ea
 3. Container
 4. Border
 
-<img src="../images/components/tag/tag_usage_tag_anatomy.png" alt="Tag Usage Anatomy"/>
+<img src="../images/components/tag/tag_usage_anatomy.png" alt="Tag Usage Anatomy"/>
 
 ### Size
 
