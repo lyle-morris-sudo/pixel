@@ -270,7 +270,7 @@ Below is the token architecture color build of the components. The token can be 
 Text input labels and placeholder text should be set in sentence case, with only the first word in a phrase and any proper nouns capitalized. Text input labels should be three words or less.
 
 | State      | Element         | Font size | Font weight | Token name                |
-| ---------- | --------------- | --------- | ----------- | ------------------------- | 
+| :--------- | :-------------- | :-------- | :---------- | :------------------------ | 
 | Small      | Label           | 14px      | 700 bold    | `$label_1_bold`           |
 |            | Helper Text     | 12px      | 400 regular | `$helper_text_1_regular`  |
 |            | Value           | 14px      | 400 regular | `$body_1_compact_regular` |

@@ -242,3 +242,112 @@ The selectable tag variant only uses core tokens and does not use component toke
 
 <img src="../images/components/tag/tag_style_selectable_states.png" alt="Tag Style Selectable States"/>
 
+### Typography
+
+Tag titles should be concise and describe the tag in a few words or be under 20 characters when possible. Only include long title content in tags, when necessary, for instance, for user-defined names or system-generated strings of text.
+
+| State      | Element         | Font size | Font weight | Token name                |
+| :--------- | :-------------- | :-------- | :---------- | :------------------------ | 
+| X-small    | Label           | 10px      | 400 regular | `$h8_compact_regular`     |
+| Small      | Label           | 12px      | 400 regular | `$h7_compact_regular`     |
+| Medium     | Label           | 14px      | 400 regular | `$h6_compact_regular`     |
+| Large      | Label           | 16px      | 400 regular | `$h5_compact_regular`     |
+| X-large    | Label           | 20px      | 400 regular | `$h4_compact_regular`     |
+
+
+### Token Architecture
+
+| Token name                 | Description                                            |
+| :------------------------- | :----------------------------------------------------- |
+| `$tag_x_large`             | Defines height for the **x-large** variant.            |
+| `$tag_large`               | Defines height for the **large** variant.              |
+| `$tag_medium`              | Defines height for the **medium** variant.             |
+| `$tag_small`               | Defines height for the **small** variant.              |
+| `$tag_x_small`             | Defines height for the **x-small** variant.            |
+| `$tag_padding`             | Defines **padding** for the component.                 |
+| `$tag_margin`              | Defines **margin** for the component.                  |
+| `$tag_border`              | Defines **border** weight for the accordion component. |
+| `$tag_border_radius`       | Defines **border radius** for the component.           |
+
+### Structure
+
+ All tags have the same height. However, the width of tags varies based on the amount of content.
+
+| Size                 | Element               | Property                | Size      | Token name                  |
+| :--------------------| :-------------------- | :---------------------- | :-------- | :-------------------------- |
+| X-small              | Container             | Height                  | 18px      | `$tag_x_small`              |
+|                      |                       | Padding Right x Left    | 6px       | `$spacing_6`                |
+|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
+|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+| Small                | Container             | Height                  | 22px      | `$tag_small`                |
+|                      |                       | Padding Right x Left    | 8px       | `$spacing_8`                |
+|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
+|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+| Medium               | Container             | Height                  | 28px      | `$tag_medium`               |
+|                      |                       | Padding Right x Left    | 8px       | `$spacing_8`                |
+|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
+|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
+|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+| Large                | Container             | Height                  | 32px      | `$tag_large`                |
+|                      |                       | Padding Right x Left    | 12px      | `$spacing_12`               |
+|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
+|                      | Icon (Dismissible)    | Height                  | 24px      | `$icon_medium`              |
+|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Height                  | 24px      | `$icon_medium`              |
+|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+| X-large              | Container             | Height                  | 40px      | `$tag_x_large`              |
+|                      |                       | Padding Right x Left    | 12px      | `$spacing_12`               |
+|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
+|                      | Icon (Dismissible)    | Height                  | 24px      | `$icon_medium`              |
+|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Height                  | 24px      | `$icon_medium`              |
+|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+
+## Accessibility
+
+The component bakes keyboard operation into its components, improving the experience of blind users and others who operate via the keyboard. The component incorporates many other accessibility considerations, some of which are described below.
+
+Tags are used for web content that needs to be labeled, categorized, or organized using keywords that describe them. Tags are often used as a filter where all tags are in the same color, or used when content is mapped to multiple categories, where color is used to differentiate between categories.
+
+This component has been validated to meet the WCAG 2.0 AA and Section 508 accessibility guidelines, however changes made by the content owner can affect accessibility compliance. Be sure to review and follow the guidance in this section when updating or adding new content to this component.
+ 
+- Be sure the tag text is clear and concise.
+- Color should not be used as the only means to differentiate tag categories.
+- When using custom colors be sure the minimum contrast requirements are met.
+- Tags that are modified as a link to filter content should also follow the link component guidance.
+
+### Keyboard interaction
+
+Read-only tags are not in the tab order, are not interactive, and do not receive focus.
+
+- Dismissible tags are in the tab order and receive focus around the close icon. Pressing Enter or Space will dismiss the tag. Tabbing away from the tag will move focus to the next element in the tab order.
+- Selectable tags are in the tab order and focus is shown around each tag. Pressing Enter or Space toggles the selection on and off.
+- Operational tags are in the tab order and focus is shown around each tag. Pressing Enter or Space will disclose additional related tags.
+
+### Design recommendations
+
+Design annotations are not needed, but keep the following point in mind.
+
+When the tag’s title is too long to fit within the available space of the tag container, the title can be truncated with an ellipsis. By mouse, the full title is disclosed in a browser tooltip on hover. By keyboard, the full title is disclosed on focus in a tooltip. Truncation should be set at the title’s start, middle, or end, depending on what is best for the given use case.
+
+### Developer considerations
+
+Keep this in mind if you’re modifying the component or creating a custom component.
+
+- Do not add an onClick functionality to the dismissible tag, and only reserve interactions for the close icon in the tag.
+- Do not nest buttons within the operational tag. Consider using the as prop to change an element tag to avoid nesting buttons.
+
+
