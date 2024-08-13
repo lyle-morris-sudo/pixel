@@ -273,48 +273,29 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 
  All tags have the same height. However, the width of tags varies based on the amount of content.
 
-| Size                 | Element               | Property                | Size      | Token name                  |
+ | Size                 | Element               | Property                | Size      | Token name                 |
 | :--------------------| :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| X-small              | Container             | Height                  | 18px      | `$tag_x_small`              |
-|                      |                       | Padding Right x Left    | 6px       | `$spacing_6`                |
-|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+| Small                | Container             | Padding Right x Left    | 8px       | `$spacing_8`                |
 |                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
-|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
-|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
-| Small                | Container             | Height                  | 22px      | `$tag_small`                |
-|                      |                       | Padding Right x Left    | 8px       | `$spacing_8`                |
-|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      | Icon (Decorative)     | Margin Right            | 4px       | `$spacing_4`                |
+|                      |                       | Padding Left            | 4px       | `$spacing_4`                |
+|                      | Icon (Dismissible)    | Margin Left             | 4px       | `$spacing_4`                |
+|                      |                       | Padding Right           | 4px       | `$spacing_4`                |
+|                      | Border (Operational)  | Border                  | 1px       | `$tag_border`               |
+| Medium               | Container             | Padding Right x Left    | 8px       | `$spacing_8`                |
 |                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
-|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
-|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
-| Medium               | Container             | Height                  | 28px      | `$tag_medium`               |
-|                      |                       | Padding Right x Left    | 8px       | `$spacing_8`                |
-|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
+|                      | Icon (Decorative)     | Margin Right            | 4px       | `$spacing_4`                |
+|                      |                       | Padding Left            | 4px       | `$spacing_4`                |
+|                      | Icon (Dismissible)    | Margin Left             | 4px       | `$spacing_4`                |
+|                      |                       | Padding Right           | 4px       | `$spacing_4`                |
+|                      | Border (Operational)  | Border                  | 1px       | `$tag_border`               |
+| Large                | Container             | Padding Right x Left    | 12px      | `$spacing_12`               |
 |                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
-|                      | Icon (Dismissible)    | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
-|                      | Icon (Decorative)     | Height                  | 20px      | `$icon_small`               |
-|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
-| Large                | Container             | Height                  | 32px      | `$tag_large`                |
-|                      |                       | Padding Right x Left    | 12px      | `$spacing_12`               |
-|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
-|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
-|                      | Icon (Dismissible)    | Height                  | 24px      | `$icon_medium`              |
-|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
-|                      | Icon (Decorative)     | Height                  | 24px      | `$icon_medium`              |
-|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
-| X-large              | Container             | Height                  | 40px      | `$tag_x_large`              |
-|                      |                       | Padding Right x Left    | 12px      | `$spacing_12`               |
-|                      | Border (Operational)  |                         | 1px       | `$tag_border`               |
-|                      |                       | Border Radius           | 100px     | `$tag_border_radius`        |
-|                      | Icon (Dismissible)    | Height                  | 24px      | `$icon_medium`              |
-|                      |                       | Margin Left             | 8px       | `$tag_margin`               |
-|                      | Icon (Decorative)     | Height                  | 24px      | `$icon_medium`              |
-|                      |                       | Margin Right            | 8px       | `$tag_margin`               |
+|                      | Icon (Decorative)     | Margin Right            | 8px       | `$spacing_8`                |
+|                      |                       | Padding Left            | 8px       | `$spacing_8`                |
+|                      | Icon (Dismissible)    | Margin Left             | 8px       | `$spacing_4`                |
+|                      |                       | Padding Right           | 8px       | `$spacing_4`                |
+|                      | Border (Operational)  | Border                  | 1px       | `$tag_border`               |
 
 #### Read-Only
 
@@ -332,7 +313,20 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 
 <img src="../images/components/tag/tag_style_selectable_padding.png" alt="Tag Style Selectable States"/>
 
-<img src="../images/components/tag/tag_style_selectable_toogletip_padding.png" alt="Tag Style Selectable Toogletip Padding"/>
+<img src="../images/components/tag/tag_style_selectable_toogletip_padding.png" alt="Tag Style Selectable Toogletip"/>
+
+### Size
+
+| Size                 | Element               | Size      | Token name                  |
+| :--------------------| :-------------------- | :-------- | :-------------------------- |
+| Small                | Container             | 18px      | `$tag_small`                |
+|                      | Icon                  | 16px      |                             |
+| Medium               | Container             | 24px      | `$tag_medium`               |
+|                      | Icon                  | 16px      |                             |
+| Large                | Container             | 32px      | `$tag_large`                |
+|                      | Icon                  | 16px      |                             |
+
+<img src="../images/components/tag/tag_style_tag_sizing.png" alt="Tag Style Tag Sizing"/>
 
 ## Accessibility
 
