@@ -305,11 +305,11 @@ Text input labels and placeholder text should be set in sentence case, with only
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Input                 | Padding Right x Left    | 16px      | `$phone_input_padding`      |
-|                       | Border                  | 1px       | `$phone_input_border`       |
-|                       | Border Radius           | 4px       | `$phone_input_border_radius`|
-| Icon (Left)           | Margin Right            | 8px       | `$phone_input_margin`       |
-| Icon (Right)          | Margin Left             | 8px       | `$phone_input_margin`       |
+| Input                 | Padding Right x Left    | 16px      | `$text_input_padding`       |
+|                       | Border                  | 1px       | `$text_input_border`        |
+|                       | Border Radius           | 4px       | `$text_input_border_radius` |
+| Icon (Left)           | Margin Right            | 8px       | `$text_input_margin`        |
+| Icon (Right)          | Margin Left             | 8px       | `$text_input_margin`        |
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
@@ -319,11 +319,11 @@ Text input labels and placeholder text should be set in sentence case, with only
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Input                 | Padding Right x Left    | 16px      | `$phone_input_padding`      |
-|                       | Border                  | 1px       | `$phone_input_border`       |
-|                       | Border Radius           | 4px       | `$phone_input_border_radius`|
-| Icon (Left)           | Margin Right            | 8px       | `$phone_input_margin`       |
-| Icon (Right)          | Margin Left             | 8px       | `$phone_input_margin`       |
+| Input                 | Padding Right x Left    | 16px      | `$text_input_padding`       |
+|                       | Border                  | 1px       | `$text_input_border`        |
+|                       | Border Radius           | 4px       | `$text_input_border_radius` |
+| Icon (Left)           | Margin Right            | 8px       | `$text_input_margin`        |
+| Icon (Right)          | Margin Left             | 8px       | `$text_input_margin`        |
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 | Character Counter     | Margin Top              | 2px       | `$spacing_2`                |
@@ -335,11 +335,11 @@ Text input labels and placeholder text should be set in sentence case, with only
 
 | Size    | Element               | Property       | Size      | Token name                |
 | :------ | :-------------------- | :------------- | :-------- | :------------------------ |
-| Small   | Input                 | Height         | 32px      | `$phone_input_small`      |
+| Small   | Input                 | Height         | 32px      | `$text_input_small`       |
 |         | Icon                  | Height x Width | 20px      | `$icon_small`             |
-| Medium  | Input                 | Height         | 40px      | `$phone_input_medium`     |
+| Medium  | Input                 | Height         | 40px      | `$text_input_medium`      |
 |         | Icon                  | Height x Width | 24px      | `$icon_medium`            |
-| Large   | Input                 | Height         | 48px      | `$phone_input_large`      |
+| Large   | Input                 | Height         | 48px      | `$text_input_large`       |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
 
 ## Accessibility
