@@ -53,6 +53,8 @@ Multiple or single tags can be used to categorize items. Use short labels for ea
 3. Container
 4. Border
 
+<img src="../images/components/tag/tag_usage_tag_anatomy.png" alt="Tag Usage Anatomy"/>
+
 ### Size
 
 There are three different tag sizes — small, medium, and large. Use small tags in condensed or inline spaces. The medium tag size is the default size and is most used. Use large tags when they are used as a primary task of the page or focal point, when you have more screen real estate at your disposal, or if the tag lives near other components that are also 32px in height.
