@@ -62,6 +62,8 @@ There are three different tag sizes — small, medium, and large. Use small tags
 ### Placement
 Vertically align the tag’s container to the other components or text near it. Do not hang tag containers into grid gutters to vertically align the tag’s titles with other text on the page. When tags are placed in groups, it is recommended to have 8px of space between them on the top, bottom, left, and right.
 
+<img src="../images/components/tag/tag_usage_placement.png" alt="Tag Usage Placement"/>
+
 ### Content
 
 #### Title
@@ -75,6 +77,8 @@ Vertically align the tag’s container to the other components or text near it. 
 When the tag’s title is too long to fit within the available space of the tag container, the title can be truncated with an ellipsis. By mouse, the full title is disclosed in a browser tooltip on hover. By keyboard, the full title is disclosed on focus in a tooltip. Truncation should be set at the title’s start, middle, or end, depending on what is best for the given use case.
 
 Avoid having long tag titles wrap to multiple lines within the tag container. This can construe the shape of the tag and integrity of a traditional tag shape, which should be compact in form. It can also create misalignment with other tags if they are placed within a group.
+
+<img src="../images/components/tag/tag_usage_overflow_content.png" alt="Tag Usage Overflow Content"/>
 
 ### Universal behavior
 
