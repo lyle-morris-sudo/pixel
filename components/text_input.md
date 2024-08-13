@@ -327,6 +327,8 @@ Text input labels and placeholder text should be set in sentence case, with only
 | Character Counter     | Margin Top              | 2px       | `$spacing_2`                |
 | Resize Handle         | Height x Width          | 8px       |                             |
 
+<img src="../images/components/text_input/text_input_style_textarea_padding.png" alt="Text Input Style Textarea Padding"/>
+
 ### Size
 
 | Size    | Element               | Property       | Size      | Token name                |
