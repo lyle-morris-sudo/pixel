@@ -1,4 +1,4 @@
-[Back](components.md) | **Author** lylemorris@pm.me | **Last updated** 08-14-2024
+**[Back](components.md)**  | **Author** lylemorris@pm.me | **Last updated** 08-14-2024
 
 # Avatar
 
