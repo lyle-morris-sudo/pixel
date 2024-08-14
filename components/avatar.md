@@ -1,7 +1,8 @@
-# Avatar
-
 Back | Author: lylemorris@pm.me | Last updated: 08-14-2024
 ----------------------------------------------------------
+
+# Avatar
+
 
 An avatar is a visual representation of a person across products. It is typically a photo, an illustration, the initials of the user's first and last name, or an icon. Avatars are used to support personalization and to convey the online status of the user.
 
