@@ -47,14 +47,20 @@ In the light themes, layers alternate between White and Gray.
 - **White theme:** uses $white as the global background color and is layered first with components using $slate_50 backgrounds. The second layer uses $white, and the third layer used $slate_50.
 - **Slate_50 theme:** uses $slate_50 as the global background color and is layered first with components using $white backgrounds. The second layer uses $slate_50 and the third layer used $white.
 
+<img src="../../assets/images/guidelines/color_light_themes.png" alt="Color Light Theme"/>
+
 ### Dark themes
 
 There are two dark themes in the Pixel design system: Black and Gray 900. For enabled UI colors, dark themes primarily use the color range of Gray 900 through Black, and for text and icons uses the color range between White and Gray 500.
+
+<img src="../../assets/images/guidelines/color_dark_themes.png" alt="Color Dark Theme"/>
 
 #### Layering model
 
 - **Gray 900 theme:** uses $gray_900 as the global background color and is layered first with components using $black backgrounds. The second layer uses $gray_900, and the third layer used $black.
 - **Black theme:** uses $black as the global background color and is layered first with components using $gray_900 backgrounds. The second layer uses $gray_800 and the third layer used $gray_700.
+
+<img src="../../assets/images/guidelines/color_layering.png" alt="Guidelines Color Layering"/>
 
 ### High contrast monments
 
@@ -66,9 +72,13 @@ Tokens are method of applying color in a consistent, reusable, and scalable way.
 
 Each token is assigned a role and a value. The role determines what element to apply a token too and the value is the actual color (hex code) that appears in the assigned theme. Color token names and roles are the same across themes, only the assigned value will change with the theme. For example, under the hood the `$text_secondary`token can dynamically map to `$gray_900` or `$black` depending on the theme.
 
+#### Token names
+
 For quick reference, the role of a token is represented in the token name itself to help you correctly apply tokens. The first part of the token name references the general UI element the color is being applied to, like background, text, or border. The second part of token name will specify its unique role within the element group like `$border_subtle` or `$text_primary`. Additionally, some tokens include an interaction state at the end, like `$background_hover`.
 
-### Core tokens
+<img src="../../assets/images/guidelines/color_token_names.png" alt="Color Token Names"/>
+
+#### Core tokens
 Color tokens that can be applied across components are called core tokens. There are ten main groups of core color tokens. They are grouped by the common UI element that they are applied to. Token groups makes it easier to find and apply color tokens. Interaction state tokens are included in the group alongside their enabled state tokens. There are a few core tokens that do not belong to a group and stand as individual tokens like `$overlay`, `$highlight`, and `$interactive`.
 
 | Token group   | Applied to   																		   |
@@ -85,7 +95,7 @@ Color tokens that can be applied across components are called core tokens. There
 | Focus         | Focus states.																		   |
 | Skeleton      | Skeleton states.																	   |
 
-### Component tokens
+#### Component tokens
 
 Some components have their own specific color tokens, known as component tokens. They represent the properties associated with a particular component. They are not global tokens like the core tokens and should never be used for anything other than their own component.
 
@@ -98,6 +108,8 @@ The color layering model for interaction tokens is as follows:
 - For values between $black and $slate_700, interaction gets lighter.
 - For values between $slate_600 and $white, interaction gets darker.
 
+<img src="../../assets/images/guidelines/color_interaction_states.png" alt="Color Interation States"/>
+
 #### Hover
 Hover is a subtle visual change that appears when a mouse cursor moves over an interactive element. Hover states have their own tokens and are identified by `_hover` added to the end of the base token name, such as `$background_hover`.
 
@@ -108,6 +120,8 @@ In the themes, hover states token values are “half steps” between two adjace
 
 Elements like text or icons that use secondary colors for their enabled state, will change to the primary color on hover, giving them a subtle emphasis. Most of the time, this shift in color (on the text or icon element) will be accompanied by a background hover color shift as well. For example, an overflow menu uses `$text_secondary` and `$layer_1` in its enabled state. On hover, the text switches to `$text_primary `and the background to `$layer_hover_1`.
 
+<img src="../../assets/images/guidelines/color_interaction_states_hover.png" alt="Color Interation States Hover"/>
+
 #### Active
 
 The active state can be used to indicate a click, tap or down press of a button. Active tokens are identified by `_active` added after the base token name, such as $button_primary_active. Active state values are two full steps lighter or darker on the color scale.
@@ -115,6 +129,8 @@ The active state can be used to indicate a click, tap or down press of a button.
 - For values between 100 and 70, the active state is two full steps lighter.
 - For values between 60 and 10, the active state is two full steps darker.
 
+<img src="../../assets/images/guidelines/color_interaction_states_active.png" alt="Color Interation States Active"/>
+ 
 #### Selected
 
 Selected states indicate item(s) or option(s) that have been chosen in the UI by the user through any input method. Selected tokens are identified by the `_selected `added after base token name, such as $layer_selected_1. The color logic for selected state is either one full step lighter or darker on the color scale.
@@ -126,6 +142,8 @@ The exception is that $white shares the same selected state value as $slate_50, 
 
 Elements like text or icons that use secondary colors for their enabled state, will change to the primary color when selected, giving them a subtle emphasis. Most of the time, this shift in color (to the text or icon element) will be accompanied by a selected background color shift as well.
 
+<img src="../../assets/images/guidelines/color_interaction_states_selected.png" alt="Color Interation States Selected"/>
+
 #### Focus
 
 The focus state draws attention to the active element on a page when using the keyboard or voice to navigate. In the Pixel design system, the focus of an element is most commonly indicated by a 1px border around the element. In order to make it easy to identify and locate on a page, most focus states use only one color per theme controlled through the $focus color token.
@@ -135,6 +153,8 @@ The focus state draws attention to the active element on a page when using the k
 - The exception is high contrast moments where a $focus_inverse color is used instead.
 
 Focus states are required on all interactive elements and must pass 3:1 color contrast accessibility. Often times to achieve proper 3:1 contrast a $focus_inset border is used between the focus border and the element itself.
+
+<img src="../../assets/images/guidelines/color_interaction_states_focus.png" alt="Color Interation States Focus"/>
 
 #### Disabled
 

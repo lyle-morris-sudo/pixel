@@ -24,7 +24,7 @@ Steppers are like text inputs but are used to specify only a numeric value. The 
 5. **Decrease icon** - This icon triggers decremental values.
 6. **Increase icon** - This icon triggers incremental values.
 
-<img src="../images/components/stepper/stepper_usage_anatomy.png" alt="Stepper Usage Anatomy"/>
+<img src="../../assets/images/components/stepper/stepper_usage_anatomy.png" alt="Stepper Usage Anatomy"/>
 
 ### Variants
 
@@ -87,7 +87,7 @@ Users can navigate to the Stepper field by pressing Tab. Users can then increase
 
 An error state is triggered if the data is invalid, or a required field is left empty. Error states have three visual indicators to signify invalid content: a red border, an error icon indicator, and an error message.
 
-<img src="../images/components/stepper/stepper_usage_validation.png" alt="Stepper Usage Validation"/>
+<img src="../../assets/images/components/stepper/stepper_usage_validation.png" alt="Stepper Usage Validation"/>
 
 ### Default values
 
@@ -164,7 +164,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | SVG Color                  | `$support_success`         |
 |                            |                            | Border Color               | `$support_success`         |
 
-<img src="../images/components/stepper/stepper_style_states.png" alt="Stepper Style States"/>
+<img src="../../assets/images/components/stepper/stepper_style_states.png" alt="Stepper Style States"/>
 
 ### Typography
 
@@ -211,7 +211,7 @@ Stepper labels should use sentence case, with only the first word in a phrase an
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 | Content Switcher      | Margin Left             | 8px       | `$stepper_margin`           |
 
-<img src="../images/components/stepper/stepper_style_padding.png" alt="Stepper Style Padding"/>
+<img src="../../assets/images/components/stepper/stepper_style_padding.png" alt="Stepper Style Padding"/>
 
 ### Size
 
@@ -226,7 +226,7 @@ The height varies for each size variant and the width varies based on content, l
 | Large   | Input                 | 48px      | `$stepper_large`           |
 |         | Content Switcher      | 48px      | `$content_switcher_large`  |
 
-<img src="../images/components/stepper/stepper_style_sizing.png" alt="Stepper Style Sizing"/>
+<img src="../../assets/images/components/stepper/stepper_style_sizing.png" alt="Stepper Style Sizing"/>
 
 ## Accessibility
 
@@ -238,7 +238,7 @@ The Stepper replicates the behavior of the stock HTML component. The Steppers ta
 
 The Stepper is reachable by Tab and changed with the arrow keys or by directly entering a number.
 
-<img src="../images/components/stepper/stepper_accessibility_keyboard.png" alt="Stepper Accessibility Keyboard"/>
+<img src="../../assets/images/components/stepper/stepper_accessibility_keyboard.png" alt="Stepper Accessibility Keyboard"/>
 
 ### Error handling
 

@@ -30,7 +30,7 @@ For each UI shell component, left-to-right translates to product-to-global. The 
 6. **Link sub-menu** - Sub-menus are supported as product navigation, if required. Include the down-pointing chevron after the link label. Sub-menus open on click and are closed by either selecting an item in the menu, clicking outside the menu area, or clicking on the menu label. When open, the chevron should point up. Sub-menu labels serve only to open the dropdown; they cannot link to another page in the product.
 7. **Utilities** - These utilities are reserved for universal, system-level functions such as profile, search, notifications, and similar functions. Not every product on a system is required to show the same utilities, but it is recommended for a better cross-product user experience.
 
-<img src="../images/components/header/header_usage_anatomy.png" alt="Header Usage Anatomy"/>
+<img src="../../assets/images/components/header/header_usage_anatomy.png" alt="Header Usage Anatomy"/>
 
 ### Search
 
@@ -45,7 +45,7 @@ When the user clicks the close icon for the search, the header will transition b
 
 Icons are not a required element of the header, and a product may choose to use any set of icons for their UI. Icons should always be aligned to the right of the header with no gaps between icons. Header utilities are right aligned with no gaps. Below are standard utilities items that are used in the header. These options are recognized and standardized in product design by users.
 
-<img src="../images/components/header/header_usage_placement.png" alt="Header Usage Placement"/>
+<img src="../../assets/images/components/header/header_usage_placement.png" alt="Header Usage Placement"/>
 
 Below are standard utilities items that are used in the header. These options are recognized and standardized in product design by users.
 
@@ -59,7 +59,7 @@ Below are standard utilities items that are used in the header. These options ar
 | 6   | Settings | Settings is position 2nd from the right next to account. |
 | 7   | Switcher | The switcher should always be positioned as the furthest right icon. This ensures the icon does not shift when navigating across systems. |
 
-<img src="../images/components/header/header_usage_utilities.png" alt="Header Usage Utilities"/>
+<img src="../../assets/images/components/header/header_usage_utilities.png" alt="Header Usage Utilities"/>
 
 ### Content
 
@@ -71,7 +71,7 @@ The header name should be the name of the parent domain and be as brief as possi
 
 The header element target areas span the full height of the header. See the Style tab for detailed visual information about the various states.
 
-<img src="../images/components/header/header_usage_mouse.png" alt="Header Usage Mouse"/>
+<img src="../../assets/images/components/header/header_usage_mouse.png" alt="Header Usage Mouse"/>
 
 #### Keyboard
 
@@ -87,7 +87,7 @@ Success Criterion 2.4.1 (Bypass Blocks) suggest bypassing these blocks by provid
 
 As a header scales down to fit smaller screen sizes, header links and menus should collapse into a left-panel hamburger menu. See the examples below to better understand the header’s responsive behavior.
 
-<img src="../images/components/header/header_usage_responsive.png" alt="Header Usage Responsive"/>
+<img src="../../assets/images/components/header/header_usage_responsive.png" alt="Header Usage Responsive"/>
 
 If your UI includes a left panel, the header links should be added above the left panel items, pushing them down accordingly.
 
@@ -95,7 +95,7 @@ If your UI includes a left panel, the header links should be added above the lef
 
 As the user interface scales downward the various parts of the header should be responsive. Primary navigation will bucket into a More dropdown to provide additional space and reduce overlap. Utility actions will be bucket into a navbar experience. At the mobile state of the user interface all navigation items will be bucket into the supportive navbar.
 
-<img src="../images/components/header/header_usage_navigation_reduction.png" alt="Header Usage Navigation Reduction"/>
+<img src="../../assets/images/components/header/header_usage_navigation_reduction.png" alt="Header Usage Navigation Reduction"/>
 
 ### References
 
@@ -148,7 +148,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_primary`            |
 |                            | Icon                       | SVG Color                  | `$icon_primary`            |
 
-<img src="../images/components/header/header_style_links_states.png" alt="Header Usage Links States"/>
+<img src="../../assets/images/components/header/header_style_links_states.png" alt="Header Usage Links States"/>
 
 **Utilities actions**
 | State                      | Element                    | Property                   | Token name                 |
@@ -166,7 +166,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | Border Color               | `$focus`                   |  
 |                            | Icon                       | SVG Color                  | `$icon_primary`            |
 
-<img src="../images/components/header/header_style_utilities_states.png" alt="Header Usage Utilities States"/>
+<img src="../../assets/images/components/header/header_style_utilities_states.png" alt="Header Usage Utilities States"/>
 
 ### Typography
 
@@ -204,7 +204,7 @@ The header should span the full width of the browser window. The header can eith
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
 | Container             | Border Bottom           | 1px       | `$header_border`            |
 
-<img src="../images/components/header/header_style_branding_padding.png" alt="Header Usage Branding Padding"/>
+<img src="../../assets/images/components/header/header_style_branding_padding.png" alt="Header Usage Branding Padding"/>
 
 **Links**
 | State     | Element               | Property             | Size      | Token name                  |
@@ -218,9 +218,9 @@ The header should span the full width of the browser window. The header can eith
 | Focus     | Container             | Padding Right x Left | 16px      | `$header_padding`           |
 |           |                       | Border               | 1px       | `$header_border`            |
 
-<img src="../images/components/header/header_style_links_padding.png" alt="Header Usage Links Padding"/>
+<img src="../../assets/images/components/header/header_style_links_padding.png" alt="Header Usage Links Padding"/>
 
-<img src="../images/components/header/header_style_links_menu_padding.png" alt="Header Usage Links Menu Padding"/>
+<img src="../../assets/images/components/header/header_style_links_menu_padding.png" alt="Header Usage Links Menu Padding"/>
 
 **Utility icons**
 | State     | Element               | Property             | Size      | Token name                  |
@@ -232,7 +232,7 @@ The header should span the full width of the browser window. The header can eith
 | Focus     | Container             | Height x Width       | 48px      |                             |
 |           |                       | Border               | 1px       | `$header_border`            |
 
-<img src="../images/components/header/header_style_utilities_padding.png" alt="Header Usage Utilities Padding"/>
+<img src="../../assets/images/components/header/header_style_utilities_padding.png" alt="Header Usage Utilities Padding"/>
 
 ## Accessibility
 
@@ -242,19 +242,19 @@ The header component bakes in keyboard interaction, including a skip-to-main-con
 
 Each element in the header can be reached by the Tab key. A “Skip to main content” link appears when a keyboard user first tabs into the page. Links and icons are activated by Enter. Icons can also be activated by Space.
 
-<img src="../images/components/header/header_accessibility_keyboard.png" alt="Header Accessibility Keyboard"/>
+<img src="../../assets/images/components/header/header_accessibility_keyboard.png" alt="Header Accessibility Keyboard"/>
 
 ## Regions
 
 Each element in the header can be reached by the Tab key. A “Skip to main content” link appears when a keyboard user first tabs into the page. Links and icons are activated by Enter. Icons can also be activated by Space. The component applies a header region around the whole header.
 
-<img src="../images/components/header/header_accessibility_regions.png" alt="Header Accessibility Regions"/>
+<img src="../../assets/images/components/header/header_accessibility_regions.png" alt="Header Accessibility Regions"/>
 
 ## Labeling
 
 The component provides default names for each icon-only button in the header, and these names are revealed on hover or focus. Interactions for some header components are covered under other component topics such as search, notifications, and the right panel switcher. The component provides default names for its icon-only components and reveals them on hover or focus.
 
-<img src="../images/components/header/header_accessibility_labels.png" alt="Header Accessibility Labels"/>
+<img src="../../assets/images/components/header/header_accessibility_labels.png" alt="Header Accessibility Labels"/>
 
 ## Design recommendations
 

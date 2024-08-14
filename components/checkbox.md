@@ -14,7 +14,7 @@ Checkboxes are used for multiple choices, not for mutually exclusive choices. Ea
 
 - **List with sub-sections** - Used when there is a parent and child relationship. You can use a parent checkbox to make a bulk selection of all list items. Unchecking the parent deselects all the list items. Alternatively, you can select children individually when the parent is not selected, which is where the indeterminate state comes into play.
 
-<img src="../images/components/checkbox/checkbox_usage_when_not_to_use.png" alt="Checkbox Usage When not to use"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_when_not_to_use.png" alt="Checkbox Usage When not to use"/>
 
 ### When not to use
 
@@ -31,7 +31,7 @@ The checkbox component is comprised of a checkbox label and a checkbox input. If
 2. **Checkbox input** - A checkbox input indicating the appropriate state. By default, it is unselected.
 3. **Checkbox label** - Describes the information you want to select or unselect.
 
-<img src="../images/components/checkbox/checkbox_usage_anatomy.png" alt="Checkbox Usage Anatomy"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_anatomy.png" alt="Checkbox Usage Anatomy"/>
 
 ### Group labels (optional)
 
@@ -53,27 +53,27 @@ The checkbox component is comprised of a checkbox label and a checkbox input. If
 - Long labels may wrap to a second line, and this is preferable to truncation.
 - Text should wrap beneath the checkbox, so the control and label are top aligned.
 
-<img src="../images/components/checkbox/checkbox_usage_overflow_content.png" alt="Checkbox Usage Overflow Content"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_overflow_content.png" alt="Checkbox Usage Overflow Content"/>
 
 ### Alignment
 
 Checkbox labels are positioned to the right of their inputs. If there is a checkbox grouping, they can be laid out vertically or horizontally depending on the use case and the structure of the UI. When possible, arrange the checkbox groups vertically for easier reading.
 
-<img src="../images/components/checkbox/checkbox_usage_alignment.png" alt="Checkbox Usage Alignment"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_alignment.png" alt="Checkbox Usage Alignment"/>
 
-<img src="../images/components/checkbox/checkbox_usage_vertical_alignment.png" alt="Checkbox Usage Vertical Alignment"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_vertical_alignment.png" alt="Checkbox Usage Vertical Alignment"/>
 
 ### Placement
 
 The checkbox component is often used in forms. Forms can be placed on a full page, in a modal, or in a side panel. A checkbox can also be used for agreeing to terms and conditions or to filter information.
 
-<img src="../images/components/checkbox/checkbox_usage_placement.png" alt="Checkbox Usage Placement"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_placement.png" alt="Checkbox Usage Placement"/>
 
 ### States
 
 The checkbox input allows for a series of states: unselected, selected, and indeterminate. The default view of a set of checkboxes is having no option selected. Use the indeterminate state when the checkbox contains a sub list of selections, some of which are selected, and some unselected. In addition to unselected, selected, and indeterminate states, checkboxes also have states for focus and disabled.
 
-<img src="../images/components/checkbox/checkbox_usage_states.png" alt="Checkbox Usage States"/>
+<img src="../../assets/images/components/checkbox/checkbox_usage_states.png" alt="Checkbox Usage States"/>
 
 ### Universal behaviors
 
@@ -85,7 +85,7 @@ Users can trigger an item by clicking the checkbox input directly or by clicking
 
 Users can navigate to and between checkbox inputs by pressing Tab or Shift-Tab. Users can trigger a state change by pressing Space while the checkbox input has focus.
 
-<img src="../images/components/checkbox/checkbox_keyboard.png" alt="Checkbox Usage Keyboard"/>
+<img src="../../assets/images/components/checkbox/checkbox_keyboard.png" alt="Checkbox Usage Keyboard"/>
 
 ### Checkbox versus radio button
 
@@ -173,7 +173,7 @@ Structure and spacing measurements for vertical and horizontal checkbox grouping
 | Group label           | Margin Bottom           | 8px       | `$checkbox_margin`          |
 | Label                 | Margin Left             | 8px       | `$checkbox_margin`          |
 
-<img src="../images/components/checkbox/checkbox_style_padding.png" alt="Checkbox Style Padding"/>
+<img src="../../assets/images/components/checkbox/checkbox_style_padding.png" alt="Checkbox Style Padding"/>
 
 ## Accessibility
 
@@ -183,13 +183,13 @@ The component bakes keyboard operation into its components, improving the experi
 
 Each checkbox can be reached by Tab and selected with Space independently. This matches the established HTML interaction pattern.
 
-<img src="../images/components/checkbox/checkbox_accessibility_keyboard.png" alt="Checkbox Accessibility Keyboard"/>
+<img src="../../assets/images/components/checkbox/checkbox_accessibility_keyboard.png" alt="Checkbox Accessibility Keyboard"/>
 
 ### Grouping
 
 For groups of checkboxes, the component already provides the code for screen readers to properly detect the set of checkboxes and announce the group label.
 
-<img src="../images/components/checkbox/checkbox_accessibility_grouping.png" alt="Checkbox Accessibility Grouping"/>
+<img src="../../assets/images/components/checkbox/checkbox_accessibility_grouping.png" alt="Checkbox Accessibility Grouping"/>
 
 ### Meaningful order
 

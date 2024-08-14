@@ -72,7 +72,7 @@ Data processing refers to manipulations of data to produce meaningful informatio
 4. **Skeleton container** - Show the various sections that are currently loading content.
 5. **Skeleton elements** - Shows the type of data that is being loaded
 
-<img src="../images/components/loader/loader_usage_anatomy.png" alt="Loader Usage Anatomy"/>
+<img src="../../assets/images/components/loader/loader_usage_anatomy.png" alt="Loader Usage Anatomy"/>
 
 ### Content
 
@@ -108,7 +108,7 @@ The error loading state indicates that the action did not successfully complete.
 
 While the Loader Determinate is processing information on part of a page, you can still interact with other elements on the page. When the Loader Determinate finishes processing it can either remain persistent on the page for confirmation or automatically dismiss itself depending on the use case.
 
-<img src="../images/components/loader/loader_usage_part_of_a_page.png" alt="Loader Usage Part of a Page"/>
+<img src="../../assets/images/components/loader/loader_usage_part_of_a_page.png" alt="Loader Usage Part of a Page"/>
 
 ### Inside a container
 
@@ -122,7 +122,7 @@ The Loader Determinate is offered in two different sizes—big (8px) and small (
 
 The width of a Loader Determinate can vary based on the content. The minimum width of a Loader Determinate is 48px and keep its width to a maximum of six columns when possible. If the Loader Determinate width is too long, it can reduce readability. Don’t increase the Loader Determinate length to fill the entire width of a window or application.
 
-<img src="../images/components/loader/loader_usage_width.png" alt="Loader Usage Width"/>
+<img src="../../assets/images/components/loader/loader_usage_width.png" alt="Loader Usage Width"/>
 
 ## Style
 
@@ -149,7 +149,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Precentage                 | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
 
-<img src="../images/components/loader/loader_style_state.png" alt="Loader Style States"/>
+<img src="../../assets/images/components/loader/loader_style_state.png" alt="Loader Style States"/>
 
 ### Typography
 

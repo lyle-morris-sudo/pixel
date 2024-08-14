@@ -26,7 +26,7 @@ For scheduling tasks.
 7. Selected day
 8. Current day
 
-<img src="../images/components/date_input/date_input_usage_anatomy.png" alt="Date Input Usage Anatomy"/>
+<img src="../../assets/images/components/date_input/date_input_usage_anatomy.png" alt="Date Input Usage Anatomy"/>
 
 
 ### Alignment
@@ -64,7 +64,7 @@ The simple date input provides the user with only a text field in which they can
 
 The simple date input can include month/year or month/day/year. The formatting may be localized and rearranged in sequence of appearance.
 
-<img src="../images/components/date_input/date_input_usage_simple_date.png" alt="Date Input Usage Simple Date"/>
+<img src="../../assets/images/components/date_input/date_input_usage_simple_date.png" alt="Date Input Usage Simple Date"/>
 
 #### When to use simple date input/field
 
@@ -90,7 +90,7 @@ Use a calendar picker when the user needs to know a date’s relation to other d
 - **Single date picker** - In a single date picker a user has the option to either manually input a date in the text field or select one specific date from the menu calendar. It requires a day, month, and year to be selected.
 - **Date range picker** - The date range picker functions much like the single date picker but instead of choosing just one date the user can choose a start and end date. For each date in the range, users have the option to manually enter the date in a text field or select the date in the calendar. Each point requires a day, month, and year to be selected.
 
-<img src="../images/components/date_input/date_input_usage_calendar_date_picker.png" alt="Date Input Usage Calendar Date Picker"/>
+<img src="../../assets/images/components/date_input/date_input_usage_calendar_date_picker.png" alt="Date Input Usage Calendar Date Picker"/>
 
 #### Opening the calendar
 
@@ -124,7 +124,7 @@ By default, the current date and year appears in the calendar. To navigate to an
 - Clicking the up and down arrows that appear when you focus or hover on the year input in the calendar.
 - Selecting then typing into the year input.
 
-<img src="../images/components/date_input/date_input_usage_select_year_month.png" alt="Date Input Usage Select Year and Month"/>
+<img src="../../assets/images/components/date_input/date_input_usage_select_year_month.png" alt="Date Input Usage Select Year and Month"/>
 
 #### Closing the calendar
 
@@ -187,9 +187,9 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../images/components/date_input/date_input_style_input_states.png" alt="Date Input Style Input States"/>
+<img src="../../assets/images/components/date_input/date_input_style_input_states.png" alt="Date Input Style Input States"/>
 
-<img src="../images/components/date_input/date_input_style_date_states.png" alt="Date Input Style Date States"/>
+<img src="../../assets/images/components/date_input/date_input_style_date_states.png" alt="Date Input Style Date States"/>
 
 
 **Calendar header**
@@ -216,7 +216,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../images/components/date_input/date_input_style_header_states.png" alt="Date Input Style Header States"/>
+<img src="../../assets/images/components/date_input/date_input_style_header_states.png" alt="Date Input Style Header States"/>
 
 ### Typography
 
@@ -258,7 +258,7 @@ The widths of the date inputs may vary based on the grid and layout.
 | Date                  | Padding Right x Left    |           |                             |
 |                       | Border Bottom           | 2px       | `$border_2`                 |
 
-<img src="../images/components/date_input/date_input_style_padding.png" alt="Date Input Style Padding"/>
+<img src="../../assets/images/components/date_input/date_input_style_padding.png" alt="Date Input Style Padding"/>
 
 ### Sizing
 

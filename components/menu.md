@@ -11,13 +11,13 @@ The text within an overflow menu should be direct so users can quickly decide on
 1. Trigger icon
 2. Contextual menu
 
-<img src="../images/components/menu/menu_usage_anatomy.png" alt="Menu Usage Anatomy"/>
+<img src="../../assets/images/components/menu/menu_usage_anatomy.png" alt="Menu Usage Anatomy"/>
 
 ### Placement
 
 Depending on where the Overflow menu appears within the UI, the tab tip may appear on the left or right, so it always remains visible.
 
-<img src="../images/components/menu/menu_usage_placement.png" alt="Menu Usage Placement"/>
+<img src="../../assets/images/components/menu/menu_usage_placement.png" alt="Menu Usage Placement"/>
 
 ## Style
 
@@ -63,7 +63,7 @@ The contextual menu sub component uses the same color and specifications as cont
 |                            | Label                      | Text Color                 | `$text_on_color`           |  
 |                            | Icon                       | SVG Color                  | `$icon_on_color`           |
 
-<img src="../images/components/menu/menu_style_states.png" alt="Menu Style States"/>
+<img src="../../assets/images/components/menu/menu_style_states.png" alt="Menu Style States"/>
 
 ### Typography
 
@@ -100,7 +100,7 @@ Structure and spacing measurements for vertical and horizontal checkbox grouping
 |                       | Box Shadow              |           | `$shadow_2`                 |
 |                       | Border Radius           |           | `$menu_border_radius`       |
 
-<img src="../images/components/menu/menu_style_padding.png" alt="Menu Style Padding"/>
+<img src="../../assets/images/components/menu/menu_style_padding.png" alt="Menu Style Padding"/>
 
 **Menu item**
 
@@ -111,7 +111,7 @@ Structure and spacing measurements for vertical and horizontal checkbox grouping
 | Icon (Right)          | Margin Left             | 8px       | `$menu_margin`              |
 | Icon (Left)           | Margin Right            | 8px       | `$menu_margin`              |
 
-<img src="../images/components/menu/menu_style_sizing.png" alt="Menu Style Sizing"/>
+<img src="../../assets/images/components/menu/menu_style_sizing.png" alt="Menu Style Sizing"/>
 
 ## Accessibility
 
@@ -121,7 +121,7 @@ The component bakes keyboard operation into its components, improving the experi
 
 Make sure overflow menus are in the default focus order and can be reached by single finger Left flick and is activated by double finger Double Tap When the menu is open, the first item takes focus. Focus is moved between menu items with the Left and Right swipe. Double finger Double Tap activates the item with focus (which causes focus to go somewhere else and the menu to close). Two Finger flick left to exit and return to the origination point.
 
-<img src="../images/components/menu/menu_accessibility_keyboard.png" alt="Menu Accessibility Keyboard"/>
+<img src="../../assets/images/components/menu/menu_accessibility_keyboard.png" alt="Menu Accessibility Keyboard"/>
 
 ### Development considerations
 

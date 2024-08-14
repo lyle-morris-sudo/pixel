@@ -30,7 +30,7 @@ The phone inputs are a common UI feature for tons of websites and applications. 
 9. Country name
 10. Country flag
 
-<img src="../images/components/phone_input/phone_input_usage_anatomy.png" alt="Phone Input Usage Anatomy"/>
+<img src="../../assets/images/components/phone_input/phone_input_usage_anatomy.png" alt="Phone Input Usage Anatomy"/>
 
 ### Country selector
 
@@ -51,7 +51,7 @@ The selected country determines the format to use to validate phone numbers. If 
 
 The phone field input directive validates phone numbers based on the format for the selected country. You must specify an error message. In most cases, the error message should be "Enter a phone number matching the format for the selected country."
 
-<img src="../images/components/phone_input/phone_input_usage_validation.png" alt="Phone Input Usage Validation"/>
+<img src="../../assets/images/components/phone_input/phone_input_usage_validation.png" alt="Phone Input Usage Validation"/>
 
 #### Do not split input fields
 
@@ -60,7 +60,7 @@ From first glance, splitting the field into a few fields will solve the problem 
 - Higher interaction cost. The user will need to navigate from one field to another. This is particularly difficult for mobile users because they cannot rely on Tab to move to another field.
 - This solution won't work for different phone formatting. Creating input fields localized to one country can cause problems for international user they won't be able to provide a number in their format. For example, the US phone format is the same for local and mobile number +1 (xxx) xxx-xx-xx while for the UK the format varies drastically depending on the region.
 
-<img src="../images/components/phone_input/phone_input_usage_split_field.png" alt="Phone Input Usage Split Field"/>
+<img src="../../assets/images/components/phone_input/phone_input_usage_split_field.png" alt="Phone Input Usage Split Field"/>
 
 ### Reference
 
@@ -109,7 +109,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Content                    | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 
-<img src="../images/components/phone_input/phone_input_style_states.png" alt="Phone Input Style States"/>
+<img src="../../assets/images/components/phone_input/phone_input_style_states.png" alt="Phone Input Style States"/>
 
 ### Typography
 
@@ -159,9 +159,9 @@ Input labels should use sentence case, with only the first word in a phrase and 
 |                       | Height                  | 28px      |                             |
 |                       | Border Right            | 24px      | `$phone_input_border`       |
 
-<img src="../images/components/phone_input/phone_input_style_international_padding.png" alt="Phone Input Style International Padding"/>
+<img src="../../assets/images/components/phone_input/phone_input_style_international_padding.png" alt="Phone Input Style International Padding"/>
 
-<img src="../images/components/phone_input/phone_input_style_padding.png" alt="Phone Input Style Padding"/>
+<img src="../../assets/images/components/phone_input/phone_input_style_padding.png" alt="Phone Input Style Padding"/>
 
 ### Sizing
 
@@ -174,7 +174,7 @@ Input labels should use sentence case, with only the first word in a phrase and 
 | Large   | Input                 | Height         | 48px      | `$phone_input_large`      |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
 
-<img src="../images/components/phone_input/phone_input_style_international_sizing.png" alt="Phone Input Style Sizing"/>
+<img src="../../assets/images/components/phone_input/phone_input_style_international_sizing.png" alt="Phone Input Style Sizing"/>
 
 ## Accessibility
 

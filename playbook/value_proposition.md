@@ -2,7 +2,7 @@
 
 Investing in a design system can have a broad impact - on consistency, sentiment, accessibility, and even how much your team can ship. But the easiest ROI to align to business metrics is cost savings, most easily calculated based on efficiency. When implementing a design system, you will see a drop in productivity due to the necessary upfront investment. Still after a break-even point where the design system has grown enough to compensate for that, productivity gains are significant.
 
-<img src="../images/value_proposition/system_efficiency.png" alt="Design System Efficiency"/>
+<img src="../../assets/images/value_proposition/system_efficiency.png" alt="Design System Efficiency"/>
 
 ## Formula assumptions
 
@@ -14,7 +14,7 @@ A design system takes at least 6 months to set up. Anything less would be unreal
 
 We have 50% productivity gains. That is why we have `3` instead of `6` in the gain part of the formula. With these assumptions in place, we can now have a look at what the parameters X, Y, and Z mean.
 
-<img src="../images/value_proposition/formula_1.png" alt="Formula 1"/>
+<img src="../../assets/images/value_proposition/formula_1.png" alt="Formula 1"/>
 
 **`X`** denotes the percentage of time invested in building the design system. If X=20, the formula gives us 240⁄20=12 months of ramp-up phase.
 
@@ -55,11 +55,11 @@ They estimate that everyone would be able to invest 30% (**`X=30`**) of their ti
 
 On the cost side, 30%-time investment means the ramp-up phase would be 240/30=8 months long. That is, 8*30%=2.4 months would be effectively spent on building the design system. Afterwards, 60-8=52 months remain for the 5-year period, and of those, 52*10%=5.2 months would be effectively spent on maintenance. Overall, there would be 7.6 months (out of five years) of work put into the design system.
 
-<img src="../images/value_proposition/formula_2.png" alt="Formula 2"/>
+<img src="../../assets/images/value_proposition/formula_2.png" alt="Formula 2"/>
 
 On the gain side, a ramp-up phase of 8 months would mean four months of half the productivity gains. That is **`4*(38%/2) =0.76`** months. Afterwards, for the remaining 52 months (about 4 and a half years), we would see full productivity gains, i.e., **`52*38%=19.76`** months. Overall, the design system would therefore save the design team 20.52 months (about 1 year 8 and a half months) of needless work.
 
-<img src="../images/value_proposition/formula_3.png" alt="Formula 3"/>
+<img src="../../assets/images/value_proposition/formula_3.png" alt="Formula 3"/>
 
 Together with the 7.6 months of work spent on building and maintaining the design system, this yields an ROI of **`(20.52-7.6)/7.6=170%`**. In other words, you get $2.70 back for every dollar invested in the design system.
 
@@ -71,7 +71,7 @@ Doing the same thing for development is straightforward based on the above. Sinc
  
 On the gain side, however, we must exchange the value for Z, from 38 to 31. Luckily, that is the only thing, and the rest remains as above.
 
-<img src="../images/value_proposition/formula_4.png" alt="Formula 4"/>
+<img src="../../assets/images/value_proposition/formula_4.png" alt="Formula 4"/>
 
 So, in the case of development, we would invest 7.6 months and save 16.74 months of unnecessary work. This gives us an ROI of **`(16.74-7.6)/7.6=120%`**.
 

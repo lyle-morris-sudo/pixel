@@ -25,7 +25,7 @@ Use notifications to inform users of updates or changes to system status. Commun
 5. **Message** - Provides additional detail and actionable steps for the user to take.
 6. **Timestamp (optional for toast)** - Shows the time the toast notification was sent.
 
-<img src="../images/components/notification/notification_usage_anatomy.png" alt="Notification Usage Anatomy"/>
+<img src="../../assets/images/components/notification/notification_usage_anatomy.png" alt="Notification Usage Anatomy"/>
 
 
 ### Content
@@ -59,7 +59,7 @@ If a toast or inline notification requires a message longer than two lines, use 
 
 Inline notifications show up in task flows, to notify users of the status of an action or system. They usually appear at the top of the primary content area or close to the item needing attention.
 
-<img src="../images/components/notification/notification_usage_inline.png" alt="Notification Usage Inline"/>
+<img src="../../assets/images/components/notification/notification_usage_inline.png" alt="Notification Usage Inline"/>
 
 #### Formatting
 
@@ -78,7 +78,7 @@ A small “x” in the top right corner is used to dismiss inline notifications.
 
 Toasts are non-modal, time-based window elements used to display short messages; they usually appear at the top of the screen and disappear after a few seconds.
 
-<img src="../images/components/notification/notification_usage_toast.png" alt="Notification Usage Toast"/>
+<img src="../../assets/images/components/notification/notification_usage_toast.png" alt="Notification Usage Toast"/>
 
 #### Formatting
 
@@ -155,7 +155,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 |                            | Icon (Close)               | SVG Color                  | `$icon_secondary`          |
 
-<img src="../images/components/notification/notification_style_inline_types.png" alt="Notification Style Inline Types"/>
+<img src="../../assets/images/components/notification/notification_style_inline_types.png" alt="Notification Style Inline Types"/>
 
 **Toast alerts**
 
@@ -190,7 +190,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 |                            | Icon (Close)               | SVG Color                  | `$icon_secondary`          |
 
-<img src="../images/components/notification/notification_style_toast_types.png" alt="Notification Style Toast Types"/>
+<img src="../../assets/images/components/notification/notification_style_toast_types.png" alt="Notification Style Toast Types"/>
 
 ### Typography
 
@@ -228,7 +228,7 @@ Below is the token architecture color build of the components. The token can be 
 |                       | Margin Right            | 8px       | `$notification_margin`        |
 | Button (Action)       | Margin Left             | 8px       | `$notification_margin`        |
 
-<img src="../images/components/notification/notification_style_inline_padding.png" alt="Notification Style Inline Padding"/>
+<img src="../../assets/images/components/notification/notification_style_inline_padding.png" alt="Notification Style Inline Padding"/>
 
 **Toast alerts**
 
@@ -247,7 +247,7 @@ Below is the token architecture color build of the components. The token can be 
 | Button (Action)       | Margin Left             | 8px       | `$notification_margin`        |
 | Description           | Margin Bottom           | 8px       | `$notification_margin`        |
 
-<img src="../images/components/notification/notification_style_toast_types.png" alt="Notification Style Toast Types"/>
+<img src="../../assets/images/components/notification/notification_style_toast_types.png" alt="Notification Style Toast Types"/>
 
 ## Accessibility
 

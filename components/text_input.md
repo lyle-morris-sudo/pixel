@@ -29,7 +29,7 @@ If a user can only enter an option from a predefined list, then avoid using a fr
 5. **Resize handle (textarea only)** - Allows a user to manipulate the field height by making it longer or shorter.
 6. **Character counter (textarea only)** - Indicate the number of characters being entered and the total number of characters allowed.
 
-<img src="../images/components/text_input/text_input_usage_anatomy.png" alt="Text Input Usage Anatomy"/>
+<img src="../../assets/images/components/text_input/text_input_usage_anatomy.png" alt="Text Input Usage Anatomy"/>
 
 ### Formats
 
@@ -81,13 +81,13 @@ The field widths of both text input and text area should reflect the intended le
  - Do make text input widths proportional to the content and align to grid columns.
  - Do not make text inputs excessively wide just to fill in space.
 
-<img src="../images/components/text_input/text_input_usage_width.png" alt="Text Input Usage Width"/>
+<img src="../../assets/images/components/text_input/text_input_usage_width.png" alt="Text Input Usage Width"/>
 
 ### Alignment
 
 Labels and field containers should vertically align to the grid and with other form components on a page.
 
-<img src="../images/components/text_input/text_input_usage_alignment.png" alt="Text Input Usage Alignment"/>
+<img src="../../assets/images/components/text_input/text_input_usage_alignment.png" alt="Text Input Usage Alignment"/>
 
 ### Content
 
@@ -130,7 +130,7 @@ If a user’s content exceeds the vertical space of the variable textarea then a
 
 An error state is triggered if the data is invalid, or a required field is left empty. Error states have three visual indicators to signify invalid content: a red border, an error icon indicator, and an error message.
 
-<img src="../images/components/text_input/text_input_usage_validation.png" alt="Text Input Usage Validation"/>
+<img src="../../assets/images/components/text_input/text_input_usage_validation.png" alt="Text Input Usage Validation"/>
 
 ### Default values
 
@@ -208,7 +208,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Help Text                  | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 
-<img src="../images/components/text_input/text_input_style_state.png" alt="Text Input Style State"/>
+<img src="../../assets/images/components/text_input/text_input_style_state.png" alt="Text Input Style State"/>
 
 **Textarea**
 
@@ -313,7 +313,7 @@ Text input labels and placeholder text should be set in sentence case, with only
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
-<img src="../images/components/text_input/text_input_style_text_input_padding.png" alt="Text Input Style Text Input Padding"/>
+<img src="../../assets/images/components/text_input/text_input_style_text_input_padding.png" alt="Text Input Style Text Input Padding"/>
 
 **Textarea**
 
@@ -329,7 +329,7 @@ Text input labels and placeholder text should be set in sentence case, with only
 | Character Counter     | Margin Top              | 2px       | `$spacing_2`                |
 | Resize Handle         | Height x Width          | 8px       |                             |
 
-<img src="../images/components/text_input/text_input_style_textarea_padding.png" alt="Text Input Style Textarea Padding"/>
+<img src="../../assets/images/components/text_input/text_input_style_textarea_padding.png" alt="Text Input Style Textarea Padding"/>
 
 ### Size
 
@@ -342,7 +342,7 @@ Text input labels and placeholder text should be set in sentence case, with only
 | Large   | Input                 | Height         | 48px      | `$text_input_large`       |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
 
-<img src="../images/components/text_input/text_input_style_text_input_sizing.png" alt="Text Input Style Text Input Sizing"/>
+<img src="../../assets/images/components/text_input/text_input_style_text_input_sizing.png" alt="Text Input Style Text Input Sizing"/>
 
 ## Accessibility
 
@@ -352,9 +352,9 @@ The component bakes keyboard operation into its components, improving the experi
 
 Text inputs and text areas replicate the default HTML component operation. Each input field is a tab stop, as are any preceding information icons (which open with Enter/Space and close with Esc). For password inputs, the component provides a keyboard-operable ability to toggle the password value’s visibility using `Enter` or `Space`.
 
-<img src="../images/components/text_input/text_input_accessibility_text_input_keyboard.png" alt="Text Input Accessibility Text Input Keyboard"/>
+<img src="../../assets/images/components/text_input/text_input_accessibility_text_input_keyboard.png" alt="Text Input Accessibility Text Input Keyboard"/>
 
-<img src="../images/components/text_input/text_input_accessibility_textarea_keyboard.png" alt="Text Input Accessibility Textarea Keyboard"/>
+<img src="../../assets/images/components/text_input/text_input_accessibility_textarea_keyboard.png" alt="Text Input Accessibility Textarea Keyboard"/>
 
 ### Labeling and helper text
 

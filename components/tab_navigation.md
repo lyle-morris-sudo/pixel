@@ -8,7 +8,7 @@ Tabs are used to group different but related content, allowing users to navigate
 
 Use tabs to group related information into different categories, helping to reduce cognitive load.
 
-<img src="../images/components/tabs/tabs_usage_when_to_use.png" alt="Tabs Usage When to Use"/>
+<img src="../../assets/images/components/tabs/tabs_usage_when_to_use.png" alt="Tabs Usage When to Use"/>
 
 ### When not to use
 
@@ -25,7 +25,7 @@ The tab component consists of two distinct zones: selected and unselected. There
 2. Indicator
 3. Icon (Optional)
 
-<img src="../images/components/tabs/tabs_usage_anatomy.png" alt="Tabs Usage Anatomy"/>
+<img src="../../assets/images/components/tabs/tabs_usage_anatomy.png" alt="Tabs Usage Anatomy"/>
 
 ### Alignment
 
@@ -34,7 +34,7 @@ Much like buttons, alignment of tabs depends on where they appear and whether th
 - Do vertically align tab labels with the grid.
 - Do not vertically align tab containers with the grid.
 
-<img src="../images/components/tabs/tabs_usage_alignment.png" alt="Tabs Usage Alignment"/>
+<img src="../../assets/images/components/tabs/tabs_usage_alignment.png" alt="Tabs Usage Alignment"/>
 
 ### Auto width
 
@@ -116,7 +116,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../images/components/tabs/tabs_style_states.png" alt="Tabs Style States"/>
+<img src="../../assets/images/components/tabs/tabs_style_states.png" alt="Tabs Style States"/>
 
 ### Typography
 
@@ -163,7 +163,7 @@ Tab labels should be set in sentence case and should not exceed three words.
 |                  | Icon (Right)          | Margin Left             | 8px       | `$tab_margin`               |
 |                  | Icon (Left)           | Margin Right            | 8px       | `$tab_margin`               |
 
-<img src="../images/components/tabs/tabs_style_padding.png" alt="Tabs Style Padding"/>
+<img src="../../assets/images/components/tabs/tabs_style_padding.png" alt="Tabs Style Padding"/>
 
 ### Size
 
@@ -176,7 +176,7 @@ Tab labels should be set in sentence case and should not exceed three words.
 | Large   | Container             | 48px      | `$tab_large`               |
 |         | Content Switcher      | 28px      | `$icon_large`              |
 
-<img src="../images/components/tabs/tabs_style_sizing.png" alt="Tabs Style Sizing"/>
+<img src="../../assets/images/components/tabs/tabs_style_sizing.png" alt="Tabs Style Sizing"/>
 
 ## Accessibility
 
@@ -203,7 +203,7 @@ For automatic tablists, focus and selection are synchronized. When the user arro
 
 Manual tablists allow the user to arrow between the tab items without updating the tabpanel underneath. When the user right arrows, the Overview tab remains selected while focus moves to the Details tab. To select the Details tab (and update the tabpanel under the tab), the user would press `Enter` or `Space`.
 
-<img src="../images/components/tabs/tabs_accessiblity_keyboard.png" alt="Tabs Accessibility Keyboard"/>
+<img src="../../assets/images/components/tabs/tabs_accessiblity_keyboard.png" alt="Tabs Accessibility Keyboard"/>
 
 ### Indicate which variant to implement
 
