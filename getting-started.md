@@ -54,7 +54,7 @@ The links in the table for Figma Libraries are preview only.
 
 By default, the Pixel design kit should be loaded on new files by default. If this is not the case, you can turn on the library inside of a design file. Navigate to the Main menu panel in the top left of the toolbar (A). Open the menu and select Libraries from the list (B).
 
-<img src="../images/getstarted/figma_library_selection.png" alt="Figma Library"/>
+<img src="../images/get_started/figma_library_selection.png" alt="Figma Library"/>
 
 
 4. Included in the library are all Pixel components and their variants. To insert a component, go to the Asset panel and find the component you would like to use. Drag it from the asset panel onto the canvas. View the name of the component in the right sidebar. If the component has variants, you’ll see fields underneath the component name to configure the properties and values of that component set. For more help on how to use Figma components, see the [Figma Support](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants#Use_variants).
