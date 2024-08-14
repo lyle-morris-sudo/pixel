@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Accordion
 
 The accordion component delivers large amounts of content in a small space through progressive disclosure. The header title gives the user a high-level overview of the content allowing the user to decide which sections to read.
