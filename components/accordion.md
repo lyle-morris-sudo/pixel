@@ -22,7 +22,7 @@ Accordions can make information processing and discovering more effective. Howev
 
 
 
-<img src="../../assets/images/components/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
+<img src="../images/components/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
 
 ### Alignment
 
