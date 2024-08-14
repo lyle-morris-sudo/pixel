@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Text Input
 
 Text inputs enable users to enter free-form text data. The type of text field used should reflect the length of the content you expect the user to enter. The default text input is for short, one-line content, whereas text area is for longer, multi-line entries.

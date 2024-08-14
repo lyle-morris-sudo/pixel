@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Toggle Switch
 
 Toggle switch is an input control that is used to quickly switch between two possible states. They are used for these binary actions that occur immediately after the user “flips the switch”. They are commonly used for “on/off” switches.

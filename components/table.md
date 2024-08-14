@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Table
 
 Tables are used to organize and display data efficiently. The data table component allows for customization with additional functionality, as needed by your product’s users.

@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Tab Navigation
 
 Tabs are used to group different but related content, allowing users to navigate views without leaving the page. They always contain at least two items and one tab is active at a time. Tabs can be used on full page layouts or in components such as modals, cards, or side panels.

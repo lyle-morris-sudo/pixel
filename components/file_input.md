@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # File Input
 
 File input enables users to attach files to their form submissions, such as photos, PDFs or other documents.  So, file field inherits all the attributes of text input.

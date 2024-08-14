@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Badge
 
 Badge indicators let the user know that something is new or updated. A badge status is displayed over a ghost icon button, usually in the header, to indicate an active notification and is cleared after the user acknowledges the notification. Depending on your use case, the icon button can open a new page or launch a modal, pane, or flyout.

@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Checkbox
 
 Checkboxes are used for multiple choices, not for mutually exclusive choices. Each checkbox works independently from other checkboxes in the list, therefore checking an additional box does not affect any other selection.

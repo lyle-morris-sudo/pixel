@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Stepper
 
 Steppers are like text inputs but are used to specify only a numeric value. The component incrementally increases or decreases the value with a two-segment control. The reduces input efforts for adjusting small values.

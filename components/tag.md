@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Tag
 
 Tags are categorization mechanism when dealing with vast and diverse content and user engagement is high. Tags are also used as shortcuts to the mapped/grouped contents.

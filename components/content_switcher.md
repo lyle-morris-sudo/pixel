@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Content Switcher
 
 Content switchers allow users to toggle between alternate views of similar or related content. Only one content section is shown at a time.

@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Notifications
 
 Notifications are messages that communicate information to the user. The three variants of notifications are toast notifications, inline notifications, and actionable notifications.

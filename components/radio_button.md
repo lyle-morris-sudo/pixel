@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Radio Button
 
 Radio buttons are used for mutually exclusive choices, not for multiple choices. Only one radio button can be selected at a time. When a user chooses a new item, the previous choice is automatically deselected.

@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Date Input
 
 Date inputs are used to display past, present, or future dates or times. The kind of date (exact, approximate, memorable) you are requesting from the user will determine which picker is best to use. Each picker’s format can be customized depending on location or need.

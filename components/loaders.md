@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Loaders
 
 Loading spinners are used when retrieving data or performing slow computations. They notify to the user that their request is being processed. Although they do not provide details about what is occurring on the backend, they reassure the user that their action is being processed.

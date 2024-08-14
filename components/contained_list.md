@@ -1,3 +1,5 @@
+**[Back](components.md)**
+
 # Contained List
 
 Contained lists are commonly used inside of containers like cards, sidebars, and disclosure situations. These lists have one header column of information with multiple list item rows. They help you organize related content within smaller spaces within a user interface and allow you to include inline actions and interactive elements.
