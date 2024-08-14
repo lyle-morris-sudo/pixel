@@ -28,7 +28,7 @@ The component supports two types of breadcrumbs. Both types are styled the same,
 3. Separator
 4. Current page
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_usage_anatomy.png" alt="Breadcrumb Usage Anatomy"/>
+<img src="../images/components/breadcrumb/breadcrumb_usage_anatomy.png" alt="Breadcrumb Usage Anatomy"/>
 
 ### Placement
 
@@ -44,7 +44,7 @@ Breadcrumbs are placed in the top left portion of the page. They sit underneath 
 
 When space becomes limited, use an overflow menu to truncate the breadcrumbs. The first and last two-page links should be shown, but the remaining breadcrumbs in between are condensed into an overflow menu. Breadcrumbs should never wrap onto a second line.
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_usage_overflow.png" alt="Breadcrumb Usage Overflow"/>
+<img src="../images/components/breadcrumb/breadcrumb_usage_overflow.png" alt="Breadcrumb Usage Overflow"/>
 
 ### Universal behaviors
 
@@ -82,7 +82,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | Border Color               |                            |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_style_states.png" alt="Breadcrumb Style States"/>
+<img src="../images/components/breadcrumb/breadcrumb_style_states.png" alt="Breadcrumb Style States"/>
 
 ## Typography
 
@@ -123,7 +123,7 @@ The on-click dropdown should follow the overflow menu specs for sizing, padding,
 | Link: last-of-type    | Padding Right           |           |                             |
 |                       | Border Right            | 1px       | `$breadcrumb_border`        |
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_style_padding.png" alt="Breadcrumb Style Padding"/>
+<img src="../images/components/breadcrumb/breadcrumb_style_padding.png" alt="Breadcrumb Style Padding"/>
 
 **Overflow sizing**
 | Variant               | Property                | Size      | Token name                  |
@@ -134,7 +134,7 @@ The on-click dropdown should follow the overflow menu specs for sizing, padding,
 | Small                 | Height x Width          | 22px      |                             |
 | X-small               | Height x Width          | 18px      |                             |
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_style_sizes.png" alt="Breadcrumb Style Sizes"/>
+<img src="../images/components/breadcrumb/breadcrumb_style_sizes.png" alt="Breadcrumb Style Sizes"/>
 
 
 ## Accessibility
@@ -145,13 +145,13 @@ The design system bakes keyboard operation into its components, improving the ex
 
 Each page link in the breadcrumb is reached by Tab and activated by Enter. The current page, if listed in the breadcrumb, is not a link. If the breadcrumb is truncated, the ellipsis button for the overflow menu is in the tab order. See overflow menu for details on its keyboard operation. The breadcrumb's links are reached by Tab and activated by Enter.
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_accessibility_keyboard.png" alt="Breadcrumb Accessibility Keyboard"/>
+<img src="../images/components/breadcrumb/breadcrumb_accessibility_keyboard.png" alt="Breadcrumb Accessibility Keyboard"/>
 
 ### Labeling and states
 
 The component implements each page link as a list item inside a navigation region named “breadcrumb.” The ellipsis symbol is a button called “more breadcrumbs” which opens the overflow menu. The breadcrumb's links are reached by Tab and activated by Enter.
 
-<img src="../../assets/images/components/breadcrumb/breadcrumb_accessibility_labeling.png" alt="Breadcrumb Accessibility Labeling and States"/>
+<img src="../images/components/breadcrumb/breadcrumb_accessibility_labeling.png" alt="Breadcrumb Accessibility Labeling and States"/>
 
 ### Development recommendations
 

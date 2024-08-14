@@ -16,7 +16,7 @@ If a user can select from multiple options, use checkboxes instead of radio butt
 - Do not vertically center wrapped text with the radio button.
 - Do not use radio buttons when multiple items can be selected.
 
-<img src="../../assets/images/components/radio/radio_usage_checkbox_versus_radio.png" alt="Radio Usage Checkbox Versus Radio"/>
+<img src="../images/components/radio/radio_usage_checkbox_versus_radio.png" alt="Radio Usage Checkbox Versus Radio"/>
 
 ### Variants
 
@@ -40,7 +40,7 @@ Radio button labels are positioned to the right of their inputs in languages tha
 - Vertically stacked versus horizontal alignment
 - For languages that read right to left, it’s acceptable to place labels to the left of the inputs.
 
-<img src="../../assets/images/components/radio/radio_usage_alignment.png" alt="Radio Usage Alignment"/>
+<img src="../images/components/radio/radio_usage_alignment.png" alt="Radio Usage Alignment"/>
 
 ### Placement
 
@@ -48,7 +48,7 @@ The radio button component is often used in forms. Forms can be placed on a full
 
 Radio buttons in a form should be placed at least 32px below or before the next component. Spacing of 24px or 16px can also be used when space is more restricted or if the form is more complex.
 
-<img src="../../assets/images/components/radio/radio_usage_placement.png" alt="Radio Usage Placement"/>
+<img src="../images/components/radio/radio_usage_placement.png" alt="Radio Usage Placement"/>
 
 ### Content
 
@@ -71,7 +71,7 @@ A heading can accompany a set of radio buttons to provide further context or cla
 - Long labels may wrap to a second line, and this is preferable to truncation.
 - Text should wrap beneath the radio button, so the control and label are top aligned.
 
-<img src="../../assets/images/components/radio/radio_usage_overflow.png" alt="Radio Usage Overflow"/>
+<img src="../images/components/radio/radio_usage_overflow.png" alt="Radio Usage Overflow"/>
 
 ### States
 The radio button input allows for two states: unselected and selected. The default view of a radio button is having at least one radio button preselected. Only one radio button should be selected at a time. When a user chooses a new item, the previous choice is automatically deselected.
@@ -87,7 +87,7 @@ Radio button groups can receive the following states: read-only, disabled, error
 
 Users can trigger an item by clicking the radio button input directly or by clicking the radio button label. Having both regions interactive creates a more accessible click target.
 
-<img src="../../assets/images/components/radio/radio_usage_mouse.png" alt="Radio Usage Mouse"/>
+<img src="../images/components/radio/radio_usage_mouse.png" alt="Radio Usage Mouse"/>
 
 #### Keyboard
 
@@ -151,7 +151,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../../assets/images/components/radio/radio_style_padding.png" alt="Radio Style Padding"/>
+<img src="../images/components/radio/radio_style_padding.png" alt="Radio Style Padding"/>
 
 ### Typography
 
@@ -199,7 +199,7 @@ The component bakes keyboard operation into its components, improving the experi
 
 A group of radio buttons takes a single tab stop. The component requires an item to be selected by default, and this item will always take focus. The user changes the selected radio button using the arrow keys (up/down or left/right). Pressing Tab again will move focus out of the radio button group to the next component. A radio button group is a single tab stop and radio buttons are selected using arrow keys.
 
-<img src="../../assets/images/components/radio/radio_accessibility_keyboard.png" alt="Radio Accessibility Keyboard"/>
+<img src="../images/components/radio/radio_accessibility_keyboard.png" alt="Radio Accessibility Keyboard"/>
 
 ### Labeling and states
 

@@ -40,13 +40,13 @@ Initials can have up to two alphabetical characters (A-Z, a-z). If more that, tw
 
 Some languages don’t build on an alphabet, or don’t use initials at all. In some cases, the gender-neutral person icon is displayed instead.
 
-<img src="../../assets/images/components/avatar/avatar_usage_inititals.png" alt="Avatar Usage Initials"/>
+<img src="../images/components/avatar/avatar_usage_inititals.png" alt="Avatar Usage Initials"/>
 
 ### Images
 
 Business images display a product, company, object, logo, or other business-related content.
 
-<img src="../../assets/images/components/avatar/avatar_usage_images.png" alt="Avatar Usage Images"/>
+<img src="../images/components/avatar/avatar_usage_images.png" alt="Avatar Usage Images"/>
 
 ### Placeholder
 
@@ -56,7 +56,7 @@ Placeholder images are used for both avatar and business images when no other im
 - The default placeholder for a business image is a neutral product icon inside a square.
 - You can specify your own default placeholder icon for business images. Always replace the default product icon if there is a more suitable icon for your scenario and industry.
 
-<img src="../../assets/images/components/avatar/avatar_usage_placeholder.png" alt="Avatar Usage Placeholder"/>
+<img src="../images/components/avatar/avatar_usage_placeholder.png" alt="Avatar Usage Placeholder"/>
 
 ### Badge (PIP)
 
@@ -68,7 +68,7 @@ Placeholder images are used for both avatar and business images when no other im
 This feature gives users visual affordance of the available action and is particularly useful for images. To ensure that the image and the badge icon are properly displayed, don’t use the badge for any avatar sizes less than “Small”.
 When you use a badge and icon, always provide a corresponding tooltip for your avatar to indicate the action.
 
-<img src="../../assets/images/components/avatar/avatar_usage_pip.png" alt="Avatar Usage PIP"/>
+<img src="../images/components/avatar/avatar_usage_pip.png" alt="Avatar Usage PIP"/>
 
 ## Style
 
@@ -182,4 +182,4 @@ Below is the token architecture color build of the components. The token can be 
 |                      |                       | Box Shadow              |           | `$shadow_2`                 |
 |                      | Icon                  | Height x Width          | 16px      |                             |
 
-<img src="../../assets/images/components/avatar/avatar_style_sizing.png" alt="Avatar Style Sizing"/>
+<img src="../images/components/avatar/avatar_style_sizing.png" alt="Avatar Style Sizing"/>

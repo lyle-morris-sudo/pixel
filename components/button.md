@@ -25,7 +25,7 @@ Each button variant has a particular function and its design signals that functi
 | Danger    | For actions that could have destructive effects on the user’s data (for example, delete or remove). Danger button has three styles: primary, and tertiary. |
 | Loading   | Loading button are used when performing actions. They notify to the user that their request is being processed. Although they do not provide details about what is occurring on the back end, they reassure the user that their action is being processed. |
 
-<img src="../../assets/images/components//button/buttons_usage_variants.png" alt="Button Usage Variants"/>
+<img src="../images/components//button/buttons_usage_variants.png" alt="Button Usage Variants"/>
 
 ### Anatomy
 
@@ -37,7 +37,7 @@ If a text label is not used, an icon should be present to signify what the butto
 2. Text label
 3. Icon
 
-<img src="../../assets/images/components/button/buttons_usage_anatomy.png" alt="Button Usage Anatomy"/>
+<img src="../images/components/button/buttons_usage_anatomy.png" alt="Button Usage Anatomy"/>
 
 ### Button sizes
 
@@ -66,7 +66,7 @@ Generally, a layout should contain a single high-emphasis button that makes it c
 
 A high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. Keep in mind that you should only group together calls to action that have a relationship to one another. Although secondary buttons have less visual prominence because they are less saturated than their primary counterparts, they are still tonally heavy. If your layout requires multiple actions—as is the case with some toolbars, data lists and dashboards—low emphasis buttons (tertiary) may be a better choice.
 
-<img src="../../assets/images/components/button/buttons_usage_multiple_buttons.png" alt="Button Usage Multiple Buttons"/>
+<img src="../images/components/button/buttons_usage_multiple_buttons.png" alt="Button Usage Multiple Buttons"/>
 
 ### Alignment
 
@@ -200,7 +200,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="../../assets/images/components/button/buttons_style_states_primary.png" alt="Button Style States Primary"/>
+<img src="../images/components/button/buttons_style_states_primary.png" alt="Button Style States Primary"/>
 
 **Secondary button**
 
@@ -242,7 +242,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="../../assets/images/components/button/buttons_style_states_secondary.png" alt="Button Style States Secondary"/>
+<img src="../images/components/button/buttons_style_states_secondary.png" alt="Button Style States Secondary"/>
 
 **Tertiary button**
 
@@ -284,7 +284,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$button_danger`             | 
 |                            | Icon                       | SVG Color                  | `$button_danger`             |
 
-<img src="../../assets/images/components/button/buttons_style_states_tertiary.png" alt="Button Style States Tertiary"/>
+<img src="../images/components/button/buttons_style_states_tertiary.png" alt="Button Style States Tertiary"/>
 
 **Danger button**
 
@@ -311,7 +311,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="../../assets/images/components/button/buttons_style_states_danger.png" alt="Button Style States Danger"/>
+<img src="../images/components/button/buttons_style_states_danger.png" alt="Button Style States Danger"/>
 
 >[!Note]
 > The danger button styling will override the Primary, Secondary, and Tertiary button modifier's styles. The **enabled** state is alreay included in each button above.
@@ -352,7 +352,7 @@ A button cannot have any element or text within 16 pixels / 1 rem of its borders
 |                      | Icon (Left)           | Margin Left             | 8px       | `$button_margin`            |
 | Focus                | Container             | Border                  | 1px       | `$border_1`                 |
 
-<img src="../../assets/images/components/button/buttons_style_padding.png" alt="Button Style Padding"/>
+<img src="../images/components/button/buttons_style_padding.png" alt="Button Style Padding"/>
 
 ### Size
 
@@ -366,7 +366,7 @@ A button cannot have any element or text within 16 pixels / 1 rem of its borders
 |                            | Icon                      | 20px                       | `$icon_large`              |
 
 
-<img src="../../assets/images/components/button/buttons_style_sizing.png" alt="Button Style Sizing"/>
+<img src="../images/components/button/buttons_style_sizing.png" alt="Button Style Sizing"/>
 
 ## Accessibility
 
@@ -377,7 +377,7 @@ The component bakes keyboard operation into its components, improving the experi
 Buttons can be reached by Tab and selected with `Space` or `Enter`.
 
 
-<img src="../../assets/images/components/button/buttons_accessibility_keyboard.png" alt="Button Accessibility Keyboard"/>
+<img src="../images/components/button/buttons_accessibility_keyboard.png" alt="Button Accessibility Keyboard"/>
 
 ### Behavior
 

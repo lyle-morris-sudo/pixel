@@ -34,9 +34,9 @@ The data table toolbar gives a location for primary buttons, search, filtering, 
 3. **Table row** - can be configured to show different types of data. Rows can be selectable, expandable, and modified to show alternating zebra stripe background colors.
 4. **Pagination** table bar - an optional component that lets a user navigate data as pages when the amount of data it too large to be shown at once.
 
-<img src="../../assets/images/components/table/table_usage_desktop_anatomy.png" alt="Table Usage Desktop Anatomy"/>
+<img src="../images/components/table/table_usage_desktop_anatomy.png" alt="Table Usage Desktop Anatomy"/>
 
-<img src="../../assets/images/components/table/table_usage_mobile_anatomy.png" alt="Table Usage Mobile Anatomy"/>
+<img src="../images/components/table/table_usage_mobile_anatomy.png" alt="Table Usage Mobile Anatomy"/>
 
 ### Size
 
@@ -47,9 +47,9 @@ The data table is available in five different row sizes: extra-large, large, med
 
 Two heights are available to be paired with the row heights of the data table. The tall toolbar should only be paired with the large and extra-large row heights and the small toolbar should only be used with the small and extra small row heights. A small toolbar on a short data table and a tall toolbar on a normal data table.
 
-<img src="../../assets/images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
+<img src="../images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
 
-<img src="../../assets/images/components/table/table_usage_sizing.png" alt="Table Usage Sizing"/>
+<img src="../images/components/table/table_usage_sizing.png" alt="Table Usage Sizing"/>
 
 ### Placement
 
@@ -111,13 +111,13 @@ Users can trigger an action or function in the table by clicking the associated 
 
 The data table’s row hover state should always be enabled as it can help the user visually scan the columns of data in a row even if the row is not interactive.
 
-<img src="../../assets/images/components/table/table_usage_hover.png" alt="Table Usage Hover"/>
+<img src="../images/components/table/table_usage_hover.png" alt="Table Usage Hover"/>
 
 ### Pagination
 
 Pagination divides table data into separate pages. Simple pagination indicates the current page in view and offers controls to incrementally navigate to the previous or next page. Advanced pagination is accompanied by an option that enables the user to change the number of items per page and to jump to a specific page number. The pagination component is always placed at the bottom of the data table. See the pagination component for further guidelines and configurations.
 
-<img src="../../assets/images/components/table/table_usage_pagination.png" alt="Table Usage Pagination"/>
+<img src="../images/components/table/table_usage_pagination.png" alt="Table Usage Pagination"/>
 
 ### Table toolbar
 
@@ -139,7 +139,7 @@ Columns can be sorted in ascending or descending order. Sorting controls are loc
 
 A sorted data table has three states: unsorted (arrows), sorted-up (arrow--up) or sorted-down (arrow--down). The icon indicates the current sorted state and is only shown if sorting is activated. Only the column being sorted should display an icon, and unsorted icons are only visible on hover.
 
-<img src="../../assets/images/components/table/table_usage_sorting.png" alt="Table Usage Sorting"/>
+<img src="../images/components/table/table_usage_sorting.png" alt="Table Usage Sorting"/>
 
 ### Inline actions
 
@@ -196,7 +196,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Title                      | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
 
-<img src="../../assets/images/components/table/table_style_header_states.png" alt="Table Styles Header States"/>
+<img src="../images/components/table/table_style_header_states.png" alt="Table Styles Header States"/>
 
 **Table row (TR)**
 
@@ -227,7 +227,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Title                      | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
 
-<img src="../../assets/images/components/table/table_style_row_states.png" alt="Table Styles Row States"/>
+<img src="../images/components/table/table_style_row_states.png" alt="Table Styles Row States"/>
 
 ### Typography
 
@@ -273,7 +273,7 @@ Tables are a configurable and customizable component. Designers can pick and cho
 | Icon (Right)          | Margin Left             | 8px       | `$table_margin`             |
 | Icon (Left)           | Margin Right            | 8px       | `$table_margin`             |
 
-<img src="../../assets/images/components/table/table_style_header_padding.png" alt="Table Styles Header Padding"/>
+<img src="../images/components/table/table_style_header_padding.png" alt="Table Styles Header Padding"/>
 
 **Table row (TR)**
 
@@ -284,7 +284,7 @@ Tables are a configurable and customizable component. Designers can pick and cho
 | Icon (Right)          | Margin Left             | 8px       | `$table_margin`             |
 | Icon (Left)           | Margin Right            | 8px       | `$table_margin`             |
 
-<img src="../../assets/images/components/table/table_style_row_padding.png" alt="Table Styles Row Padding"/>
+<img src="../images/components/table/table_style_row_padding.png" alt="Table Styles Row Padding"/>
 
 **Table row expandable (TR)**
 
@@ -308,7 +308,7 @@ Row sizes are customizable. The column header row should always match the row si
 | Large   | Container             | 56px      | `$table_large`             |
 |         | Content Switcher      | 28px      | `$icon_large`              |
 
-<img src="../../assets/images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
+<img src="../images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
 
 ### Enhancements
 
@@ -345,7 +345,7 @@ The component bakes keyboard operation into its components, improving the experi
 
 There are three data table variants with different interactions. Optional features like column sorting can appear in any of the variants. Table pagination is treated as a separate component. For sortable tables, the column headers are reachable by Tab and sortable with Space or Enter.
 
-<img src="../../assets/images/components/table/table_accessibility_keyboard.png" alt="Table Accessibility Keyboard"/>
+<img src="../images/components/table/table_accessibility_keyboard.png" alt="Table Accessibility Keyboard"/>
 
 ### Controls inside table
 

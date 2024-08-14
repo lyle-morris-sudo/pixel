@@ -53,7 +53,7 @@ Multiple or single tags can be used to categorize items. Use short labels for ea
 3. Container
 4. Border
 
-<img src="../../assets/images/components/tag/tag_usage_anatomy.png" alt="Tag Usage Anatomy"/>
+<img src="../images/components/tag/tag_usage_anatomy.png" alt="Tag Usage Anatomy"/>
 
 ### Size
 
@@ -62,7 +62,7 @@ There are three different tag sizes — small, medium, and large. Use small tags
 ### Placement
 Vertically align the tag’s container to the other components or text near it. Do not hang tag containers into grid gutters to vertically align the tag’s titles with other text on the page. When tags are placed in groups, it is recommended to have 8px of space between them on the top, bottom, left, and right.
 
-<img src="../../assets/images/components/tag/tag_usage_placement.png" alt="Tag Usage Placement"/>
+<img src="../images/components/tag/tag_usage_placement.png" alt="Tag Usage Placement"/>
 
 ### Content
 
@@ -78,7 +78,7 @@ When the tag’s title is too long to fit within the available space of the tag 
 
 Avoid having long tag titles wrap to multiple lines within the tag container. This can construe the shape of the tag and integrity of a traditional tag shape, which should be compact in form. It can also create misalignment with other tags if they are placed within a group.
 
-<img src="../../assets/images/components/tag/tag_usage_overflow_content.png" alt="Tag Usage Overflow Content"/>
+<img src="../images/components/tag/tag_usage_overflow_content.png" alt="Tag Usage Overflow Content"/>
 
 ### Universal behavior
 
@@ -197,19 +197,19 @@ The selectable tag variant only uses core tokens and does not use component toke
 
 #### Read-only tag colors
 
-<img src="../../assets/images/components/tag/tag_style_read_only_colors.png" alt="Tag Style Read Only Colors"/>
+<img src="../images/components/tag/tag_style_read_only_colors.png" alt="Tag Style Read Only Colors"/>
 
 #### Dismissible tag colors
 
-<img src="../../assets/images/components/tag/tag_style_dismissible_colors.png" alt="Tag Style Dismissible Colors"/>
+<img src="../images/components/tag/tag_style_dismissible_colors.png" alt="Tag Style Dismissible Colors"/>
 
 #### Operational tag colors
 
-<img src="../../assets/images/components/tag/tag_style_operational_colors.png" alt="Tag Style Operational Colors"/>
+<img src="../images/components/tag/tag_style_operational_colors.png" alt="Tag Style Operational Colors"/>
 
 #### Selectable tag colors
 
-<img src="../../assets/images/components/tag/tag_style_selectable_colors.png" alt="Tag Style Selectable Colors"/>
+<img src="../images/components/tag/tag_style_selectable_colors.png" alt="Tag Style Selectable Colors"/>
 
 | Variant             | Color                | State                | Element              | Property             | Token name           |
 | :------------------ | :------------------  | :------------------  | :------------------  | :------------------  | :------------------  |
@@ -238,15 +238,15 @@ The selectable tag variant only uses core tokens and does not use component toke
 
 #### Dismissible tag colors
 
-<img src="../../assets/images/components/tag/tag_style_dismissible_states.png" alt="Tag Style Dismissible States"/>
+<img src="../images/components/tag/tag_style_dismissible_states.png" alt="Tag Style Dismissible States"/>
 
 #### Operational tag colors
 
-<img src="../../assets/images/components/tag/tag_style_operational_states.png" alt="Tag Style Operational States"/>
+<img src="../images/components/tag/tag_style_operational_states.png" alt="Tag Style Operational States"/>
 
 #### Selectable tag colors
 
-<img src="../../assets/images/components/tag/tag_style_selectable_states.png" alt="Tag Style Selectable States"/>
+<img src="../images/components/tag/tag_style_selectable_states.png" alt="Tag Style Selectable States"/>
 
 ### Typography
 
@@ -305,21 +305,21 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 
 #### Read-Only
 
-<img src="../../assets/images/components/tag/tag_style_read_only_padding.png" alt="Tag Style Read-Only padding"/>
+<img src="../images/components/tag/tag_style_read_only_padding.png" alt="Tag Style Read-Only padding"/>
 
 #### Dismissible
 
-<img src="../../assets/images/components/tag/tag_style_dismissible_padding.png" alt="Tag Style Dismissible padding"/>
+<img src="../images/components/tag/tag_style_dismissible_padding.png" alt="Tag Style Dismissible padding"/>
 
 #### Operational
 
-<img src="../../assets/images/components/tag/tag_style_operational_padding.png" alt="Tag Style Operational States"/>
+<img src="../images/components/tag/tag_style_operational_padding.png" alt="Tag Style Operational States"/>
 
 #### Selectable
 
-<img src="../../assets/images/components/tag/tag_style_selectable_padding.png" alt="Tag Style Selectable States"/>
+<img src="../images/components/tag/tag_style_selectable_padding.png" alt="Tag Style Selectable States"/>
 
-<img src="../../assets/images/components/tag/tag_style_selectable_toogletip_padding.png" alt="Tag Style Selectable Toogletip"/>
+<img src="../images/components/tag/tag_style_selectable_toogletip_padding.png" alt="Tag Style Selectable Toogletip"/>
 
 ### Size
 
@@ -332,7 +332,7 @@ Tag titles should be concise and describe the tag in a few words or be under 20 
 | Large                | Container             | 32px      | `$tag_large`                |
 |                      | Icon                  | 16px      |                             |
 
-<img src="../../assets/images/components/tag/tag_style_tag_sizing.png" alt="Tag Style Tag Sizing"/>
+<img src="../images/components/tag/tag_style_tag_sizing.png" alt="Tag Style Tag Sizing"/>
 
 ## Accessibility
 

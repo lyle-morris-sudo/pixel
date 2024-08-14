@@ -38,7 +38,7 @@ Basic list items consisting of single line of text. A list of actions/navigation
 2. Secondary value (optional)
 3. Icon (optional)
 
-<img src="../../assets/images/components/contained_list/contained_list_usage_anatomy_single.png" alt="Contained List Usage Anatomy Single"/>
+<img src="../images/components/contained_list/contained_list_usage_anatomy_single.png" alt="Contained List Usage Anatomy Single"/>
 
 #### Stacked
 
@@ -51,7 +51,7 @@ Complex structure using multiple lines of information.
 5. Icon (optional)
 6. Avatar (optional)
 
-<img src="../../assets/images/components/contained_list/contained_list_usage_anatomy_stacked.png" alt="Contained List Usage Anatomy Stacked"/>
+<img src="../images/components/contained_list/contained_list_usage_anatomy_stacked.png" alt="Contained List Usage Anatomy Stacked"/>
 
 #### Inputs
 
@@ -60,7 +60,7 @@ A list that can accept user input.
 1. Primary value
 2. Input component
 
-<img src="../../assets/images/components/contained_list/contained_list_usage_anatomy_input.png" alt="Contained List Usage Anatomy Input"/>
+<img src="../images/components/contained_list/contained_list_usage_anatomy_input.png" alt="Contained List Usage Anatomy Input"/>
 
 ### Scrolling
 
@@ -96,7 +96,7 @@ Use the disclosed list variant when placing the list within a temporary context,
 
 Disclosed lists should span the entire width of the container they are placed within to make the best use of space.
 
-<img src="../../assets/images/components/contained_list/contained_list_usage_placement.png" alt="Contained List Usage Placement"/>
+<img src="../images/components/contained_list/contained_list_usage_placement.png" alt="Contained List Usage Placement"/>
 
 ### Inline actions
 
@@ -106,7 +106,7 @@ Contained lists can include inline actions, such as closing or dismissing row it
 
 Contained lists can have interactive elements in headers and rows, such as links, icon buttons, and toggles. Contained lists can also have multiple row columns. Additional row columns act as list item details pertaining to the first list item in the row. If your list has an excess of row columns and needs multiple column headers, we recommend using a data table instead.
 
-<img src="../../assets/images/components/contained_list/contained_list_usage_interactive_elements.png" alt="Contained List Usage Interactive Elements"/>
+<img src="../images/components/contained_list/contained_list_usage_interactive_elements.png" alt="Contained List Usage Interactive Elements"/>
 
 ### Search and filtering
 
@@ -151,7 +151,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Content                    | Text Color                 | `$text_on_color`           |
 |                            | Icon                       | SVG Color                  | `$icon_on_color`           |
 
-<img src="../../assets/images/components/contained_list/contained_list_style_states.png" alt="Contained List Style States"/>
+<img src="../images/components/contained_list/contained_list_style_states.png" alt="Contained List Style States"/>
 
 ### Typography
 
@@ -189,7 +189,7 @@ All text should be set in sentence case, with only the first word in a phrase an
 | Radio Button          | Margin Right            | 8px       | `$contained_list_margin`    |
 | Icon                  | Margin Left             | 8px       | `$contained_list_margin`    |
 
-<img src="../../assets/images/components/contained_list/contained_list_style_padding.png" alt="Contained List Style Padding"/>
+<img src="../images/components/contained_list/contained_list_style_padding.png" alt="Contained List Style Padding"/>
 
 ### Sizing
 

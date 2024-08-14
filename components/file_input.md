@@ -28,13 +28,13 @@ File input field allow users to upload content of their own. A file uploader is 
 5. **Requirements** - Additional instructional content.
 6. **Label** - Highlighting primary action to upload files.
 
-<img src="../../assets/images/components/file_input/file_input_usage_anatomy.png" alt="File Input Usage Anatomy"/>
+<img src="../images/components/file_input/file_input_usage_anatomy.png" alt="File Input Usage Anatomy"/>
 
 ### Mobile
 
 While using this component on mobile, drag and drop won't be a preferred method. Consider on reducing the height as the preferred method would be click/tap to trigger the file browser.
 
-<img src="../../assets/images/components/file_input/file_input_usage_mobile.png" alt="File Inpnut Usage Mobile"/>
+<img src="../images/components/file_input/file_input_usage_mobile.png" alt="File Inpnut Usage Mobile"/>
 
 ## Style
 
@@ -83,7 +83,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Content                    | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 
-<img src="../../assets/images/components/file_input/file_input_style_drag_drop_states.png" alt="File Input Style Drag Drop States"/>
+<img src="../images/components/file_input/file_input_style_drag_drop_states.png" alt="File Input Style Drag Drop States"/>
 
 **File Upload**
 
@@ -130,7 +130,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Helper Text                | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 
-<img src="../../assets/images/components/file_input/file_input_style_input_states.png" alt="File Input Style Input States"/>
+<img src="../images/components/file_input/file_input_style_input_states.png" alt="File Input Style Input States"/>
 
 ### Typography
 
@@ -198,7 +198,7 @@ The width of a file uploaded varies based on the content and layout of a design.
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
-<img src="../../assets/images/components/file_input/file_input_style_padding.png" alt="File Input Style Padding"/>
+<img src="../images/components/file_input/file_input_style_padding.png" alt="File Input Style Padding"/>
 
 ### Sizing
 

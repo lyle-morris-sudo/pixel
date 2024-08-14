@@ -34,7 +34,7 @@ Cards can function or be implemented in four ways—base, clickable, selectable,
 
 Base cards are used to display information to the user, such as features or services offered. Base tiles are often seen on marketing pages to promote content or on highly interactive dashboards. These cards can have internal calls-to-action (CTAs), such as a button or a link.
 
-<img src="../../assets/images/components/cards/card_usage_base.png" alt="Cards Usage Base"/>
+<img src="../images/components/cards/card_usage_base.png" alt="Cards Usage Base"/>
 
 ### Clickable
 
@@ -46,13 +46,13 @@ Selectable cards work well for presenting options to a user in a structured mann
 
 Selectable cards can either have a single-select state working like a radio button, or multi-select state working as a checkbox.
 
-<img src="../../assets/images/components/cards/card_usage_selectable.png" alt="Cards Usage Selectable"/>
+<img src="../images/components/cards/card_usage_selectable.png" alt="Cards Usage Selectable"/>
 
 ### Expandable
 
 Expandable tiles are helpful for hiding and showing large amounts of content to a user. When expanded, tiles push content down the page. They allow the user to specifically focus on featured content while having access to the rest of the information. Expandable cards can contain internal CTAs (like links to docs) if they are given their own click targets.
 
-<img src="../../assets/images/components/cards/card_usage_expandable.png" alt="Cards Usage Expandable"/>
+<img src="../images/components/cards/card_usage_expandable.png" alt="Cards Usage Expandable"/>
 
 ### Anatomy
 
@@ -62,7 +62,7 @@ Expandable tiles are helpful for hiding and showing large amounts of content to 
 4. Content
 5. Footer (optional)
 
-<img src="../../assets/images/components/cards/card_usage_anatomy.png" alt="Cards Usage Anatomy"/>
+<img src="../images/components/cards/card_usage_anatomy.png" alt="Cards Usage Anatomy"/>
 
 ### Sizing
 
@@ -171,7 +171,7 @@ Below is the token architecture color build of the components. The token can be 
 | Footer                | Padding Right x Left    | 16px      | `$card_padding`             |
 |                       | Border Top              | 1px       | `$card_border`              |
 
-<img src="../../assets/images/components/cards/card_style_padding.png" alt="Cards Style Padding"/>
+<img src="../images/components/cards/card_style_padding.png" alt="Cards Style Padding"/>
 
 ### Size
 
