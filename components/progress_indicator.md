@@ -47,28 +47,24 @@ All steps that have been completed are indicated by an outlined circle with a ch
 |                            | Title                      | Text Color                 | `$text_primary`            |
 |                            | Description                | Text Color                 | `$text_secondary`          |
 |                            | Icon                       | SVG Color                  | `$icon_secondary`          |
-
 | Hover                      | Container                  | Background Color           | `$layer_hover_1`           |
 |                            |                            | Border Color               | `$border_subtle_1`         | 
 |                            |                            | Box Shadow                 |                            | 
 |                            | Title                      | Text Color                 | `$text_primary`            |
 |                            | Description                | Text Color                 | `$text_secondary`          |
 |                            | Icon                       | SVG Color                  | `$icon_secondary`          |
-
 | Focus                      | Container                  | Background Color           | `$focus_highlight`         |
 |                            |                            | Border Color               | `$focus`                   | 
 |                            |                            | Box Shadow                 |                            | 
 |                            | Title                      | Text Color                 | `$text_primary`            |
 |                            | Description                | Text Color                 | `$text_secondary`          |
 |                            | Icon                       | SVG Color                  | `$icon_secondary`          |
-
 | Selected                   | Container                  | Background Color           | `$layer_selected_1`        |
 |                            |                            | Border Color               |                            | 
 |                            |                            | Box Shadow                 |                            | 
 |                            | Title                      | Text Color                 | `$text_on_color`           |
 |                            | Description                | Text Color                 | `$text_on_color`           |
 |                            | Icon                       | SVG Color                  | `$icon_on_color`           |
-
 | Error                      | Container                  | Background Color           | `$support_bg_error`        |
 |                            |                            | Border Color               | `$border_subtle_1`         | 
 |                            |                            | Box Shadow                 |                            | 
