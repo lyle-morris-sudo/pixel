@@ -11,6 +11,15 @@ Pagination is used for splitting up content or data into several pages, with a c
 - The user is viewing a high level of content in a data table or contained list.
 - Showing multiple screens in one card/title (e.g. data visualization or marketing banners).
 
+### Anatomy
+
+1. Items per page
+2. Number of items shown
+3. Current page viewing
+4. Toggle navigation
+
+<img src="../images/components/pagination/pagination_usage_anatomy.png" alt="Pagination Usage Anatomy"/>
+
 ### Identify the current page
 
 Clearly identify which page the user is on by displaying the current page number. By providing context into how many pages there are in total (e.g. 1 of 4 pages), you can help provide clarity around the data displayed.
@@ -160,6 +169,8 @@ The Pagination bar is most commonly used in data tables. The width can vary depe
 | Large                 | Pagination bar          | (min-height:56px)  | `$pagination_large`        |
 |                       | Dropdown                | 48px               | `$dropdown_large`          |
 |                       | Button Group            | 48px               | `$content_switcher_large`  |
+
+<img src="../images/components/pagination/pagination_style_sizing.png" alt="Pagination Style Sizing"/>
 
 ## Accessibility
 
