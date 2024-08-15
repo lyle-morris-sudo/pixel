@@ -1,4 +1,4 @@
-**[Back](components.md)**
+**[Back](components.md)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-tooltip--standard-tooltip)**
 
 # Tooltip
 
