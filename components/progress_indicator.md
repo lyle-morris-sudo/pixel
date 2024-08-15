@@ -30,6 +30,8 @@ Display the steps in order from left to right. Indicate to the user that they ar
 
 <img src="../images/components/progress_indicator/progress_indicator_usage_logical_progression.png" alt="Progress Indicator Usage Logical Progression"/>
 
+<img src="../images/components/progress_indicator/progress_indicator_usage_vertical_mode.png" alt="Progress Indicator Usage Vertical Mode"/>
+
 ### Indicate the current step
 
 Keeping the user informed of where they currently are within the process or task at hand will give them a sense of control. This helps the user to know where they are in relation to where they have been, and what sections are to follow. Clear labels should accompany the progress indicator to indicate what the user will accomplish within each step. Keep labels between one to two words.
