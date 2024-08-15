@@ -21,6 +21,8 @@ Previous and next chevrons or links are the most useful way for the user to move
 
 <img src="../images/components/pagination/pagination_usage_desktop.png" alt="Pagination Usage Desktop"/>
 
+<img src="../images/components/pagination/pagination_usage_mobile.png" alt="Pagination Usage Mobile"/>
+
 ### Items per page
 
 Use an inline select within the pagination bar so the user can change the amount of data displayed per page.
