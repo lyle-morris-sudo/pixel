@@ -188,6 +188,8 @@ The tab order goes from left to right through the controls in the pagination com
 - When the pagination is at either end of its range, one of the page navigation buttons becomes invalid. When that happens, the button is no longer navigable or operable, like any other disabled control.
 - The prior page button is disabled and unreachable when the pagination is at the start of its range.
 
+<img src="../images/components/pagination/pagination_accessibility_keyboard.png" alt="Pagination Accessibility Keyboard"/>
+
 ### Labeling
 
 Not all the elements in pagination have static or visually isolated labels. Fiserv Pixel constructs a programmatic name for the second dropdown by concatenating some dynamically generated text on the screen. The component also provides accessible names for the icon-only buttons.
