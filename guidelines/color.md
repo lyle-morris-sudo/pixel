@@ -719,22 +719,22 @@ The tokens should function as a common language during the product cycle. It is 
 | `$light_green_050`    | `#F1F8E9`               | `$black`             | 19.34:1              |
 | `$light_green_A10`    | `#F7FBF2`               | `$black`             | 20.03:1              |
 
+
 ### Lime
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$lime_900`           | `#827717`               | `$black`             | 04.06:1              |
-| `$lime_800`           | `#9E9D24`               | `$black`             | 07.03:1              |
-| `$lime_700`           | `#AFB42B`               | `$black`             | 09.38:1              |
-| `$lime_600`           | `#C0CA33`               | `$black`             | 11.73:1              |
-| `$lime_500`           | `#CDDC39`               | `$black`             | 13.89:1              |
-| `$lime_400`           | `#D4E157`               | `$black`             | 14.07:1              |
-| `$lime_300`           | `#DCE775`               | `$black`             | 15.73:1              |
-| `$lime_200`           | `#E6EE9C`               | `$black`             | 17.07:1              |
-| `$lime_100`           | `#F0F4C3`               | `$black`             | 18.43:1              |
-| `$lime_050`           | `#F9FBE7`               | `$black`             | 19.98:1              |
-| `$lime_A10`           | `#FCFDF3`               | `$black`             | 20.48:1              |
-
+| Token name            | Background                                                                                     | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$lime_900`           | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/827717'/> #827717 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 04.06:1              |
+| `$lime_800`           | <img valign='middle' alt='amber_800' src='https://readme-swatches.vercel.app/9E9D24'/> #9E9D24 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 07.03:1              |
+| `$lime_700`           | <img valign='middle' alt='amber_700' src='https://readme-swatches.vercel.app/AFB42B'/> #AFB42B | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.38:1              |
+| `$lime_600`           | <img valign='middle' alt='amber_600' src='https://readme-swatches.vercel.app/C0CA33'/> #C0CA33 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 11.73:1              |
+| `$lime_500`           | <img valign='middle' alt='amber_500' src='https://readme-swatches.vercel.app/CDDC39'/> #CDDC39 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 13.89:1              |
+| `$lime_400`           | <img valign='middle' alt='amber_400' src='https://readme-swatches.vercel.app/D4E157'/> #D4E157 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.07:1              |
+| `$lime_300`           | <img valign='middle' alt='amber_300' src='https://readme-swatches.vercel.app/DCE775'/> #DCE775 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 15.73:1              |
+| `$lime_200`           | <img valign='middle' alt='amber_200' src='https://readme-swatches.vercel.app/E6EE9C'/> #E6EE9C | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.07:1              |
+| `$lime_100`           | <img valign='middle' alt='amber_100' src='https://readme-swatches.vercel.app/F0F4C3'/> #F0F4C3 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.43:1              |
+| `$lime_050`           | <img valign='middle' alt='amber_050' src='https://readme-swatches.vercel.app/F9FBE7'/> #F9FBE7 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.98:1              |
+| `$lime_A10`           | <img valign='middle' alt='amber_A10' src='https://readme-swatches.vercel.app/FCFDF3'/> #FCFDF3 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 20.48:1              |
 
 
 ### Yellow
