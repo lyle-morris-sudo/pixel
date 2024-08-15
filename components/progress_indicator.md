@@ -85,6 +85,8 @@ All steps that have been completed are indicated by an outlined circle with a ch
 |                            | Description                | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$text_disabled`           |
 
+<img src="../images/components/progress_indicator/progress_indicator_style_states.png" alt="Progress Indicator Style States"/>
+
 ### Typography
 
 Labels should be one to two words only, with a limit of 16 characters total per label. All labels should be set in sentence case.
@@ -121,6 +123,8 @@ Labels should be one to two words only, with a limit of 16 characters total per 
 | Icon                  | Height x Width          | 20px      | `$icon_small`                |
 |                       | Margin Left             | 8px       | `$progress_indicator_margin` |
 
+<img src="../images/components/progress_indicator/progress_indicator_style_horizontal_padding.png" alt="Progress Indicator Style Horizontal Padding"/>
+
 **Vertical (Mobile)**
 
 | Element               | Property                | Size      | Token name                   |
@@ -135,10 +139,14 @@ Labels should be one to two words only, with a limit of 16 characters total per 
 | Icon                  | Height x Width          | 20px      | `$icon_small`                |
 |                       | Margin Right            | 8px       | `$progress_indicator_margin` |
 
+<img src="../images/components/progress_indicator/progress_indicator_style_vertical_padding.png" alt="Progress Indicator Style Vertical Padding"/>
+
 ## Accessiblity
 
 - Link text is the visible label for the native HTML link and is used to provide the purpose of the link which is clear and easy to understand for all users.
 - Labels are clear, concise and include the state of each step.
+
+<img src="../images/components/progress_indicator/progress_indicator_accessibility_keyboard.png" alt="Progress Indicator Accessiblity Keyboard"/>
 
 ### Accessibility testing
 
