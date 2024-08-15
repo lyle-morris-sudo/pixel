@@ -156,6 +156,8 @@ The Pagination bar is most commonly used in data tables. The width can vary depe
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
+<img src="../images/components/pagination/pagination_style_padding.png" alt="Pagination Style Padding"/>
+
 ### Sizing
 
 | Variant               | Element                 | Size               | Token name                 |
