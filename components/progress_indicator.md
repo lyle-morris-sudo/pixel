@@ -20,10 +20,15 @@ Use progress indicators to keep the user on track when completing a specific tas
 1. **Badge/Icon** - Provides additional logical indicator.
 2. **Label name** - Title of the current step the user is one.
 3. **Optional text** - Description of the step if needed.
+4. **Status Border** - Provides and additional progressive indicator.
+
+<img src="../images/components/progress_indicator/progress_indicator_usage_anatomy.png" alt="Progress Indicator Usage Anatomy"/>
 
 ### Logical progression
 
 Display the steps in order from left to right. Indicate to the user that they are performing a multistep process and show the direction of movement. Allow the user to return to a previous step to review their data submission.
+
+<img src="../images/components/progress_indicator/progress_indicator_usage_logical_progression.png" alt="Progress Indicator Usage Logical Progression"/>
 
 ### Indicate the current step
 
