@@ -658,21 +658,21 @@ The tokens should function as a common language during the product cycle. It is 
 | `$light_blue_050`     | <img valign='middle' alt='light_blue_050' src='https://readme-swatches.vercel.app/E1F5FE'/> #E1F5FE | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.69:1              |
 | `$light_blue_A10`     | <img valign='middle' alt='light_blue_A10' src='https://readme-swatches.vercel.app/F0FAFE'/> #F0FAFE | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.81:1              |
 
-### Cyan
+### Teal
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$cyan_900`           | `#006064`               | `$white`             | 07.34:1              |
-| `$cyan_800`           | `#00838F`               | `$black`             | 04.64:1              |
-| `$cyan_700`           | `#0097A7`               | `$black`             | 05.98:1              |
-| `$cyan_600`           | `#00ACC1`               | `$black`             | 07.67:1              |
-| `$cyan_500`           | `#00BCD4`               | `$black`             | 09.14:1              |
-| `$cyan_400`           | `#26C6DA`               | `$black`             | 10.17:1              |
-| `$cyan_300`           | `#4DD0E1`               | `$black`             | 11.42:1              |
-| `$cyan_200`           | `#80DEEA`               | `$black`             | 13.55:1              |
-| `$cyan_100`           | `#B2EBF2`               | `$black`             | 16.05:1              |
-| `$cyan_050`           | `#E0F7FA`               | `$black`             | 18.85:1              |
-| `$cyan_A10`           | `#EFFBFC`               | `$black`             | 19.87:1              |
+| Token name            | Background                                                                                    | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$cyan_900`           | <img valign='middle' alt='cyan_900' src='https://readme-swatches.vercel.app/006064'/> #006064 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 07.34:1              |
+| `$cyan_800`           | <img valign='middle' alt='cyan_800' src='https://readme-swatches.vercel.app/00838F'/> #00838F | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 04.64:1              |
+| `$cyan_700`           | <img valign='middle' alt='cyan_700' src='https://readme-swatches.vercel.app/0097A7'/> #0097A7 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.98:1              |
+| `$cyan_600`           | <img valign='middle' alt='cyan_600' src='https://readme-swatches.vercel.app/00ACC1'/> #00ACC1 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 07.67:1              |
+| `$cyan_500`           | <img valign='middle' alt='cyan_500' src='https://readme-swatches.vercel.app/00BCD4'/> #00BCD4 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.14:1              |
+| `$cyan_400`           | <img valign='middle' alt='cyan_400' src='https://readme-swatches.vercel.app/26C6DA'/> #26C6DA | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 10.17:1              |
+| `$cyan_300`           | <img valign='middle' alt='cyan_300' src='https://readme-swatches.vercel.app/4DD0E1'/> #4DD0E1 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 11.42:1              |
+| `$cyan_200`           | <img valign='middle' alt='cyan_200' src='https://readme-swatches.vercel.app/80DEEA'/> #80DEEA | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 13.55:1              |
+| `$cyan_100`           | <img valign='middle' alt='cyan_100' src='https://readme-swatches.vercel.app/B2EBF2'/> #B2EBF2 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 16.05:1              |
+| `$cyan_050`           | <img valign='middle' alt='cyan_050' src='https://readme-swatches.vercel.app/E0F7FA'/> #E0F7FA | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.85:1              |
+| `$cyan_A10`           | <img valign='middle' alt='cyan_A10' src='https://readme-swatches.vercel.app/EFFBFC'/> #EFFBFC | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.87:1              |
 
 ### Teal
 
