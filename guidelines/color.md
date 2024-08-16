@@ -820,7 +820,7 @@ The tokens should function as a common language during the product cycle. It is 
 | `$slate_200`          | <img valign='middle' alt='slate_200' src='https://readme-swatches.vercel.app/BCCAD4'/> #BCCAD4 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.53:1              |
 | `$slate_100`          | <img valign='middle' alt='slate_100' src='https://readme-swatches.vercel.app/D5DFE6'/> #D5DFE6 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 15.52:1              |
 | `$slate_050`          | <img valign='middle' alt='slate_050' src='https://readme-swatches.vercel.app/EEF2F6'/> #EEF2F6 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.66:1              |
-| `$slate_A10`          | <img valign='middle' alt='slate_A10' src='https://readme-swatches.vercel.app/EBECED'/> #EBECED | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.75:1              |
+| `$slate_A10`          | <img valign='middle' alt='slate_A10' src='https://readme-swatches.vercel.app/F6F8FA'/> #F6F8FA | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.75:1              |
 
 ### Brown
 
