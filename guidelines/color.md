@@ -1,4 +1,7 @@
+**[Back](foundations.md)**
+
 # Color
+
 ## Overview
 
 The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all Fiserv products and experiences. Additional colors are used sparingly and purposefully.
@@ -703,22 +706,22 @@ The tokens should function as a common language during the product cycle. It is 
 | `$green_050`          | `#E0F2F1`               | `$black`             | 18.72:1              |
 | `$green_A10`          | `#F7FCF8`               | `$black`             | 20.23:1              |
 
+
 ### Light Green
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$light_green_900`    | `#33691E`               | `$white`             | 06.06:1              |
-| `$light_green_800`    | `#558B2F`               | `$black`             | 05.12:1              |
-| `$light_green_700`    | `#689F38`               | `$black`             | 06.06:1              |
-| `$light_green_600`    | `#7CB342`               | `$black`             | 08.38:1              |
-| `$light_green_500`    | `#8BC34A`               | `$black`             | 00.10:1              |
-| `$light_green_400`    | `#9CCC65`               | `$black`             | 11.23:1              |
-| `$light_green_300`    | `#AED581`               | `$black`             | 12.63:1              |
-| `$light_green_200`    | `#C5E1A5`               | `$black`             | 14.68:1              |
-| `$light_green_100`    | `#DCEDC8`               | `$black`             | 16.99:1              |
-| `$light_green_050`    | `#F1F8E9`               | `$black`             | 19.34:1              |
-| `$light_green_A10`    | `#F7FBF2`               | `$black`             | 20.03:1              |
-
+| Token name            | Background                                                                                     | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$light_green_900`    | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/33691E'/> #33691E | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.06:1              |
+| `$light_green_800`    | <img valign='middle' alt='amber_800' src='https://readme-swatches.vercel.app/558B2F'/> #558B2F | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.12:1              |
+| `$light_green_700`    | <img valign='middle' alt='amber_700' src='https://readme-swatches.vercel.app/689F38'/> #689F38 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.06:1              |
+| `$light_green_600`    | <img valign='middle' alt='amber_600' src='https://readme-swatches.vercel.app/7CB342'/> #7CB342 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 08.38:1              |
+| `$light_green_500`    | <img valign='middle' alt='amber_500' src='https://readme-swatches.vercel.app/8BC34A'/> #8BC34A | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 00.10:1              |
+| `$light_green_400`    | <img valign='middle' alt='amber_400' src='https://readme-swatches.vercel.app/9CCC65'/> #9CCC65 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 11.23:1              |
+| `$light_green_300`    | <img valign='middle' alt='amber_300' src='https://readme-swatches.vercel.app/AED581'/> #AED581 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.63:1              |
+| `$light_green_200`    | <img valign='middle' alt='amber_200' src='https://readme-swatches.vercel.app/C5E1A5'/> #C5E1A5 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.68:1              |
+| `$light_green_100`    | <img valign='middle' alt='amber_100' src='https://readme-swatches.vercel.app/DCEDC8'/> #DCEDC8 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 16.99:1              |
+| `$light_green_050`    | <img valign='middle' alt='amber_050' src='https://readme-swatches.vercel.app/F1F8E9'/> #F1F8E9 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.34:1              |
+| `$light_green_A10`    | <img valign='middle' alt='amber_A10' src='https://readme-swatches.vercel.app/F7FBF2'/> #F7FBF2 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 20.03:1              |
 
 ### Lime
 
