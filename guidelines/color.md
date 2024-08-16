@@ -524,10 +524,10 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Black and White
 
-| Token name            | Background                                                                                     | Foreground                                                                                | WCAG Ratio           |
-| :-------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
-| `$black`              | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/000000'/> #000000 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 21.01:1              |
-| `$white`              | <img valign='middle' alt='amber_800' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 21.01:1              |
+| Token name            | Background                                                                                 | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :----------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$black`              | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> #000000 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 21.01:1              |
+| `$white`              | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 21.01:1              |
 
 ### Gray
 
@@ -549,67 +549,67 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name            | Background                                                                                    | Foreground                                                                                | WCAG Ratio           |
 | :-------------------- | :---------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------- | -------------------: | 
-| `$red_900`            | <img valign='middle' alt='gray_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.47:1              |
-| `$red_800`            | <img valign='middle' alt='gray_800' src='https://readme-swatches.vercel.app/CE1A12'/> #CE1A12 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 05.55:1              |
-| `$red_700`            | <img valign='middle' alt='gray_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 04.92:1              |
-| `$red_600`            | <img valign='middle' alt='gray_600' src='https://readme-swatches.vercel.app/ED3020'/> #ED3020 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/000000'/> $black | 05.04:1              |
-| `$red_500`            | <img valign='middle' alt='gray_500' src='https://readme-swatches.vercel.app/FB3C1E'/> #FB3C1E | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.76:1              |
-| `$red_400`            | <img valign='middle' alt='gray_400' src='https://readme-swatches.vercel.app/F74D40'/> #F74D40 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.09:1              |
-| `$red_300`            | <img valign='middle' alt='gray_300' src='https://readme-swatches.vercel.app/EE6F68'/> #EE6F68 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 07.01:1              |
-| `$red_200`            | <img valign='middle' alt='gray_200' src='https://readme-swatches.vercel.app/F69892'/> #F69892 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.82:1              |
-| `$red_100`            | <img valign='middle' alt='gray_100' src='https://readme-swatches.vercel.app/FFCCCE'/> #FFCCCE | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.78:1              |
-| `$red_050`            | <img valign='middle' alt='gray_050' src='https://readme-swatches.vercel.app/FFEAED'/> #FFEAED | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.24:1              |
-| `$red_A10`            | <img valign='middle' alt='gray_A10' src='https://readme-swatches.vercel.app/FFF7F8'/> #FFF7F8 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.91:1              |
+| `$red_900`            | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.47:1              |
+| `$red_800`            | <img valign='middle' alt='red_800' src='https://readme-swatches.vercel.app/CE1A12'/> #CE1A12 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 05.55:1              |
+| `$red_700`            | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 04.92:1              |
+| `$red_600`            | <img valign='middle' alt='red_600' src='https://readme-swatches.vercel.app/ED3020'/> #ED3020 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.04:1              |
+| `$red_500`            | <img valign='middle' alt='red_500' src='https://readme-swatches.vercel.app/FB3C1E'/> #FB3C1E | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.76:1              |
+| `$red_400`            | <img valign='middle' alt='red_400' src='https://readme-swatches.vercel.app/F74D40'/> #F74D40 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.09:1              |
+| `$red_300`            | <img valign='middle' alt='red_300' src='https://readme-swatches.vercel.app/EE6F68'/> #EE6F68 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 07.01:1              |
+| `$red_200`            | <img valign='middle' alt='red_200' src='https://readme-swatches.vercel.app/F69892'/> #F69892 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.82:1              |
+| `$red_100`            | <img valign='middle' alt='red_100' src='https://readme-swatches.vercel.app/FFCCCE'/> #FFCCCE | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.78:1              |
+| `$red_050`            | <img valign='middle' alt='red_050' src='https://readme-swatches.vercel.app/FFEAED'/> #FFEAED | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.24:1              |
+| `$red_A10`            | <img valign='middle' alt='red_A10' src='https://readme-swatches.vercel.app/FFF7F8'/> #FFF7F8 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.91:1              |
 
 ### Pink
 
 | Token name            | Background                                                                                    | Foreground                                                                                | WCAG Ratio           |
 | :-------------------- | :---------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------- | -------------------: | 
-| `$pink_900`           | <img valign='middle' alt='gray_900' src='https://readme-swatches.vercel.app/880E4F'/> #880E4F | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 09.44:1              |
-| `$pink_800`           | <img valign='middle' alt='gray_800' src='https://readme-swatches.vercel.app/AD1457'/> #AD1457 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.96:1              |
-| `$pink_700`           | <img valign='middle' alt='gray_700' src='https://readme-swatches.vercel.app/C2185B'/> #C2185B | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 05.87:1              |
-| `$pink_600`           | <img valign='middle' alt='gray_600' src='https://readme-swatches.vercel.app/D81B60'/> #D81B60 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 04.94:1              |
-| `$pink_500`           | <img valign='middle' alt='gray_500' src='https://readme-swatches.vercel.app/E91E63'/> #E91E63 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 04.86:1              |
-| `$pink_400`           | <img valign='middle' alt='gray_400' src='https://readme-swatches.vercel.app/EC407A'/> #EC407A | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.58:1              |
-| `$pink_300`           | <img valign='middle' alt='gray_300' src='https://readme-swatches.vercel.app/F06292'/> #F06292 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.86:1              |
-| `$pink_200`           | <img valign='middle' alt='gray_200' src='https://readme-swatches.vercel.app/F48FB1'/> #F48FB1 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.41:1              |
-| `$pink_100`           | <img valign='middle' alt='gray_100' src='https://readme-swatches.vercel.app/F8BBD0'/> #F8BBD0 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 13.01:1              |
-| `$pink_050`           | <img valign='middle' alt='gray_050' src='https://readme-swatches.vercel.app/FCE4EC'/> #FCE4EC | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.47:1              |
-| `$pink_A10`           | <img valign='middle' alt='gray_A10' src='https://readme-swatches.vercel.app/FDEFF4'/> #FDEFF4 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.82:1             |
-
+| `$pink_900`           | <img valign='middle' alt='pink_900' src='https://readme-swatches.vercel.app/880E4F'/> #880E4F | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 09.44:1              |
+| `$pink_800`           | <img valign='middle' alt='pink_800' src='https://readme-swatches.vercel.app/AD1457'/> #AD1457 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.96:1              |
+| `$pink_700`           | <img valign='middle' alt='pink_700' src='https://readme-swatches.vercel.app/C2185B'/> #C2185B | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 05.87:1              |
+| `$pink_600`           | <img valign='middle' alt='pink_600' src='https://readme-swatches.vercel.app/D81B60'/> #D81B60 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 04.94:1              |
+| `$pink_500`           | <img valign='middle' alt='pink_500' src='https://readme-swatches.vercel.app/E91E63'/> #E91E63 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 04.86:1              |
+| `$pink_400`           | <img valign='middle' alt='pink_400' src='https://readme-swatches.vercel.app/EC407A'/> #EC407A | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.58:1              |
+| `$pink_300`           | <img valign='middle' alt='pink_300' src='https://readme-swatches.vercel.app/F06292'/> #F06292 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.86:1              |
+| `$pink_200`           | <img valign='middle' alt='pink_200' src='https://readme-swatches.vercel.app/F48FB1'/> #F48FB1 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.41:1              |
+| `$pink_100`           | <img valign='middle' alt='pink_100' src='https://readme-swatches.vercel.app/F8BBD0'/> #F8BBD0 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 13.01:1              |
+| `$pink_050`           | <img valign='middle' alt='pink_050' src='https://readme-swatches.vercel.app/FCE4EC'/> #FCE4EC | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.47:1              |
+| `$pink_A10`           | <img valign='middle' alt='pink_A10' src='https://readme-swatches.vercel.app/FDEFF4'/> #FDEFF4 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.82:1              |
 
 
 ### Purple
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$purple_900`         | `#4A148C`               | `$white`             | 11.86:1              |
-| `$purple_800`         | `#6A1B9A`               | `$white`             | 09.39:1              |
-| `$purple_700`         | `#7B1FA2`               | `$white`             | 08.20:1              |
-| `$purple_600`         | `#8E24AA`               | `$white`             | 07.03:1              |
-| `$purple_500`         | `#9C27B0`               | `$white`             | 06.30:1              |
-| `$purple_400`         | `#AB47BC`               | `$white`             | 04.81:1              |
-| `$purple_300`         | `#BA68C8`               | `$black`             | 05.90:1              |
-| `$purple_200`         | `#CE93D8`               | `$black`             | 08.78:1              |
-| `$purple_100`         | `#E1BEE7`               | `$black`             | 12.72:1              |
-| `$purple_050`         | `#F3E5F5`               | `$black`             | 17.33:1              |
-| `$purple_A10`         | `#F8EFF9`               | `$black`             | 18.70:1              |
+| Token name            | Background                                                                                      | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$puprle_900`         | <img valign='middle' alt='purple_900' src='https://readme-swatches.vercel.app/4A148C'/> #4A148C | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 11.86:1              |
+| `$puprle_800`         | <img valign='middle' alt='purple_800' src='https://readme-swatches.vercel.app/6A1B9A'/> #6A1B9A | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 09.39:1              |
+| `$puprle_700`         | <img valign='middle' alt='purple_700' src='https://readme-swatches.vercel.app/7B1FA2'/> #7B1FA2 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 08.20:1              |
+| `$puprle_600`         | <img valign='middle' alt='purple_600' src='https://readme-swatches.vercel.app/8E24AA'/> #8E24AA | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 07.03:1              |
+| `$puprle_500`         | <img valign='middle' alt='purple_500' src='https://readme-swatches.vercel.app/9C27B0'/> #9C27B0 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 06.30:1              |
+| `$puprle_400`         | <img valign='middle' alt='purple_400' src='https://readme-swatches.vercel.app/AB47BC'/> #AB47BC | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 04.81:1              |
+| `$puprle_300`         | <img valign='middle' alt='purple_300' src='https://readme-swatches.vercel.app/BA68C8'/> #BA68C8 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.90:1              |
+| `$puprle_200`         | <img valign='middle' alt='purple_200' src='https://readme-swatches.vercel.app/CE93D8'/> #CE93D8 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 08.78:1              |
+| `$puprle_100`         | <img valign='middle' alt='purple_100' src='https://readme-swatches.vercel.app/E1BEE7'/> #E1BEE7 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.72:1              |
+| `$puprle_050`         | <img valign='middle' alt='purple_050' src='https://readme-swatches.vercel.app/F3E5F5'/> #F3E5F5 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.33:1              |
+| `$puprle_A10`         | <img valign='middle' alt='purple_A10' src='https://readme-swatches.vercel.app/F8EFF9'/> #F8EFF9 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.70:1              |
 
-### Deep Purple
+### Purple
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$deep_purple_900`    | `#311B92`               | `$white`             | 12.33:1              |
-| `$deep_purple_800`    | `#4527A0`               | `$white`             | 10.23:1              |
-| `$deep_purple_700`    | `#512DA8`               | `$white`             | 09.16:1              |
-| `$deep_purple_600`    | `#5E35B1`               | `$white`             | 08.01:1              |
-| `$deep_purple_500`    | `#673AB7`               | `$white`             | 07.32:1              |
-| `$deep_purple_400`    | `#7E57C2`               | `$white`             | 05.21:1              |
-| `$deep_purple_300`    | `#9575CD`               | `$black`             | 05.70:1              |
-| `$deep_purple_200`    | `#B39DDB`               | `$black`             | 08.76:1              |
-| `$deep_purple_100`    | `#D1C4E9`               | `$black`             | 12.78:1              |
-| `$deep_purple_050`    | `#EDE7F6`               | `$black`             | 17.36:1              |
-| `$deep_purple_A10`    | `#F4F1FA`               | `$black`             | 18.80:1              |
+| Token name            | Background                                                                                           | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :--------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$deep_purple_900`    | <img valign='middle' alt='deep_purple_900' src='https://readme-swatches.vercel.app/311B92'/> #311B92 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 12.33:1              |
+| `$deep_purple_800`    | <img valign='middle' alt='deep_purple_800' src='https://readme-swatches.vercel.app/4527A0'/> #4527A0 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 10.23:1              |
+| `$deep_purple_700`    | <img valign='middle' alt='deep_purple_700' src='https://readme-swatches.vercel.app/512DA8'/> #512DA8 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 09.16:1              |
+| `$deep_purple_600`    | <img valign='middle' alt='deep_purple_600' src='https://readme-swatches.vercel.app/5E35B1'/> #5E35B1 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 08.01:1              |
+| `$deep_purple_500`    | <img valign='middle' alt='deep_purple_500' src='https://readme-swatches.vercel.app/673AB7'/> #673AB7 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 07.32:1              |
+| `$deep_purple_400`    | <img valign='middle' alt='deep_purple_400' src='https://readme-swatches.vercel.app/7E57C2'/> #7E57C2 | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 05.21:1              |
+| `$deep_purple_300`    | <img valign='middle' alt='deep_purple_300' src='https://readme-swatches.vercel.app/9575CD'/> #9575CD | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.70:1              |
+| `$deep_purple_200`    | <img valign='middle' alt='deep_purple_200' src='https://readme-swatches.vercel.app/B39DDB'/> #B39DDB | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 08.76:1              |
+| `$deep_purple_100`    | <img valign='middle' alt='deep_purple_100' src='https://readme-swatches.vercel.app/D1C4E9'/> #D1C4E9 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.78:1              |
+| `$deep_purple_050`    | <img valign='middle' alt='deep_purple_050' src='https://readme-swatches.vercel.app/EDE7F6'/> #EDE7F6 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.36:1              |
+| `$deep_purple_A10`    | <img valign='middle' alt='deep_purple_A10' src='https://readme-swatches.vercel.app/F4F1FA'/> #F4F1FA | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 18.80:1              |
+
 
 ### Indigo
 
