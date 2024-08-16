@@ -362,8 +362,6 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Button
 
-| '$blue_700'           | 'rgba($white,.25)'    |
-
 | Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
 | :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
 | `$button_primary`               | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='blue_500' src='https://readme-swatches.vercel.app/3F96F1'/> #3F96F1  |
@@ -373,44 +371,44 @@ The tokens should function as a common language during the product cycle. It is 
 | `$button_secondary`             | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     |
 | `$button_secondary_hover`       | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  | `rgba($white,.25)`                                                                             |
 | `$button_secondary_active`      |                                                                                                | 																		                        |
-| `$button_secondary_selected`    | '$blue_900'           | 'rgba($white,.25)'    |
-| `$button_tertiary`              | 'rgba($blue_800,.00)' | 'rgba($white,.00)'    |
-| `$button_tertiary_hover`        | 'rgba($blue_800'.25)' | 'rgba($white,.25)'    |
-| `$button_tertiary_active`       |                       |                       |
-| `$button_tertiary_selected`     | 'rgba($blue_800'.25)' | 'rgba($white,.25)'    |
-| `$button_danger`                | '$red_800'            | '$red_700'            |
-| `$button_danger_hover`          | '$red_700'            | '$red_600'            |
-| `$button_danger_active`         |                       |                       |
-| `$button_danger_selected`       | '$red_400'            | '$red_900'            |
-| `$button_seperator`             |                       |                       |
-| `$button_danger_selected`       | '$gray_400'           | '$gray_600'           |
+| `$button_secondary_selected`    | <img valign='middle' alt='blue_900' src='https://readme-swatches.vercel.app/29479E'/> #29479E  | `rgba($white,.25)`                                                                             |
+| `$button_tertiary`              | `rgba($blue_800,.00)`                                                                          | `rgba($white,.25)`                                                                             |
+| `$button_tertiary_hover`        | `rgba($blue_800,.25)`                                                                          | `rgba($white,.25)`                                                                             |
+| `$button_tertiary_active`       |                                                                                                | 																		                        |
+| `$button_tertiary_selected`     | `rgba($blue_800,.25)`                                                                          | `rgba($white,.25)`                                                                             |
+| `$button_danger`                | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   |
+| `$button_danger_hover`          | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   | <img valign='middle' alt='red_600' src='https://readme-swatches.vercel.app/ED3020'/> #ED3020   |
+| `$button_danger_active`         |                                                                                                | 																		                        |
+| `$button_danger_selected`       | <img valign='middle' alt='red_400' src='https://readme-swatches.vercel.app/F74D40'/> #F74D40   | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   |
+| `$button_seperator`             |                                                                                                | 																		                        |
+| `$button_danger_selected`       | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   |
 
 ### Field
 
-| Token name                      | Light theme           | Dark theme            |
-| :------------------------------ | :-------------------- | :-------------------- |
-| `$field_1`                      | '$white'              | '$black'              |
-| `$field_2`                      |                       |                       | 
-| `$field_3`                      |                       |                       |
-| `$field_hover_1`                |                       |                       |
-| `$field_hover_2`                |                       |                       |
-| `$field_hover_3`                |                       |                       |
-| `$field_disabled_1`             | '$gray_100'           | '$gray_900'           |
-| `$field_disabled_2`             |                       |                       |
-| `$field_disabled_3`             |                       |                       |
-| `$fieldset_1`                   | '$gray_50'            | '$gray_800'           |
-| `$fieldset_2`                   |                       |                       |
-| `$fieldset_3`                   |                       |                       |
+| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
+| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `$field_1`                      | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> #000000     |
+| `$field_2`                      |                                                                                                | 																		                        |
+| `$field_3`                      |                                                                                                | 																		                        |
+| `$field_hover_1`                |                                                                                                | 																		                        |
+| `$field_hover_2`                |                                                                                                | 																		                        |
+| `$field_hover_3`                |                                                                                                | 																		                        |
+| `$field_disabled_1`             | <img valign='middle' alt='gray_100' src='https://readme-swatches.vercel.app/F5F5F5'/> #F5F5F5  | <img valign='middle' alt='gray_900' src='https://readme-swatches.vercel.app/212121'/> #212121  |
+| `$field_disabled_2`             |                                                                                                | 																		                        |
+| `$field_disabled_3`             |                                                                                                | 																		                        |
+| `$fieldset_1`                   | <img valign='middle' alt='gray_050' src='https://readme-swatches.vercel.app/FAFAFA'/> #FAFAFA  | <img valign='middle' alt='gray_800' src='https://readme-swatches.vercel.app/424242'/> #424242  |
+| `$fieldset_2`                   |                                                                                                | 																		                        |
+| `$fieldset_3`                   |                                                                                                | 																		                        |
 
 ### Focus
 
-| Token name                      | Light theme           | Dark theme            |
-| :------------------------------ | :-------------------- | :-------------------- |
-| `$focus`                        | '$blue_800'           | '$white'              |
-| `$focus_highlight`              | '$blue_A100'          | 'rgba($white,.25)'    |
-| `$focus_inset`                  |                       |                       |
-| `$focus_inverse`                | '$white'              | '$blue_600'           |
-| `$focus_inverse_highlight`      | 'rgba($white,.10)'    | 'rgba($blue_600,.10)' |
+| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
+| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `$focus`                        | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     |
+| `$focus_highlight`              | <img valign='middle' alt='blue_A10' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | `rgba($white,.25)`                                                                             |
+| `$focus_inset`                  |                                                                                                | 																		                        |
+| `$focus_inverse`                | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='blue_600' src='https://readme-swatches.vercel.app/3C88E3'/> #3C88E3  |
+| `$focus_inverse_highlight`      | `rgba($white,.10)`                                                                             | `rgba($blue_600,.10)`                     														|
 
 ### Icon
 
