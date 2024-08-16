@@ -19,7 +19,7 @@ Toggle switch is an input control that is used to quickly switch between two pos
 | Default Toggle Switch | Use the default toggle when you need to specify a label text in addition to the toggle action text. Default toggles appear in forms or within full pages of information. |
 | Small Toggle Switch   | Use the small toggle when you do not need to specify label or action text. Small toggles are more compact in size and are used in line with other components. |
 
-<img src="../images/components/toggle_switch/toggle_switch_usage_variant.png" alt="Toggle Switch Usage Variant"/>
+<img src="../images/components/toggle_switch/toggle_switch_usage_variants.png" alt="Toggle Switch Usage Variant"/>
 
 ### Content
 
