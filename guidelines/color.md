@@ -326,8 +326,8 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
 | :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$background`                   | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/000000'/> #000000 |
-| `$background_brand `            | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF9800'/> #FF9800 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF9800'/> #FF9800 |
+| `$background`                   | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> #000000     |
+| `$background_brand `            | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF6600'/> #FF6600 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF6600'/> #FF6600 |
 | `$background_hover `            |                                                                                                | 																		                        |
 | `$background_inverse`           |                                                                                                | 																		                        |
 | `$background_inverse_hover`     |                                                                                                | 																		                        |
@@ -362,15 +362,17 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Button
 
-| Token name                      | Light theme           | Dark theme            |
-| :------------------------------ | :-------------------- | :-------------------- |
-| `$button_primary`               | '$blue_800'           | '$blue_600'           |
-| `$button_primary_hover`         | '$blue_700'           | '$blue_500'           |
-| `$button_primary_active`        |                       |                       |
-| `$button_primary_selected`      | '$blue_900'           | '$blue_800'           |
-| `$button_secondary`             | '$blue_800'           | '$white'              |
-| `$button_secondary_hover`       | '$blue_700'           | 'rgba($white,.25)'    |
-| `$button_secondary_active`      |                       |                       |
+| '$blue_700'           | 'rgba($white,.25)'    |
+
+| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
+| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `$button_primary`               | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='blue_500' src='https://readme-swatches.vercel.app/3F96F1'/> #3F96F1  |
+| `$button_primary_hover`         | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  |
+| `$button_primary_active`        |                                                                                                | 																		                        |
+| `$button_primary_selected`      | <img valign='middle' alt='blue_900' src='https://readme-swatches.vercel.app/29479E'/> #29479E  | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  |
+| `$button_secondary`             | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     |
+| `$button_secondary_hover`       | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  | `rgba($white,.25)`                                                                             |
+| `$button_secondary_active`      |                                                                                                | 																		                        |
 | `$button_secondary_selected`    | '$blue_900'           | 'rgba($white,.25)'    |
 | `$button_tertiary`              | 'rgba($blue_800,.00)' | 'rgba($white,.00)'    |
 | `$button_tertiary_hover`        | 'rgba($blue_800'.25)' | 'rgba($white,.25)'    |
