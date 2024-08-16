@@ -32,12 +32,12 @@ The light themes are based on $white and $slate_50 backgrounds, and the dark the
 
 ### Global background colors
 
-| Palette Token | Primary Background.     | Color Token | Value   |
-|:--------------|:------------------------|:------------|:--------|
-| $white        | Global background light | $background | #FFFFFF |
-| $slate_50     | Global background light | $background | #EEF2F6 |
-| $black        | Global background dark  | $background | #000000 |
-| $gray_900     | Global background dark  | $background | #212121 |
+| Palette Token   | Primary Background.     | Color Token | Value   |
+|:----------------|:------------------------|:------------|:--------|
+| `$white`        | Global background light | `$background` | `#FFFFFF` |
+| `$slate_50`     | Global background light | `$background` | `#EEF2F6` |
+| `$black`        | Global background dark  | `$background` | `#000000` |
+| `$gray_900`     | Global background dark  | `$background` | `#212121` |
 
 ### Light themes
 
@@ -324,127 +324,127 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Background
 
-| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$background`                   | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> #000000     |
-| `$background_brand `            | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF6600'/> #FF6600 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF6600'/> #FF6600 |
-| `$background_hover `            |                                                                                                | 																		                        |
-| `$background_inverse`           |                                                                                                | 																		                        |
-| `$background_inverse_hover`     |                                                                                                | 																		                        |
-| `$background_active`            |                                                                                                | 																		                        |
-| `$background_active_hover`      |                                                                                                | 																		                        |
-| `$background_selected`          |                                                                                                | 																		                        |
-| `$background_seected_hover`     |                                                                                                | 																		                        |
+| Token name                      | Light theme  | Dark theme   |
+| :------------------------------ | :----------- | :----------- |
+| `$background`                   | `$black `    | `$black`     |
+| `$background_brand `            | `$amber_900` | `$amber_900` |
+| `$background_hover `            |              | 			    |
+| `$background_inverse`           |              | 			    |
+| `$background_inverse_hover`     |              | 			    |
+| `$background_active`            |              | 			    |
+| `$background_active_hover`      |              | 			    |
+| `$background_selected`          |              | 			    |
+| `$background_seected_hover`     |              | 			    |
 
 
 ### Border
 
-| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$border_interactive`           | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/3C88E3'/> #3C88E3 |
-| `$border_subtle_1 `             | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/E0E0E0'/> #E0E0E0 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/424242'/> #424242 |
-| `$border_subtle_2`              |                                                                                                | 																		                        |
-| `$border_subtle_3 `             |                                                                                                | 																		                        |
-| `$border_subtle_selected_1 `    |                                                                                                | 																		                        |
-| `$border_subtle_selected_2 `    |                                                                                                | 																		                        |
-| `$border_subtle_selected_3`     |                                                                                                | 																		                        |
-| `$border_strong_1`              | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/BDBDBD'/> #BDBDBD | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/757575'/> #757575 |
-| `$border_strong_2`              |                                                                                                | 																		                        |
-| `$border_strong_3`              |                                                                                                | 																		                        |
-| `$border_strong_selected_1`     |                                                                                                | 																		                        |
-| `$border_strong_selected_2`     |                                                                                                | 																		                        |
-| `$border_strong_selected_3`     |                                                                                                | 																		                        |
-| `$border_card_1`                |                                                                                                | 																		                        |
-| `$border_card_2`                |                                                                                                | 																		                        |
-| `$border_card_3`                |                                                                                                | 																		                        |
-| `$border_inverse`               | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/616161'/> #616161 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/F5F5F5'/> #F5F5F5 |
-| `$border_disabled`              | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/E0E0E0'/> #E0E0E0 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/9E9E9E'/> #9E9E9E |
+| Token name                      | Light theme | Dark theme  |
+| :------------------------------ | :---------- | :---------- |
+| `$border_interactive`           | `$blue_800` | `$blue_600` |
+| `$border_subtle_1 `             | `$gray_300` | `$gray_800` |
+| `$border_subtle_2`              |             | 			  |
+| `$border_subtle_3 `             |             | 			  |
+| `$border_subtle_selected_1 `    |             | 			  |
+| `$border_subtle_selected_2 `    |             | 			  |
+| `$border_subtle_selected_3`     |             | 			  |
+| `$border_strong_1`              | `$gray_400` | `$gray_600` |
+| `$border_strong_2`              |             | 			  |
+| `$border_strong_3`              |             | 			  |
+| `$border_strong_selected_1`     |             | 			  |
+| `$border_strong_selected_2`     |             | 			  |
+| `$border_strong_selected_3`     |             | 			  |
+| `$border_card_1`                |             | 			  |
+| `$border_card_2`                |             | 			  |
+| `$border_card_3`                |             | 			  |
+| `$border_inverse`               | `$gray_700` | `$gray_100` |
+| `$border_disabled`              | `$gray_300` | `$gray_500` |
 
 ### Button
 
-| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$button_primary`               | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='blue_500' src='https://readme-swatches.vercel.app/3F96F1'/> #3F96F1  |
-| `$button_primary_hover`         | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  |
-| `$button_primary_active`        |                                                                                                | 																		                        |
-| `$button_primary_selected`      | <img valign='middle' alt='blue_900' src='https://readme-swatches.vercel.app/29479E'/> #29479E  | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  |
-| `$button_secondary`             | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     |
-| `$button_secondary_hover`       | <img valign='middle' alt='blue_700' src='https://readme-swatches.vercel.app/3676D0'/> #3676D0  | `rgba($white,.25)`                                                                             |
-| `$button_secondary_active`      |                                                                                                | 																		                        |
-| `$button_secondary_selected`    | <img valign='middle' alt='blue_900' src='https://readme-swatches.vercel.app/29479E'/> #29479E  | `rgba($white,.25)`                                                                             |
-| `$button_tertiary`              | `rgba($blue_800,.00)`                                                                          | `rgba($white,.25)`                                                                             |
-| `$button_tertiary_hover`        | `rgba($blue_800,.25)`                                                                          | `rgba($white,.25)`                                                                             |
-| `$button_tertiary_active`       |                                                                                                | 																		                        |
-| `$button_tertiary_selected`     | `rgba($blue_800,.25)`                                                                          | `rgba($white,.25)`                                                                             |
-| `$button_danger`                | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   |
-| `$button_danger_hover`          | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   | <img valign='middle' alt='red_600' src='https://readme-swatches.vercel.app/ED3020'/> #ED3020   |
-| `$button_danger_active`         |                                                                                                | 																		                        |
-| `$button_danger_selected`       | <img valign='middle' alt='red_400' src='https://readme-swatches.vercel.app/F74D40'/> #F74D40   | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   |
-| `$button_seperator`             |                                                                                                | 																		                        |
-| `$button_danger_selected`       | <img valign='middle' alt='red_900' src='https://readme-swatches.vercel.app/C00000'/> #C00000   | <img valign='middle' alt='red_700' src='https://readme-swatches.vercel.app/DB231B'/> #DB231B   |
+| Token name                      | Light theme           | Dark theme        |
+| :------------------------------ | :-------------------- | :---------------- |
+| `$button_primary`               | `$blue_800`           | `$blue_500`       |
+| `$button_primary_hover`         | `$blue_700`           | `$blue_700`       |
+| `$button_primary_active`        |                       | 				  |
+| `$button_primary_selected`      | `$blue_900`           | `$blue_800 `      |
+| `$button_secondary`             | `$blue_800`           | `$white`          |
+| `$button_secondary_hover`       | `$blue_700`           | `rgba($white,.25)`|
+| `$button_secondary_active`      |                       | 				  |
+| `$button_secondary_selected`    | `$blue_900`           | `rgba($white,.25)`|
+| `$button_tertiary`              | `rgba($blue_800,.00)` | `rgba($white,.25)`|
+| `$button_tertiary_hover`        | `rgba($blue_800,.25)` | `rgba($white,.25)`|
+| `$button_tertiary_active`       |                       | 				  |
+| `$button_tertiary_selected`     | `rgba($blue_800,.25)` | `rgba($white,.25)`|
+| `$button_danger`                | `$red_900`            | `$red_700`        |
+| `$button_danger_hover`          | `$red_700`            | `$red_600`        |
+| `$button_danger_active`         |                       | 				  |
+| `$button_danger_selected`       | `$red_400`            | `$red_900`        |
+| `$button_seperator`             |                       | 				  |
+| `$button_danger_selected`       | `$red_900`            | `$red_700 `       |
 
 ### Field
 
-| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$field_1`                      | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> #000000     |
-| `$field_2`                      |                                                                                                | 																		                        |
-| `$field_3`                      |                                                                                                | 																		                        |
-| `$field_hover_1`                |                                                                                                | 																		                        |
-| `$field_hover_2`                |                                                                                                | 																		                        |
-| `$field_hover_3`                |                                                                                                | 																		                        |
-| `$field_disabled_1`             | <img valign='middle' alt='gray_100' src='https://readme-swatches.vercel.app/F5F5F5'/> #F5F5F5  | <img valign='middle' alt='gray_900' src='https://readme-swatches.vercel.app/212121'/> #212121  |
-| `$field_disabled_2`             |                                                                                                | 																		                        |
-| `$field_disabled_3`             |                                                                                                | 																		                        |
-| `$fieldset_1`                   | <img valign='middle' alt='gray_050' src='https://readme-swatches.vercel.app/FAFAFA'/> #FAFAFA  | <img valign='middle' alt='gray_800' src='https://readme-swatches.vercel.app/424242'/> #424242  |
-| `$fieldset_2`                   |                                                                                                | 																		                        |
-| `$fieldset_3`                   |                                                                                                | 																		                        |
+| Token name                      | Light theme | Dark theme  |
+| :------------------------------ | :---------- | :---------- |
+| `$field_1`                      | `$black`    | `$black `   |
+| `$field_2`                      |             | 		      |
+| `$field_3`                      |             | 		      |
+| `$field_hover_1`                |             | 		      |
+| `$field_hover_2`                |             | 		      |
+| `$field_hover_3`                |             | 		      |
+| `$field_disabled_1`             | `$gray_100` | `$gray_900` |
+| `$field_disabled_2`             |             | 		      |
+| `$field_disabled_3`             |             | 		      |
+| `$fieldset_1`                   | `$gray_050` | `$gray_800` |
+| `$fieldset_2`                   |             | 			  |
+| `$fieldset_3`                   |             | 		      |
 
 ### Focus
 
-| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `$focus`                        | <img valign='middle' alt='blue_800' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     |
-| `$focus_highlight`              | <img valign='middle' alt='blue_A10' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE  | `rgba($white,.25)`                                                                             |
-| `$focus_inset`                  |                                                                                                | 																		                        |
-| `$focus_inverse`                | <img valign='middle' alt='white' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF     | <img valign='middle' alt='blue_600' src='https://readme-swatches.vercel.app/3C88E3'/> #3C88E3  |
-| `$focus_inverse_highlight`      | `rgba($white,.10)`                                                                             | `rgba($blue_600,.10)`                     														|
+| Token name                      | Light theme        | Dark theme           |
+| :------------------------------ | :----------------- | :------------------- |
+| `$focus`                        | `$blue_800`        | `$white`             | 
+| `$focus_highlight`              | `$blue_A10`        | `rgba($white,.25)`   |
+| `$focus_inset`                  |                    | 					  |
+| `$focus_inverse`                | `$white`           | `$blue_600`          | 
+| `$focus_inverse_highlight`      | `rgba($white,.10)` | `rgba($blue_600,.10)`|
 
 ### Icon
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$icon_primary`                 | '$gray_900'           | '$gray_100'           |
-| `$icon_secondary`               | '$gray_700'           | '$gray_300'           |
-| `$icon_on_color`                | '$white'              | '$white'              |
-| `$icon_on_color_disabled`       | 'rgba($white,.50)'    | 'rgba($white,.50)'    |
-| `$icon_interactive`             | '$blue_700'           | '$blue_600'           |
-| `$icon_inverse`                 | '$white'              | '$black'              |
-| `$icon_disabled`                | '$gray_500'           | 'gray_600'            |
+| `$icon_primary`                 | `$gray_900`           | `$gray_100`           |
+| `$icon_secondary`               | `$gray_700`           | `$gray_300`           |
+| `$icon_on_color`                | `$white`              | `$white`              |
+| `$icon_on_color_disabled`       | `rgba($white,.50)`    | `rgba($white,.50)`    |
+| `$icon_interactive`             | `$blue_700`           | `$blue_600`           |
+| `$icon_inverse`                 | `$white`              | `$black`              |
+| `$icon_disabled`                | `$gray_500`           | `gray_600`            |
 
 ### Layer
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$layer_1`                      | '$white'              | '$gray_900'           |
-| `$layer_2`                      | '$slate_50'           | '$gray_800'           |
-| `$layer_3`                      | '$white'              | '$gray_900'           |
-| `$layer_hover_1`                | '$slate_50'           | '$gray_800'           |
-| `$layer_hover_2`                | '$slate_100'          | '$gray_700'           |
-| `$layer_hover_3`                | '$slate_50'           | '$gray_600'           |
+| `$layer_1`                      | `$white`              | `$gray_900`           |
+| `$layer_2`                      | `$slate_50`           | `$gray_800`           |
+| `$layer_3`                      | `$white`              | `$gray_900`           |
+| `$layer_hover_1`                | `$slate_50`           | `$gray_800`           |
+| `$layer_hover_2`                | `$slate_100`          | `$gray_700`           |
+| `$layer_hover_3`                | `$slate_50`           | `$gray_600`           |
 | `$layer_active_1`               |                       |                       |
 | `$layer_active_2`               |                       |                       |
 | `$layer_active_3`               |                       |                       |
 | `$layer_active_hover_1`         |                       |                       |
 | `$layer_active_hover_2`         |                       |                       |
 | `$layer_active_hover_3`         |                       |                       |
-| `$layer_selected_1`             | '$blue_900'           | '$gray_900'           |
-| `$layer_selected_2`             | '$blue_900'           | '$gray_900'           |
-| `$layer_selected_3`             | '$blue_900'           | '$gray_900'           |
+| `$layer_selected_1`             | `$blue_900`           | `$gray_900`           |
+| `$layer_selected_2`             | `$blue_900`           | `$gray_900`           |
+| `$layer_selected_3`             | `$blue_900`           | `$gray_900`           |
 | `$layer_selected_hover_1`       |                       |                       |
 | `$layer_selected_hover_2`       |                       |                       |
 | `$layer_selected_hover_3`       |                       |                       |
-| `$layer_disabled_1`             | '$gray_100'           |'$gray_800'            |
+| `$layer_disabled_1`             | `$gray_100`           | `$gray_800`           |
 | `$layer_disabled_2`             |                       |                       |
 | `$layer_disabled_3`             |                       |                       |
 
@@ -452,7 +452,7 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$layer_accent_1`               | '$gray_300'           | '$gray_800'           |
+| `$layer_accent_1`               | `$gray_300`           | `$gray_800`           |
 | `$layer_accent_2`               |                       |                       |
 | `$layer_accent_3`               |                       |                       |
 | `$layer_accent_hover_1`         |                       |                       |
@@ -469,45 +469,45 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$link_primary`                 | '$blue_700'           | '$blue_400'           |
-| `$link_primary_hover`           | '$blue_800'           | '$blue_300'           |
+| `$link_primary`                 | `$blue_700`           | `$blue_400`           |
+| `$link_primary_hover`           | `$blue_800`           | `$blue_300`           |
 | `$link_primary_active`          |                       |                       |
-| `$link_primary_selected`        | '$blue_900'           | '$blue_900'           |
+| `$link_primary_selected`        | `$blue_900`           | `$blue_900`           |
 | `$link_secondary`               |                       |                       |
 | `$link_secondary_hover`         |                       |                       |
 | `$link_secondary_active`        |                       |                       | 
 | `$link_secondary_selected`      |                       |                       |
-| `$link_inverse`                 | '$blue_500'           | '$blue_600'           |
+| `$link_inverse`                 | `$blue_500`           | `$blue_600`           |
 | `$link_inverse_hover`           |                       |                       |
 | `$link_inverse_active`          |                       |                       |
 | `$link_inverse_selected`        |                       |                       |
 | `$link_visited`                 |                       |                       |
-| `$link_disabled`                | '$gray_500'           | '$gray_500'           |
+| `$link_disabled`                | `$gray_500`           | `$gray_500`           |
 
 ### Support
 
 | Token name                      | Light theme           | Dark theme             |
 | :------------------------------ | :-------------------- | :--------------------- |
-| `$support_error`                | '$red_800'            | '$red_700'             |
-| `$support_error_bg`             | '$red_A100'           | 'rgba($red_700,.10)'   |
-| `$support_success`              | '$green_900'          | '$green_700'           |
-| `$support_success_bg`           | '$green_A100'         | 'rgba($green_700,.10)' |
-| `$support_warning`              | '$orange_500'         | '$orange_400'          |
-| `$support_warning_bg`           | '$orange_A100'        | 'rgba($orange_400,.10)'|
-| `$support_information`          | '$blue_800'           | '$blue_600'            |
-| `$support_information_bg`       | '$blue_A100'          | '$rgba($blue_600,.10)' |
+| `$support_error`                | `$red_800`            | `$red_700`             |
+| `$support_error_bg`             | `$red_A10`            | `rgba($red_700,.10)`   |
+| `$support_success`              | `$green_900`          | `$green_700`           |
+| `$support_success_bg`           | `$green_A10`          | `rgba($green_700,.10)` |
+| `$support_warning`              | `$orange_500`         | `$orange_400`          |
+| `$support_warning_bg`           | `$orange_A10`         | `rgba($orange_400,.10)`|
+| `$support_information`          | `$blue_800`           | `$blue_600`            |
+| `$support_information_bg`       | `$blue_A10`           | `$rgba($blue_600,.10)` |
 
 ### Text
 
 | Token name                      | Light theme           | Dark theme             |
 | :------------------------------ | :-------------------- | :--------------------- |
-| `$text_primary`                 | '$gray_900'           | '$gray_100'            |
-| `$text_secondary`               | '$gray_700'           | '$gray_300'            |
-| `$text_placeholder`             | '$gray_500'           | '$gray_600'            |
-| `$text_on_color`                | '$white'              | '$white'               |
-| `$text_on_color_disabled`       | '$rgba($white,.50)'   | 'rgba($white,.50)'     | 
-| `$text_inverse`                 | '$white'              | '$black'               |
-| `$text_disabled`                | '$gray_500'           | '$gray_600'            |
+| `$text_primary`                 | `$gray_900`           | `$gray_100`            |
+| `$text_secondary`               | `$gray_700`           | `$gray_300`            |
+| `$text_placeholder`             | `$gray_500`           | `$gray_600`            |
+| `$text_on_color`                | `$white`              | `$white`               |
+| `$text_on_color_disabled`       | `$rgba($white,.50)`   | `rgba($white,.50)`     | 
+| `$text_inverse`                 | `$white`              | `$black`               |
+| `$text_disabled`                | `$gray_500`           | `$gray_600`            |
 
 ### Miscellaneous
 
