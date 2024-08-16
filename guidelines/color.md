@@ -1,4 +1,4 @@
-**[Back](foundations.md)** | **[Core Tokens](https://github.com/lyle-morris/pixel-morris/blob/main/guidelines/color.md#core-color-tokens)** | **[Color Palettes](https://github.com/lyle-morris/pixel-morris/blob/main/guidelines/color.md#palette-token)**
+**[Back](foundations.md)** | **[Core Color Tokens](https://github.com/lyle-morris/pixel-morris/blob/main/guidelines/color.md#core-color-tokens)** | **[Palette Tokens](https://github.com/lyle-morris/pixel-morris/blob/main/guidelines/color.md#palette-token)**
 
 # Color
 
