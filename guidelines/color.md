@@ -324,41 +324,41 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Background
 
-| Token name                      | Light theme           | Dark theme            |
-| :------------------------------ | :-------------------- | :-------------------- |
-| `$background`                   | '$white'              | '$black'              |
-| `$background_brand `            | '$orange_500'         | '$oranage_500'        |
-| `$background_hover `            |                       |                       |
-| `$background_inverse`           |                       |                       |
-| `$background_inverse_hover`     |                       |                       |
-| `$background_active`            |                       |                       |
-| `$background_active_hover`      |                       |                       |
-| `$background_selected`          |                       |                       |
-| `$background_seected_hover`     |                       |                       |
+| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
+| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `$background`                   | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FFFFFF'/> #FFFFFF | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/000000'/> #000000 |
+| `$background_brand `            | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF9800'/> #FF9800 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF9800'/> #FF9800 |
+| `$background_hover `            |                                                                                                | 																		                        |
+| `$background_inverse`           |                                                                                                | 																		                        |
+| `$background_inverse_hover`     |                                                                                                | 																		                        |
+| `$background_active`            |                                                                                                | 																		                        |
+| `$background_active_hover`      |                                                                                                | 																		                        |
+| `$background_selected`          |                                                                                                | 																		                        |
+| `$background_seected_hover`     |                                                                                                | 																		                        |
 
 
 ### Border
 
-| Token name                      | Light theme           | Dark theme            |
-| :------------------------------ | :-------------------- | :-------------------- |
-| `$border_interactive`           | '$blue_800'           | '$blue_600'           |
-| `$border_subtle_1 `             | '$gray_300'           | '$gray_800'           |
-| `$border_subtle_2`              |                       |                       |
-| `$border_subtle_3 `             |                       |                       |
-| `$border_subtle_selected_1 `    |                       |                       |
-| `$border_subtle_selected_2 `    |                       |                       |
-| `$border_subtle_selected_3`     |                       |                       |
-| `$border_strong_1`              | '$gray_400'           | '$gray_600'           |
-| `$border_strong_2`              |                       |                       |
-| `$border_strong_3`              |                       |                       |
-| `$border_strong_selected_1`     |                       |                       |
-| `$border_strong_selected_2`     |                       |                       |
-| `$border_strong_selected_3`     |                       |                       |
-| `$border_card_1`                |                       |                       |
-| `$border_card_2`                |                       |                       |
-| `$border_card_3`                |                       |                       |
-| `$border_inverse`               | '$gray_700'           | '$gray_100'           |
-| `$border_disabled`              | '$gray_300'           | '$gray_500'           |
+| Token name                      | Light theme                                                                                    | Dark theme                                                                                     |
+| :------------------------------ | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `$border_interactive`           | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/3165BE'/> #3165BE | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/3C88E3'/> #3C88E3 |
+| `$border_subtle_1 `             | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/E0E0E0'/> #E0E0E0 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/424242'/> #424242 |
+| `$border_subtle_2`              |                                                                                                | 																		                        |
+| `$border_subtle_3 `             |                                                                                                | 																		                        |
+| `$border_subtle_selected_1 `    |                                                                                                | 																		                        |
+| `$border_subtle_selected_2 `    |                                                                                                | 																		                        |
+| `$border_subtle_selected_3`     |                                                                                                | 																		                        |
+| `$border_strong_1`              | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/BDBDBD'/> #BDBDBD | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/757575'/> #757575 |
+| `$border_strong_2`              |                                                                                                | 																		                        |
+| `$border_strong_3`              |                                                                                                | 																		                        |
+| `$border_strong_selected_1`     |                                                                                                | 																		                        |
+| `$border_strong_selected_2`     |                                                                                                | 																		                        |
+| `$border_strong_selected_3`     |                                                                                                | 																		                        |
+| `$border_card_1`                |                                                                                                | 																		                        |
+| `$border_card_2`                |                                                                                                | 																		                        |
+| `$border_card_3`                |                                                                                                | 																		                        |
+| `$border_inverse`               | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/616161'/> #616161 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/F5F5F5'/> #F5F5F5 |
+| `$border_disabled`              | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/E0E0E0'/> #E0E0E0 | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/9E9E9E'/> #9E9E9E |
 
 ### Button
 
