@@ -107,6 +107,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Value                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | Text Color                 | `$icon_on_color_disabled`  |
 
+<img src="../images/components/toggle_switch/toggle_switch_style_states.png" alt="Toggle Switch Style States"/>
+
 ### Typography
 
 Toggle labels should be set in sentence case, with only the first word in a phrase and any proper nouns capitalized, and no more than three words.
