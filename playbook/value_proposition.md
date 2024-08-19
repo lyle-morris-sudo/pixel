@@ -2,7 +2,7 @@
 
 Investing in a design system can have a broad impact - on consistency, sentiment, accessibility, and even how much your team can ship. But the easiest ROI to align to business metrics is cost savings, most easily calculated based on efficiency. When implementing a design system, you will see a drop in productivity due to the necessary upfront investment. Still after a break-even point where the design system has grown enough to compensate for that, productivity gains are significant.
 
-<img src="../../assets/images/value_proposition/system_efficiency.png" alt="Design System Efficiency"/>
+<img src="../images/value_proposition/system_efficiency.png" alt="Design System Efficiency"/>
 
 ## Formula assumptions
 
