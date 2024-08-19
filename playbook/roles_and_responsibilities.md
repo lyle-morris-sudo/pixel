@@ -11,7 +11,7 @@ These are general guidelines, and the specific responsibilities may vary based o
 <summary><h3>View Responsibilities</h3></summary>
 
 **User Research**
-- [ ] Conduct user interviews, surveys, and usability testing to gather insights.
+- [x] Conduct user interviews, surveys, and usability testing to gather insights.
 - [ ] Analyze and interpret user feedback to inform design decisions.
 
 **Information Architecture**
