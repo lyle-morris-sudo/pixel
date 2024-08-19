@@ -409,15 +409,15 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$border_01`                    | 01px                  | 01px                  |
-| `$border_02`                    | 02px                  | 02px                  |
-| `$border_03`                    | 03px                  | 03px                  |
-| `$border_04`                    | 04px                  | 04px                  |
-| `$border_05`                    | 05px                  | 05px                  |
-| `$border_06`                    | 06px                  | 06px                  |
-| `$border_07`                    | 07px                  | 07px                  |
-| `$border_08`                    | 08px                  | 08px                  |
-| `$border_09`                    | 09px                  | 09px                  |
+| `$border_01`                    | 1px                   | 1px                   |
+| `$border_02`                    | 2px                   | 2px                   |
+| `$border_03`                    | 3px                   | 3px                   |
+| `$border_04`                    | 4px                   | 4px                   |
+| `$border_05`                    | 5px                   | 5px                   |
+| `$border_06`                    | 6px                   | 6px                   |
+| `$border_07`                    | 7px                   | 7px                   |
+| `$border_08`                    | 8px                   | 8px                   |
+| `$border_09`                    | 9px                   | 9px                   |
 | `$border_10`                    | 10px                  | 10px                  |
 
 ## Spacing
@@ -428,15 +428,15 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
-| `$spacing_01`                   | 01px                  | 01px                  |
-| `$spacing_02`                   | 02px                  | 02px                  |
-| `$spacing_03`                   | 03px                  | 03px                  |
-| `$spacing_04`                   | 04px                  | 04px                  |
-| `$spacing_05`                   | 05px                  | 05px                  |
-| `$spacing_06`                   | 06px                  | 06px                  |
-| `$spacing_07`                   | 07px                  | 07px                  |
-| `$spacing_08`                   | 08px                  | 08px                  |
-| `$spacing_09`                   | 09px                  | 09px                  |
+| `$spacing_01`                   | 1px                   | 1px                   |
+| `$spacing_02`                   | 2px                   | 2px                   |
+| `$spacing_03`                   | 3px                   | 3px                   |
+| `$spacing_04`                   | 4px                   | 4px                   |
+| `$spacing_05`                   | 5px                   | 5px                   |
+| `$spacing_06`                   | 6px                   | 6px                   |
+| `$spacing_07`                   | 7px                   | 7px                   |
+| `$spacing_08`                   | 8px                   | 8px                   |
+| `$spacing_09`                   | 9px                   | 9px                   |
 | `$spacing_10`                   | 10px                  | 10px                  |
 | `$spacing_11`                   | 11px                  | 11px                  |
 | `$spacing_12`                   | 12px                  | 12px                  |
