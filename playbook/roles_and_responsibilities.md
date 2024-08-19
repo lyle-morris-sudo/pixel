@@ -11,52 +11,52 @@ These are general guidelines, and the specific responsibilities may vary based o
 <summary><h3>View Responsibilities</h3></summary>
 
 **User Research**
-- [x] Conduct user interviews, surveys, and usability testing to gather insights.
-- [x] Analyze and interpret user feedback to inform design decisions.
+- [ ] Conduct user interviews, surveys, and usability testing to gather insights.
+- [ ] Analyze and interpret user feedback to inform design decisions.
 
 **Information Architecture**
-- [x] Develop site maps, user flows, and wireframes to define the structure and organization of digital products.
-- [x] Ensure information is presented in a clear and intuitive manner.
+- [ ] Develop site maps, user flows, and wireframes to define the structure and organization of digital products.
+- [ ] Ensure information is presented in a clear and intuitive manner.
 
 **Interaction Design**
-- [x] Create interactive prototypes to demonstrate and test design concepts.
-- [x] Define and design user interactions and workflows.
+- [ ] Create interactive prototypes to demonstrate and test design concepts.
+- [ ] Define and design user interactions and workflows.
 
 **Visual Design**
-- [x] Develop visual design elements such as color schemes, typography, and iconography.
-- [x] Ensure consistency in visual elements across the product.
+- [ ] Develop visual design elements such as color schemes, typography, and iconography.
+- [ ] Ensure consistency in visual elements across the product.
 
 **Collaboration**
-- [x] Work closely with cross-functional teams, including product managers, developers, and other designers.
-- [x] Participate in design reviews and provide constructive feedback.
+- [ ] Work closely with cross-functional teams, including product managers, developers, and other designers.
+- [ ] Participate in design reviews and provide constructive feedback.
 
 **Usability Testing**
-- [x] Plan and conduct usability testing sessions to evaluate design effectiveness.
-- [x] Iterate on designs based on usability testing feedback.
+- [ ] Plan and conduct usability testing sessions to evaluate design effectiveness.
+- [ ] Iterate on designs based on usability testing feedback.
 
 **Accessibility**
-- [x] Ensure designs comply with accessibility standards and principles.
-- [x] Advocate for inclusive design practices.
+- [ ] Ensure designs comply with accessibility standards and principles.
+- [ ] Advocate for inclusive design practices.
 
 **Prototyping**
-- [x] Develop interactive prototypes using tools such as Sketch, Figma, or Adobe XD.
-- [x] Iterate on prototypes based on feedback and testing results.
+- [ ] Develop interactive prototypes using tools such as Sketch, Figma, or Adobe XD.
+- [ ] Iterate on prototypes based on feedback and testing results.
 
 **User Persona Development**
-- [x] Create user personas to represent the target audience and guide design decisions.
-- [x] Consider user needs and goals throughout the design process.
+- [ ] Create user personas to represent the target audience and guide design decisions.
+- [ ] Consider user needs and goals throughout the design process.
 
 **Documentation**
-- [x] Prepare and maintain design documentation, including design specifications and guidelines.
-- [x] Communicate design decisions and rationale effectively.
+- [ ] Prepare and maintain design documentation, including design specifications and guidelines.
+- [ ] Communicate design decisions and rationale effectively.
 
 **Stay Updated on Industry Trends**
-- [x] Stay informed about the latest UX design trends, tools, and methodologies.
-- [x] Continuously improve skills and apply new knowledge to projects.
+- [ ] Stay informed about the latest UX design trends, tools, and methodologies.
+- [ ] Continuously improve skills and apply new knowledge to projects.
 
 **Problem Solving**
-- [x] Identify design challenges and propose creative solutions.
-- [x] Work collaboratively to find optimal solutions to design problems.
+- [ ] Identify design challenges and propose creative solutions.
+- [ ] Work collaboratively to find optimal solutions to design problems.
 </details>
 
 
