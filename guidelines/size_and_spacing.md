@@ -1,4 +1,4 @@
-**[Back](foundations.md)** | **[Components](#component-specifications)**
+**[Back](foundations.md)** | **[Components](#component-specifications)** | **[Borders](#borders)** | **[Spacing](#spacing)** | **[Box Shadows](#box-shadows)**
 
 # Size and spacing
 
@@ -9,7 +9,7 @@ The tokens should function as a common language during the product cycle. It is 
 >[!Note]
 > If you are looking for tokens related to component colors, please reference the [color guidelines](color.md) for the Pixel design system.
 
-## Component specifications
+## Components
 
 ### Base models
 
@@ -464,20 +464,20 @@ The tokens should function as a common language during the product cycle. It is 
 | `$spacing_38`                   | 38px                  | 38px                  |
 | `$spacing_40`                   | 40px                  | 40px                  |
 
-## Box Shadow
+## Box Shadows
 
-| Token name                      | Color            | Length 1 | Length 2  | Length 3 |
-| :------------------------------ | :--------------- | : ------ | : ------- | :------- |
-| `$shadow_1`                     | rgba(0,0,0,0.12) | 0px      | 01px      | 03px     |
-|                                 | rgba(0,0,0,0.24) | 0px      | 01px      | 02px     |
-| `$shadow_2`                     | rgba(0,0,0,0.16) | 0px      | 03px      | 06px     |
-|                                 | rgba(0,0,0,0.23) | 0px      | 03px      | 06px     |
-| `$shadow_3`                     | rgba(0,0,0,0.19) | 0px      | 10px      | 20px     |
-|                                 | rgba(0,0,0,0.23) | 0px      | 06px      | 06px     |
-| `$shadow_4`                     | rgba(0,0,0,0.25) | 0px      | 14px      | 28px     |
-|                                 | rgba(0,0,0,0.22) | 0px      | 10px      | 10px     |
-| `$shadow_5`                     | rgba(0,0,0,0.25) | 0px      | 14px      | 28px     |
-|                                 | rgba(0,0,0,0.22) | 0px      | 10px      | 10px     |
+| Token name                      | Color            | Length 1 | Length 2 | Length 3 |
+| :------------------------------ | :--------------- | : ------ | : ------ | :------- |
+| `$shadow_1`                     | rgba(0,0,0,0.12) | 0px      | 1px      | 3px      |
+|                                 | rgba(0,0,0,0.24) | 0px      | 1px      | 2px      |
+| `$shadow_2`                     | rgba(0,0,0,0.16) | 0px      | 3px      | 6px      |
+|                                 | rgba(0,0,0,0.23) | 0px      | 3px      | 6px      |
+| `$shadow_3`                     | rgba(0,0,0,0.19) | 0px      | 10px     | 20px     |
+|                                 | rgba(0,0,0,0.23) | 0px      | 6px      | 6px      |
+| `$shadow_4`                     | rgba(0,0,0,0.25) | 0px      | 14px     | 28px     |
+|                                 | rgba(0,0,0,0.22) | 0px      | 10px     | 10px     |
+| `$shadow_5`                     | rgba(0,0,0,0.25) | 0px      | 14px     | 28px     |
+|                                 | rgba(0,0,0,0.22) | 0px      | 10px     | 10px     |
 
 
 
