@@ -1,4 +1,4 @@
-**[Back](foundations.md)**
+**[Back](foundations.md)** | **[Components](#component-specifications)**
 
 # Size and spacing
 
