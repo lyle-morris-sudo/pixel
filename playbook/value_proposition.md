@@ -14,7 +14,7 @@ A design system takes at least 6 months to set up. Anything less would be unreal
 
 We have 50% productivity gains. That is why we have `3` instead of `6` in the gain part of the formula. With these assumptions in place, we can now have a look at what the parameters X, Y, and Z mean.
 
-<img src="../../assets/images/value_proposition/formula_1.png" alt="Formula 1"/>
+<img src="../images/value_proposition/formula_1.png" alt="Formula 1"/>
 
 **`X`** denotes the percentage of time invested in building the design system. If X=20, the formula gives us 240⁄20=12 months of ramp-up phase.
 
