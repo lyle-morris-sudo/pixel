@@ -92,12 +92,12 @@ This is for code snippets and code elements.
 
 | Token name                 | Font               | Weight               | Size         | Line height  |
 | :------------------------- | :----------------- | :------------------- | :----------- | :----------- | 
-| `$code_1_regular`          | Courier            | `$base_font_regular` | 12px         | 16px         |
-| `$code_1_bold`             | Courier            | `$base_font_bold`    | 12px         | 16px         |
-| `$code_2_regular`          | Courier            | `$base_font_regular` | 14px         | 20px         |
-| `$code_2_bold`             | Courier            | `$base_font_bold`    | 14px         | 20px         |
-| `$code_3_regular`          | Courier            | `$base_font_regular` | 16px         | 24px         |
-| `$code_3_bold`             | Courier            | `$base_font_bold`    | 16px         | 24px         |
+| `$code_1_regular`          | PT Mono            | `$base_font_regular` | 12px         | 16px         |
+| `$code_1_bold`             | PT Mono            | `$base_font_bold`    | 12px         | 16px         |
+| `$code_2_regular`          | PT Mono            | `$base_font_regular` | 14px         | 20px         |
+| `$code_2_bold`             | PT Mono            | `$base_font_bold`    | 14px         | 20px         |
+| `$code_3_regular`          | PT Mono            | `$base_font_regular` | 16px         | 24px         |
+| `$code_3_bold`             | PT Mono            | `$base_font_bold`    | 16px         | 24px         |
 
 ### Legal
 
