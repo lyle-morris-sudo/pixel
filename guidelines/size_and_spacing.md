@@ -1,4 +1,4 @@
-**[Back](foundations.md)** | **[Components](#component-specifications)** | **[Borders](#borders)** | **[Spacing](#spacing)** | **[Box Shadows](#box-shadows)**
+**[Back](foundations.md)** | **[Components](#components)** | **[Borders](#borders)** | **[Spacing](#spacing)** | **[Box Shadows](#box-shadows)**
 
 # Size and spacing
 
