@@ -6,11 +6,11 @@ Our approach to the typographic system uses Fiserv approved **Open Sans** as its
 
 ## Fiserv approved fonts
 
-| Property           | Desktop/tablet     | iOS phone          | Android phone      | Alternate          |
-| :----------------- | :----------------- | :----------------- | :----------------- | :----------------- |
-| Font               | **Segoe UI**       | **San Francisco**  | **Roboto**         | **Open Sans**      |
-| Font Weight        | **Regular**        | **Regular**        | **Regular**        | **Regular**        |
-| Font Size          | **14px/16px**      | **16px**           | **16px**           | **14px/16px**      |
+| Property           | Desktop/tablet                                                                  | Code                                                   | iOS phone                                               | Android phone                                          | Alternate                                                    |
+| :----------------- | :------------------------------------------------------------------------------ | :----------------------------------------------------- | :------------------------------------------------------ | :----------------------------------------------------- | :----------------------------------------------------------- |
+| Font               | **[Segoe UI](https://learn.microsoft.com/en-us/typography/font-list/segoe-ui)** | **[PT Mono](https://fonts.google.com/?query=PT+Mono)** | **[San Francisco](https://developer.apple.com/fonts/)** | **[Roboto](https://fonts.google.com/specimen/Roboto)** | **[Open Sans](https://fonts.google.com/specimen/Open+Sans)** |
+| Font Weight        | **Regular/Bold**                                                                | **Regular/Bold**                                       | **Regular/Bold**                                        | **Regular/Bold**                                       | **Regular/Bold**
+| Font Size          | **12px/14px/16px**                                                              | **12px/14px/16px**                                     | **12px/14px/16px**                                      | **12px/14px/16px**                                    | **12px/14px/16px**
 
 ## Type tokens and sets
 Type tokens are pre-set configurations of typographic elements such as font size, weight, or leading (line height) that are specifically calibrated for use alongside components and product patterns. Selecting the appropriate type style is determined by layout or template structure. Layouts may have several levels of architecture or areas that require varying typographic hierarchies.
