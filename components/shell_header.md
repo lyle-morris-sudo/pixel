@@ -8,11 +8,13 @@ The header shell is the foundation for navigating and orienting your user to the
 
 The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
 
+<img src="../images/components/header/header_usage_overview.png" alt="Header Usage Overview"/>
+
 | Shell       | Purpose |
 |:----------- | :------ |
 | Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
-| Left shell  | An optional shell that is used for a product’s navigation. 
-| Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
+| Left        | An optional shell that is used for a product’s navigation. 
+| Right       | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
 | Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
 ### When to use
