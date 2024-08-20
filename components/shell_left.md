@@ -15,6 +15,8 @@ The UI shell is made up of three components—the header, the left shell, and th
 | Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
 | Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
+<img src="../images/components/shell_left/shell_left_usage_overview.png" alt="Shell Left Usage Overview"/>
+
 ### Anatomy
 
 The left shell contains secondary navigation and is positioned below the header and fixed to the left. Both links and sub-menus can be used in the side-nav and may be mixed together.
