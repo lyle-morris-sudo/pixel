@@ -1,23 +1,23 @@
 **[Back](components.md)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-panel--left-panel)**
 
-# Right Panel
+# Right shell
 
-The right panel is part of the shell components. A shell is a collection of components shared by all products within a platform. It provides a common set of interaction patterns that persist between and across products.
+The right shell is part of the shell components. A shell is a collection of components shared by all products within a platform. It provides a common set of interaction patterns that persist between and across products.
 
 ## Usage
 
-The UI shell is made up of three components—the header, the left panel, and the right panel. All three can be used independently, but the components were designed to work together.
+The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
 
 | Shell       | Purpose |
 |:----------- | :------ |
-| Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right panels. |
-| Left Panel  | An optional panel that is used for a product’s navigation. 
-| Right Panel | An optional panel that shows additional system level actions or content associated with a system icon in the header. 
-| Footer      | An optional panel that shows copyright information or mirrored site navigation.
+| Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
+| Left shell  | An optional shell that is used for a product’s navigation. 
+| Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
+| Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
 ### Anatomy
 
-The right panel is invoked by icons on the right side of the header, and remains anchored to that icon. Right panels have a consistent width, span the full height of the viewport, and are flush to the right edge of the viewport.
+The right shell is invoked by icons on the right side of the header, and remains anchored to that icon. Right shells have a consistent width, span the full height of the viewport, and are flush to the right edge of the viewport.
 
 #### Switcher item
 A switcher item is anything that changes what product, offering, or property occupies the UI shell. Consider moments in a product when you switch from a calendar to a mailbox, from Kubernetes to Catalog. These items belong in the switcher.
@@ -27,7 +27,7 @@ A switcher divider groups similar switcher items. You can use a divider to set a
 
 ### Switcher
 
-The far right header icon is reserved for the switcher icon. The switcher icon and the switcher panel should only be used together.
+The far right header icon is reserved for the switcher icon. The switcher icon and the switcher shell should only be used together.
 
 - Positioned the switcher to the far right.
 - Do not position other icons to the right of the switcher.
@@ -37,21 +37,21 @@ The far right header icon is reserved for the switcher icon. The switcher icon a
 
 #### Expansion
 
-Right panels always float over page content, and always remain anchored to their associated icon. You can have multiple right panels, but only one can be expanded at any time.
+Right shells always float over page content, and always remain anchored to their associated icon. You can have multiple right shells, but only one can be expanded at any time.
 
 #### Dismissal
 
-Once expanded, the panel’s associated icon is outlined, with its bottom border flowing into the panel. To dismiss the panel, a user must select an item, or click or tap the header icon.
+Once expanded, the shell’s associated icon is outlined, with its bottom border flowing into the shell. To dismiss the shell, a user must select an item, or click or tap the header icon.
 
 #### Selected state
 
-There is no selected state for right panel items. Even if a user is currently within one of the panel items, the item remains unselected.
+There is no selected state for right shell items. Even if a user is currently within one of the shell items, the item remains unselected.
 
 ## Style
 
 ### Color
 
-**Panel**
+**shell**
 
 | State                      | Element                    | Property                   | Token name                 |
 | :------------------------- | :------------------------- | :------------------------- | :------------------------- |
@@ -104,29 +104,29 @@ Menu labels and text should be set in sentence case.
 
 | Token name                  | Description                                            |
 | :-------------------------- | :----------------------------------------------------- |
-| `$panel_small`              | Defines height for the **small** variant.              |
-| `$panel_medium`             | Defines height for the **medium** variant.             |
-| `$panel_large`              | Defines height for the **large** variant.              |
-| `$panel_padding`            | Defines **padding** for the component.                 |
-| `$panel_margin`             | Defines **margin** for the component.                  |
-| `$panel_border`             | Defines **border** weight for the accordion component. |
-| `$panel_border_radius`      | Defines **border radius** for the component.           |
+| `$shell_small`              | Defines height for the **small** variant.              |
+| `$shell_medium`             | Defines height for the **medium** variant.             |
+| `$shell_large`              | Defines height for the **large** variant.              |
+| `$shell_padding`            | Defines **padding** for the component.                 |
+| `$shell_margin`             | Defines **margin** for the component.                  |
+| `$shell_border`             | Defines **border** weight for the accordion component. |
+| `$shell_border_radius`      | Defines **border radius** for the component.           |
 
 ### Structure
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Panel                 | Minimum                 | 256px     |                             |
-|                       | Padding Top x Bottom    | 16px      | `$panel_padding`            |
+| Shell                 | Minimum                 | 256px     |                             |
+|                       | Padding Top x Bottom    | 16px      | `$shell_padding`            |
 | Link item             | Width                   | 100%      |                             |
-|                       | Padding Right x Left    | 16px      | `$panel_padding`            |
-|                       | Border Bottom           | 1px       | `$panel_border`             |
+|                       | Padding Right x Left    | 16px      | `$shell_padding`            |
+|                       | Border Bottom           | 1px       | `$shell_border`             |
 | Link item (2nd tier)  | Margin Left             | 32px      |                             |
 | Link item (3rd tier)  | Margin Left             | 72px      |                             |
 | Icon (Decorative)     | Height x Width          | 20px      | `$icon_small`               |
-|                       | Margin Right            | 8px       | `$panel_margin`             |
+|                       | Margin Right            | 8px       | `$shell_margin`             |
 | Icon (Chevron)        | Height x Width          | 20px      | `$icon_small`               |
-|                       | Margin Left             | 8px       | `$panel_margin`             |
+|                       | Margin Left             | 8px       | `$shell_margin`             |
 
 ### Size
 
@@ -148,23 +148,23 @@ The component bakes keyboard operation into its components, improving the experi
 
 ### Keyboard
 
-The left panel is comprised of both expandable sections (often called “sub-menus”) and links to content. All items can be reached by `Tab`. Toggling a collapsed section with `Space` or `Enter` expands it, which reveals additional links. Activating any of the links (with `Enter`) updates the main content area and puts focus back at the top of the page. The link becomes bold to show it is the current page. (It remains in the tab order, but can no longer be activated.)
+The left shell is comprised of both expandable sections (often called “sub-menus”) and links to content. All items can be reached by `Tab`. Toggling a collapsed section with `Space` or `Enter` expands it, which reveals additional links. Activating any of the links (with `Enter`) updates the main content area and puts focus back at the top of the page. The link becomes bold to show it is the current page. (It remains in the tab order, but can no longer be activated.)
 
-- Activating the switch button with `Enter` or `Space` toggles the display of the right panel.
-- Links are reached by `Tab` and activated by `Enter` key. Activating links or pressing `Esc` key closes panel.
+- Activating the switch button with `Enter` or `Space` toggles the display of the right shell.
+- Links are reached by `Tab` and activated by `Enter` key. Activating links or pressing `Esc` key closes shell.
 
 ### Design recommendations
 
 #### Annotating the switcher button name
 
-When necessary, designers may need to change the icon-only switcher button’s name to match the right panel’s scope. Depending on the context of the design, common button names include “Switch site” or “App switcher”.
+When necessary, designers may need to change the icon-only switcher button’s name to match the right shell’s scope. Depending on the context of the design, common button names include “Switch site” or “App switcher”.
 
 ### Development considerations
 
 Keep these considerations in mind if you are modifying the component or creating a custom component.
 
-- The right panel is in a `<nav>` section.
-- All links in the right panel are in a `<ul>` structure, which provides additional information to assistive technologies.
+- The right shell is in a `<nav>` section.
+- All links in the right shell are in a `<ul>` structure, which provides additional information to assistive technologies.
 
 
 

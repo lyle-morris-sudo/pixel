@@ -1,23 +1,23 @@
 **[Back](components.md)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-panel--left-panel)**
 
-# Left Panel
+# Left shell
 
-The left panel is part of the shell components. A shell is a collection of components shared by all products within a platform. It provides a common set of interaction patterns that persist between and across products.
+The left shell is part of the shell components. A shell is a collection of components shared by all products within a platform. It provides a common set of interaction patterns that persist between and across products.
 
 ## Usage
 
-The UI shell is made up of three components—the header, the left panel, and the right panel. All three can be used independently, but the components were designed to work together.
+The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
 
 | Shell       | Purpose |
 |:----------- | :------ |
-| Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right panels. |
-| Left Panel  | An optional panel that is used for a product’s navigation. 
-| Right Panel | An optional panel that shows additional system level actions or content associated with a system icon in the header. 
-| Footer      | An optional panel that shows copyright information or mirrored site navigation.
+| Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
+| Left shell  | An optional shell that is used for a product’s navigation. 
+| Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
+| Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
 ### Anatomy
 
-The left panel contains secondary navigation and is positioned below the header and fixed to the left. Both links and sub-menus can be used in the side-nav and may be mixed together.
+The left shell contains secondary navigation and is positioned below the header and fixed to the left. Both links and sub-menus can be used in the side-nav and may be mixed together.
 
 1. Link item
 2. Link item expanded
@@ -28,9 +28,9 @@ The left panel contains secondary navigation and is positioned below the header 
 
 ### Universal Behavior
 
-Use the left panel if there are more than five secondary navigation items, or if you expect a user to switch between secondary items frequently. Sub-menus are denoted with a chevron and expand when clicked, pushing the other items down in the panel. To collapse the sub-menu, the user must again click the menu header in the left panel.
+Use the left shell if there are more than five secondary navigation items, or if you expect a user to switch between secondary items frequently. Sub-menus are denoted with a chevron and expand when clicked, pushing the other items down in the shell. To collapse the sub-menu, the user must again click the menu header in the left shell.
 
-The left panel does not support three tiers of navigation. If you have additional content to display beneath a sub-menu, use tabs within the page.
+The left shell does not support three tiers of navigation. If you have additional content to display beneath a sub-menu, use tabs within the page.
 
 <img src="../images/components/shell_left/shell_left_usage_behavior.png" alt="Shell Left Usage Behavior"/>
 
@@ -38,7 +38,7 @@ The left panel does not support three tiers of navigation. If you have additiona
 
 ### Color
 
-**Panel**
+**shell**
 
 | State                      | Element                    | Property                   | Token name                 |
 | :------------------------- | :------------------------- | :------------------------- | :------------------------- |
@@ -77,6 +77,7 @@ The contextual menu sub component uses the same color and specifications as cont
 |                            | Icon (Chevron)             | SVG Color                  | `$icon_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
+<img src="../images/components/shell_left/shell_left_style_states_no_submenu.png" alt="Shell Left Style State No Menu"/>
 
 ### Typography
 
@@ -91,30 +92,32 @@ Menu labels and text should be set in sentence case.
 
 | Token name                  | Description                                            |
 | :-------------------------- | :----------------------------------------------------- |
-| `$panel_small`              | Defines height for the **small** variant.              |
-| `$panel_medium`             | Defines height for the **medium** variant.             |
-| `$panel_large`              | Defines height for the **large** variant.              |
-| `$panel_padding`            | Defines **padding** for the component.                 |
-| `$panel_margin`             | Defines **margin** for the component.                  |
-| `$panel_border`             | Defines **border** weight for the accordion component. |
-| `$panel_border_radius`      | Defines **border radius** for the component.           |
+| `$shell_small`              | Defines height for the **small** variant.              |
+| `$shell_medium`             | Defines height for the **medium** variant.             |
+| `$shell_large`              | Defines height for the **large** variant.              |
+| `$shell_padding`            | Defines **padding** for the component.                 |
+| `$shell_margin`             | Defines **margin** for the component.                  |
+| `$shell_border`             | Defines **border** weight for the accordion component. |
+| `$shell_border_radius`      | Defines **border radius** for the component.           |
 
 
 ### Structure
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Panel                 | Minimum                 | 256px     |                             |
-|                       | Padding Top x Bottom    | 16px      | `$panel_padding`            |
+| Shell                 | Minimum                 | 256px     |                             |
+|                       | Padding Top x Bottom    | 16px      | `$shell_padding`            |
 | Link item             | Width                   | 100%      |                             |
-|                       | Padding Right x Left    | 16px      | `$panel_padding`            |
-|                       | Border Bottom           | 1px       | `$panel_border`             |
+|                       | Padding Right x Left    | 16px      | `$shell_padding`            |
+|                       | Border Bottom           | 1px       | `$shell_border`             |
 | Link item (2nd tier)  | Margin Left             | 32px      |                             |
 | Link item (3rd tier)  | Margin Left             | 72px      |                             |
 | Icon (Decorative)     | Height x Width          | 20px      | `$icon_small`               |
-|                       | Margin Right            | 8px       | `$panel_margin`             |
+|                       | Margin Right            | 8px       | `$shell_margin`             |
 | Icon (Chevron)        | Height x Width          | 20px      | `$icon_small`               |
-|                       | Margin Left             | 8px       | `$panel_margin`             |
+|                       | Margin Left             | 8px       | `$shell_margin`             |
+
+<img src="../images/components/shell_left/shell_left_style_padding.png" alt="Shell Left Style Padding"/>
 
 ### Size
 
@@ -136,22 +139,24 @@ The component bakes keyboard operation into its components, improving the experi
 
 ### Keyboard
 
-The left panel is comprised of both expandable sections (often called “sub-menus”) and links to content. All items can be reached by `Tab`. Toggling a collapsed section with `Space` or `Enter` expands it, which reveals additional links. Activating any of the links (with `Enter`) updates the main content area and puts focus back at the top of the page. The link becomes bold to show it is the current page. (It remains in the tab order, but can no longer be activated.)
+The left shell is comprised of both expandable sections (often called “sub-menus”) and links to content. All items can be reached by `Tab`. Toggling a collapsed section with `Space` or `Enter` expands it, which reveals additional links. Activating any of the links (with `Enter`) updates the main content area and puts focus back at the top of the page. The link becomes bold to show it is the current page. (It remains in the tab order, but can no longer be activated.)
 
 Sub-menus and links are reached by `Tab`. `Space` and `Enter` keys expand/collapse sub-menus, and the `Enter` key is used to activate links.
 
-### Non-persistent left panel
+<img src="../images/components/shell_left/shell_left_accessibility_keyboard.png" alt="Shell Left Accessibility Keyboard"/>
 
-On smaller screens, or if content is zoomed up to approximately 175% magnification, The component responsively hides the left panel behind a ‘hamburger’ button, which appears at the start of the UI shell header. Activating the button (with `Space` or `Enter`) causes the left panel to appear. It overlays the main content area, which often becomes dimmed. The hamburger button’s icon becomes an X, and must be activated to close the left panel.
+### Non-persistent left shell
 
-The left panel can also be implemented as a “Side rail” variant, which slides into view from the left side when reached by keyboard or hovered by mouse. Keyboard interaction within the revealed left panel does not change. When users tab out of the left panel, the side rail slides out of view.
+On smaller screens, or if content is zoomed up to approximately 175% magnification, The component responsively hides the left shell behind a ‘hamburger’ button, which appears at the start of the UI shell header. Activating the button (with `Space` or `Enter`) causes the left shell to appear. It overlays the main content area, which often becomes dimmed. The hamburger button’s icon becomes an X, and must be activated to close the left shell.
+
+The left shell can also be implemented as a “Side rail” variant, which slides into view from the left side when reached by keyboard or hovered by mouse. Keyboard interaction within the revealed left shell does not change. When users tab out of the left shell, the side rail slides out of view.
 
 ### Development considerations
 
 Keep these considerations in mind if you are modifying the component or creating a custom component.
 
-- The left panel is in a `<nav>` section with aria-label="Side navigation".
-- All items in the left panel are in a nested `<ul>` structure, which provides additional information to assistive technologies.
+- The left shell is in a `<nav>` section with aria-label="Side navigation".
+- All items in the left shell are in a nested `<ul>` structure, which provides additional information to assistive technologies.
 - Each ‘sub-menu’ is implemented as a `<button> `with aria-expanded.
 - Activated links receive an `aria-current="page"` attribute.
 

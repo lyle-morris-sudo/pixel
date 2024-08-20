@@ -2,9 +2,18 @@
 
 # Header
 
-The header is the foundation for navigating and orienting your user to the user interface. The user interface header shell can be used by itself or combined with the left and right panels for more complex navigation.
+The header shell is the foundation for navigating and orienting your user to the user interface. The user interface header shell can be used by itself or combined with the left and right shells for more complex navigation.
 
 ## Usage
+
+The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
+
+| Shell       | Purpose |
+|:----------- | :------ |
+| Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
+| Left shell  | An optional shell that is used for a product’s navigation. 
+| Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
+| Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
 ### When to use
 
@@ -16,7 +25,7 @@ The header is the foundation for navigating and orienting your user to the user 
 | Header base                    | Has a persistent site title that can be used to identify a single page UI (user interface). |
 | Header with navigation         | Includes links and dropdowns for a simple navigation. |
 | Header with actions            | Actions or utilities appear in the header as icon buttons to give users quick access to common utilities. |
-| Header with side navigation    | The header can be paired with the UI shell left panel to offer a deeper level of navigation in a user interface. |
+| Header with side navigation    | The header can be paired with the UI shell left shell to offer a deeper level of navigation in a user interface. |
 
 ### Anatomy
 
@@ -24,7 +33,7 @@ The header spans the full width of the viewport and is the topmost element in th
 
 For each UI shell component, left-to-right translates to product-to-global. The left side of the header contains items relevant at the product level. Moving to the right along the header, the functions become more global. Elements in the middle of the header should represent system-level controls. Elements on the right side of the header, such as the switcher, are the most global in their scope and span multiple products.
 
-1. **Menu** - The hamburger icon is used to open product navigation such as the left panel. The hamburger menu is only needed when there is a collapsible left navigation.
+1. **Menu** - The hamburger icon is used to open product navigation such as the left shell. The hamburger menu is only needed when there is a collapsible left navigation.
 2. **Branded logo** - Logo/graphic branding. 
 3. **Branded name** - For Financial Institutions branding.
 4. **Link** - Links in the header are supported as product navigation, if required. These links move to the side menu in narrow screen widths.
@@ -87,11 +96,11 @@ Success Criterion 2.4.1 (Bypass Blocks) suggest bypassing these blocks by provid
 
 ### Responsive behavior
 
-As a header scales down to fit smaller screen sizes, header links and menus should collapse into a left-panel hamburger menu. See the examples below to better understand the header’s responsive behavior.
+As a header scales down to fit smaller screen sizes, header links and menus should collapse into a left-shell hamburger menu. See the examples below to better understand the header’s responsive behavior.
 
 <img src="../images/components/header/header_usage_responsive.png" alt="Header Usage Responsive"/>
 
-If your UI includes a left panel, the header links should be added above the left panel items, pushing them down accordingly.
+If your UI includes a left shell, the header links should be added above the left shell items, pushing them down accordingly.
 
 #### Navigation reduction
 
@@ -254,7 +263,7 @@ Each element in the header can be reached by the Tab key. A “Skip to main cont
 
 ## Labeling
 
-The component provides default names for each icon-only button in the header, and these names are revealed on hover or focus. Interactions for some header components are covered under other component topics such as search, notifications, and the right panel switcher. The component provides default names for its icon-only components and reveals them on hover or focus.
+The component provides default names for each icon-only button in the header, and these names are revealed on hover or focus. Interactions for some header components are covered under other component topics such as search, notifications, and the right shell switcher. The component provides default names for its icon-only components and reveals them on hover or focus.
 
 <img src="../images/components/header/header_accessibility_labels.png" alt="Header Accessibility Labels"/>
 
