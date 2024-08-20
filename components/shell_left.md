@@ -19,10 +19,12 @@ The UI shell is made up of three components—the header, the left panel, and th
 
 The left panel contains secondary navigation and is positioned below the header and fixed to the left. Both links and sub-menus can be used in the side-nav and may be mixed together.
 
-1. Sub menu
-2. Expanded sub menu
-3. Sub menu item
-4. Link
+1. Link item
+2. Link item expanded
+3. Sub item
+4. Sub item selected
+
+<img src="../images/components/shell_left/shell_left_usage_anatomy.png" alt="Shell Left Usage Anatomy"/>
 
 ### Universal Behavior
 
