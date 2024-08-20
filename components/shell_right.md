@@ -159,7 +159,7 @@ The left shell is comprised of both expandable sections (often called “sub-men
 - Activating the switch button with `Enter` or `Space` toggles the display of the right shell.
 - Links are reached by `Tab` and activated by `Enter` key. Activating links or pressing `Esc` key closes shell.
 
-<img src="../images/components/shell_right/shell_right_accessibility.png" alt="Shell Right Accessibility Keyboard"/>
+<img src="../images/components/shell_right/shell_right_accessibility_keyboard.png" alt="Shell Right Accessibility Keyboard"/>
 
 ### Design recommendations
 
