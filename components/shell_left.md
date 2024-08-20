@@ -8,6 +8,8 @@ The left shell is part of the shell components. A shell is a collection of compo
 
 The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
 
+<img src="../images/components/shell_left/shell_left_usage_overview.png" alt="Shell Left Usage Overview"/>
+
 | Shell       | Purpose |
 |:----------- | :------ |
 | Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
@@ -15,7 +17,6 @@ The UI shell is made up of three components—the header, the left shell, and th
 | Right shell | An optional shell that shows additional system level actions or content associated with a system icon in the header. 
 | Footer      | An optional shell that shows copyright information or mirrored site navigation.
 
-<img src="../images/components/shell_left/shell_left_usage_overview.png" alt="Shell Left Usage Overview"/>
 
 ### Anatomy
 
