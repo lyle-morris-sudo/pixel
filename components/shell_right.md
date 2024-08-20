@@ -8,6 +8,8 @@ The right shell is part of the shell components. A shell is a collection of comp
 
 The UI shell is made up of three components—the header, the left shell, and the right shell. All three can be used independently, but the components were designed to work together.
 
+<img src="../images/components/shell_right/shell_right_usage_overview.png" alt="Shell Right Usage Overview"/>
+
 | Shell       | Purpose |
 |:----------- | :------ |
 | Header      | The highest level of navigation. The header can be used on its own for simple products or be used to trigger the left and right shells. |
