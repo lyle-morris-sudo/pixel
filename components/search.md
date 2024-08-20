@@ -156,6 +156,8 @@ The width of the search field should appropriately fit the design and layout of 
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
+<img src="../images/components/search/search_style_padding.png" alt="Search Style Padding"/>
+
 ### Size
 
 | Size    | Element               | Property       | Size      | Token name                |
