@@ -106,7 +106,7 @@ Press `Enter` to submit text as a search term or press `Esc` to clear the search
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="../images/components/search/search_style_states.png" alt="Search Style States"/>
+<img src="../images/components/search/search_style_state.png" alt="Search Style States"/>
 
 ### Typography
 
