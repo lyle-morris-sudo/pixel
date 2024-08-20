@@ -58,7 +58,7 @@ A user can then independently expand each section of the accordion allowing for 
 
 Users can trigger a state change by clicking on the chevron or clicking anywhere in the header area.
 
-<img src="../images/components/accordion/accordion_usage_trigger_areas.png" alt="Accordion Usage Trigger Areas"/>
+<img src="../images/components/accordion/accordion_usage_trigger_area.png" alt="Accordion Usage Trigger Area"/>
 
 #### Keyboard
 
