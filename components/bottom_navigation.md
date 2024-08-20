@@ -1,4 +1,4 @@
-**[Back](components.md)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-bottomnav--simple)**
+**[Back](components.md)** | **[Usage](#usage)** | **[Style](#style)** | **[Accessibility](accessibility)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-bottomnav--simple)** 
 
 # Bottom Navigation
 
@@ -30,7 +30,7 @@ Bottom navigation bars display three to five destinations at the bottom of a scr
 4. Numbered badge (optional)
 5. Non-numbered badge (optional)
 
-<img src="../images/components/bottom_navigation/bottom_navigation_anatomy.png" alt="Bottom Navigation Usage Anatomy"/>
+<img src="../images/components/bottom_navigation/bottom_navigation_usage_anatomy.png" alt="Bottom Navigation Usage Anatomy"/>
 
 ### Container
 
