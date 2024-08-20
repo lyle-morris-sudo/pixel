@@ -35,7 +35,7 @@ The far right header icon is reserved for the switcher icon. The switcher icon a
 - Do not position other icons to the right of the switcher.
 - Do not use another icon for the switcher.
 
-<img src="../images/components/shell_right/shell_right_usage_switcher_item.png" alt="Shell Right Switcher Item"/>
+<img src="../images/components/shell_right/shell_right_usage_switcher_item.png" alt="Shell Right Usage Switcher Item"/>
 
 ### Universal behavior
 
@@ -132,6 +132,8 @@ Menu labels and text should be set in sentence case.
 | Icon (Chevron)        | Height x Width          | 20px      | `$icon_small`               |
 |                       | Margin Left             | 8px       | `$shell_margin`             |
 
+<img src="../images/components/shell_right/shell_right_usage_padding.png" alt="Shell Right Style Padding"/>
+
 ### Size
 
 | Size    | Element               | Property       | Size      | Token name                |
@@ -156,6 +158,8 @@ The left shell is comprised of both expandable sections (often called “sub-men
 
 - Activating the switch button with `Enter` or `Space` toggles the display of the right shell.
 - Links are reached by `Tab` and activated by `Enter` key. Activating links or pressing `Esc` key closes shell.
+
+<img src="../images/components/shell_right/shell_right_accessibility.png" alt="Shell Right Accessibility Keyboard"/>
 
 ### Design recommendations
 
