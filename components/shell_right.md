@@ -132,7 +132,7 @@ Menu labels and text should be set in sentence case.
 | Icon (Chevron)        | Height x Width          | 20px      | `$icon_small`               |
 |                       | Margin Left             | 8px       | `$shell_margin`             |
 
-<img src="../images/components/shell_right/shell_right_usage_padding.png" alt="Shell Right Style Padding"/>
+<img src="../images/components/shell_right/shell_right_style_padding.png" alt="Shell Right Style Padding"/>
 
 ### Size
 
