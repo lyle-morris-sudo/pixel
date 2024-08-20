@@ -20,6 +20,8 @@ Search enables users to specify a word or a phrase to find relevant content with
 
 ### Anatomy
 
+<img src="../images/components/search/search_usage_anatomy.png" alt="Search Usage Anatomy"/>
+
 1. **Label** - Text that informs the user about the content they need to enter in the field. It is required unless you get an approved accessibility exemption. (Optional)
 2. **Field** - The place where a user enters their search query.
 3. **Search icon** - Signifies a search field. The magnifying glass icon is a universal way to indicate search.
