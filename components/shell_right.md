@@ -35,6 +35,8 @@ The far right header icon is reserved for the switcher icon. The switcher icon a
 - Do not position other icons to the right of the switcher.
 - Do not use another icon for the switcher.
 
+<img src="../images/components/shell_right/shell_right_usage_switcher_item.png" alt="Shell Right Switcher Item"/>
+
 ### Universal behavior
 
 #### Expansion
