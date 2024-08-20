@@ -1,4 +1,4 @@
-**[Back](components.md)** | **[Usage](#usage)** | **[Style](#style)** | **[Accessibility](accessibility)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-bottomnav--simple)** 
+**[Back](components.md)** | **[Storybook](https://dev.dxo.ondotcloud.com/storybook-static/index.html?path=/story/pixel-components-bottomnav--simple)** 
 
 # Bottom Navigation
 
