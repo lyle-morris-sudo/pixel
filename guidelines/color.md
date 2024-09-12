@@ -6,7 +6,7 @@
 
 The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all products and experiences. Additional colors are used sparingly and purposefully.
 
-Colors in the neutral gray palette are layered on top of each other to create depth and spatial associations. The layering model defines the logic of how colors stack on top of each other in a UI when using the Pixel theming capabilities. Aspects of the layering model are built directly into the themes, color tokens, and components.
+Colors in the neutral gray palette are layered on top of each other to create depth and spatial associations. The layering model defines the logic of how colors stack on top of each other in a UI when using the design system theming capabilities. Aspects of the layering model are built directly into the themes, color tokens, and components.
 
 The layering model differs between the light and dark themes.
 
@@ -15,7 +15,7 @@ The layering model differs between the light and dark themes.
 
 ### Implementing color
 
-This Pixel uses tokens and themes to manage color. Tokens are role-based, and themes specify the color values that serve those roles in the UI.
+This design system uses tokens and themes to manage color. Tokens are role-based, and themes specify the color values that serve those roles in the UI.
 
 | Term | Definition |
 |:---|:---|
@@ -26,7 +26,7 @@ This Pixel uses tokens and themes to manage color. Tokens are role-based, and th
 
 ### Themes
 
-Themes serve as an organizational framework for color in Pixel, with each theme based on a specific primary background color. And they actually get their names from their background color. There are two default light themes and dark themes.
+Themes serve as an organizational framework for color in the design system, with each theme based on a specific primary background color. And they actually get their names from their background color. There are two default light themes and dark themes.
 
 The light themes are based on $white and $slate_50 backgrounds, and the dark themes use $black and $gray_900 backgrounds. Within each theme, the values for the universal color tokens use the primary background color as the base of its layering model.
 
@@ -41,7 +41,7 @@ The light themes are based on $white and $slate_50 backgrounds, and the dark the
 
 ### Light themes
 
-There are two light themes in the Pixel design system: $white and $slate_50. For enabled UI color's light themes primarily use the color range of $white to $gray_200, and for text and icons uses the color range between $gray_900 and $gray_600.
+There are two light themes in the design system: $white and $slate_50. For enabled UI color's light themes primarily use the color range of $white to $gray_200, and for text and icons uses the color range between $gray_900 and $gray_600.
 
 #### Layering model
 
@@ -54,7 +54,7 @@ In the light themes, layers alternate between White and Gray.
 
 ### Dark themes
 
-There are two dark themes in the Pixel design system: Black and Gray 900. For enabled UI colors, dark themes primarily use the color range of Gray 900 through Black, and for text and icons uses the color range between White and Gray 500.
+There are two dark themes in the design system: Black and Gray 900. For enabled UI colors, dark themes primarily use the color range of Gray 900 through Black, and for text and icons uses the color range between White and Gray 500.
 
 <img src="../images/guidelines/color_dark_themes.png" alt="Color Dark Theme"/>
 
@@ -116,7 +116,7 @@ The color layering model for interaction tokens is as follows:
 #### Hover
 Hover is a subtle visual change that appears when a mouse cursor moves over an interactive element. Hover states have their own tokens and are identified by `_hover` added to the end of the base token name, such as `$background_hover`.
 
-In the themes, hover states token values are “half steps” between two adjacent colors on the Pixel core color palette steps. These values fall outside of the core color palette steps and have their own spectrum. Hover colors should not be used for anything other hover states.
+In the themes, hover states token values are “half steps” between two adjacent colors on the core color palette steps. These values fall outside of the core color palette steps and have their own spectrum. Hover colors should not be used for anything other hover states.
 
 - For values between $black and $slate_700, the hover state is a half-step lighter.
 - For values between $slate_600 and $white, the hover state is a half-step darker.
@@ -149,7 +149,7 @@ Elements like text or icons that use secondary colors for their enabled state, w
 
 #### Focus
 
-The focus state draws attention to the active element on a page when using the keyboard or voice to navigate. In the Pixel design system, the focus of an element is most commonly indicated by a 1px border around the element. In order to make it easy to identify and locate on a page, most focus states use only one color per theme controlled through the $focus color token.
+The focus state draws attention to the active element on a page when using the keyboard or voice to navigate. In the design system, the focus of an element is most commonly indicated by a 1px border around the element. In order to make it easy to identify and locate on a page, most focus states use only one color per theme controlled through the $focus color token.
 
 - In the light themes, the focus state usually appears as a $blue_800 border.
 - In the dark themes, the focus state usually appears as a $white border.
@@ -172,7 +172,7 @@ Disabled elements are always styled in the Gray family no matter its base color.
 
 Contrast is the difference in brightness between any two elements. The [Web Content Acessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) set specific ratios that achieve the minimum required contrast for legibility. Generally speaking, small text is any size below 24px and requires a 4.5:1 contrast ratio. Large text is anything above 24px and requires a 3:1 contrast ratio. Graphical elements, such as data visualizations, also require a 3:1 contrast ratio.
 
-The Pixel design system palette is comprised of twelve color grades—Black, White and ten values for each hue. The following table indicates the minimum number of steps required to achieve commonly used contrast ratios between any two colors.
+The design system palette is comprised of twelve color grades—Black, White and ten values for each hue. The following table indicates the minimum number of steps required to achieve commonly used contrast ratios between any two colors.
 
 | Color 1 - Base | Color 2 - 04.05:1           | Color 3 - 00.03:1           |
 | :------------- | :-------------------------- | :-------------------------- |
@@ -227,7 +227,7 @@ In the tab’s main section, the text input field is placed on top of `$layer_1`
 
 #### Building components with layer tokens
 
-Building components with layering tokens works just like how you would have always built component color variations in the Pixel design system. For each layer that a component lives on, a separate component variation must be built using the tokens from that layering set.
+Building components with layering tokens works just like how you would have always built component color variations in the design system. For each layer that a component lives on, a separate component variation must be built using the tokens from that layering set.
 
 Spec each component variant with its corresponding layering set. For elements that are not part of the layer sets like type or icons, apply color tokens as you normally would. Non-layer tokens will be the same across variants because they have enough contrast not to need a change with each layer.
 
@@ -288,7 +288,7 @@ Light or dark mode is a theme setting that allows the end user to choose either 
 
 #### When to use modes
 
-Adding the ability to change between a light or dark mode in your product is not required as a Fiserv product but is highly encouraged especially with whitelabelled software that needs to reflect client's brand. Attention to detail, customization, and being at the forefront of innovation separates over our competitors.
+Adding the ability to change between a light or dark mode in your product is not required as a product but is highly encouraged especially with whitelabelled software that needs to reflect client's brand. Attention to detail, customization, and being at the forefront of innovation separates over our competitors.
 
 #### Respecting our users' preferences
 
@@ -310,7 +310,7 @@ Redlining a design in one theme should be enough and not require duplicate desig
 
 #### Creating a mode control
 
-Since this is a user preference, you’ll need to add a control somewhere in your product for the user to make a theme mode selection. This is commonly done in a display setting, user profile, or account area. At the moment, the placement and design of this control is up to product teams, further guidance and designs for a mode control in Fiserv products may be offered in the future.
+Since this is a user preference, you’ll need to add a control somewhere in your product for the user to make a theme mode selection. This is commonly done in a display setting, user profile, or account area. At the moment, the placement and design of this control is up to product teams, further guidance and designs for a mode control in the products may be offered in the future.
 
 #### Inline themes with modes
 
