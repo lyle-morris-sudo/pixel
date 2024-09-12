@@ -4,7 +4,7 @@
 
 ## Overview
 
-The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all Fiserv products and experiences. Additional colors are used sparingly and purposefully.
+The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all products and experiences. Additional colors are used sparingly and purposefully.
 
 Colors in the neutral gray palette are layered on top of each other to create depth and spatial associations. The layering model defines the logic of how colors stack on top of each other in a UI when using the Pixel theming capabilities. Aspects of the layering model are built directly into the themes, color tokens, and components.
 
